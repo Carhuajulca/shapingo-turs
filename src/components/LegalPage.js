@@ -1,0 +1,4 @@
+import { TourFooter, TourHeader } from "@/components/TourShell";
+import { legalLocales } from "@/data/legalLocales";
+
+export default function LegalPage({language="es"}){const c=legalLocales[language];return <div className="tour-page"><TourHeader language={language} currentPath="/legal/"/><main className="legal-main"><header className="legal-header"><p className="eyebrow dark">{c.eyebrow}</p><h1>{c.title}</h1><p>{c.intro}</p></header><nav className="legal-toc" aria-label={c.eyebrow}>{c.sections.map((s,i)=><a href={`#${s.id}`} key={s.id}>{c.toc[i]}</a>)}</nav><div className="legal-content">{c.sections.map((s,i)=><section className="legal-section" id={s.id} key={s.id}><p className="eyebrow dark">{String(i+1).padStart(2,"0")}</p><h2>{s.title}</h2><div className="legal-copy">{s.items.map(([title,copy])=><div key={title}><h3>{title}</h3><p>{copy}</p></div>)}</div></section>)}</div><p className="legal-updated">{c.updated}</p></main><TourFooter language={language}/></div>}

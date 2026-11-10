@@ -1,0 +1,12 @@
+{
+  "name": "Shapingo Turs",
+  "short_name": "Shapingo",
+  "description": "Experiencias de naturaleza, aventura y cultura en Tambopata.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f6f1e6",
+  "theme_color": "#052d43",
+  "icons": [
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

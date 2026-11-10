@@ -1,0 +1,2037 @@
+{
+  "es": {
+    "language": "es",
+    "nav": [
+      "Experiencias",
+      "El destino",
+      "Por qué elegirnos",
+      "Contacto"
+    ],
+    "hero": {
+      "eyebrow": "Madre de Dios · Perú",
+      "title": {
+        "text": "La selva se vive de cerca.",
+        "emphasis": "de cerca."
+      },
+      "copy": "Tours locales por los ríos, lagos y bosques de Tambopata. Explora la Amazonía con orientación cercana y a tu ritmo.",
+      "primary": "Consultar por WhatsApp",
+      "secondary": "Ver experiencias",
+      "trust": [
+        "Guías locales",
+        "Grupos pequeños",
+        "Atención cercana"
+      ],
+      "scroll": "Desplázate para explorar",
+      "note": "Naturaleza · Aventura · Cultura"
+    },
+    "experiences": {
+      "eyebrow": "Una selva para recordar",
+      "title": "Experiencias que empiezan donde termina el camino.",
+      "copy": "Descubre una Amazonía viva a través de sus ríos, sus bosques, sus animales y las historias de quienes la habitan.",
+      "cards": [
+        {
+          "href": "/tours/lago-sandoval",
+          "image": "/img/lago-sandoval.webp",
+          "alt": "Lago rodeado por la selva amazónica",
+          "number": "01 / Naturaleza",
+          "title": "Lago Sandoval",
+          "summary": "Navega entre aguajales y descubre monos, aves y paisajes de la reserva.",
+          "facts": [
+            {
+              "label": "Modalidad",
+              "value": "Navegación + caminata"
+            },
+            {
+              "label": "Ideal para",
+              "value": "Naturaleza y fauna"
+            }
+          ],
+          "link": "Ver experiencia",
+          "featured": true,
+          "wide": false
+        },
+        {
+          "href": "/tours/fauna-aves",
+          "image": "/img/animales/pico-rojo.webp",
+          "alt": "Tucán amazónico sobre una rama",
+          "number": "02 / Fauna y aves",
+          "title": "Vida silvestre",
+          "summary": "Recorre el bosque con atención a sus aves, sonidos y especies silvestres.",
+          "facts": [
+            {
+              "label": "Modalidad",
+              "value": "Observación guiada"
+            },
+            {
+              "label": "Mejor momento",
+              "value": "Según temporada"
+            }
+          ],
+          "link": "Ver experiencia",
+          "featured": false,
+          "wide": false
+        },
+        {
+          "href": "/tours/rio-tambopata",
+          "image": "/img/rio-tambopata.webp",
+          "alt": "Navegación por un río amazónico al atardecer",
+          "number": "03 / Aventura",
+          "title": "Río Tambopata",
+          "summary": "Navega entre bosque y playas de arena bajo la luz del atardecer.",
+          "facts": [
+            {
+              "label": "Modalidad",
+              "value": "Navegación"
+            },
+            {
+              "label": "Ideal para",
+              "value": "Aventura y paisaje"
+            }
+          ],
+          "link": "Ver experiencia",
+          "featured": false,
+          "wide": false
+        },
+        {
+          "href": "/tours/encuentro-amazonico",
+          "image": "/img/experiencia-cultural.webp",
+          "alt": "Visitantes compartiendo una velada con anfitriones locales en Tambopata",
+          "number": "04 / Cultura local",
+          "title": "Encuentro amazónico",
+          "summary": "Comparte una velada de historias, sabores y tradición con anfitriones locales.",
+          "facts": [
+            {
+              "label": "Modalidad",
+              "value": "Encuentro cultural"
+            },
+            {
+              "label": "Ideal para",
+              "value": "Conexión local"
+            }
+          ],
+          "link": "Ver experiencia",
+          "featured": false,
+          "wide": false
+        },
+        {
+          "href": "/tours/caminata-nocturna",
+          "image": "/img/caminata-nocturna.webp",
+          "alt": "Viajera durante una actividad nocturna en el bosque de Tambopata",
+          "number": "05 / Aventura nocturna",
+          "title": "Caminata nocturna",
+          "summary": "Explora los sonidos, movimientos y fauna que aparecen en la selva después del atardecer.",
+          "facts": [
+            { "label": "Modalidad", "value": "Caminata guiada" },
+            { "label": "Horario", "value": "Después del atardecer" }
+          ],
+          "link": "Ver experiencia",
+          "featured": false,
+          "wide": false
+        }
+      ],
+      "planning": {
+        "eyebrow": "Antes de reservar",
+        "title": "Información esencial para elegir con calma.",
+        "copy": "Los detalles exactos dependen del recorrido y de tus fechas. Confirmamos cada punto contigo antes de la salida.",
+        "contact": "Consultar mis fechas",
+        "program": "Ver programa de 4 días",
+        "facts": [
+          {
+            "label": "Duración",
+            "value": "Varía según el recorrido"
+          },
+          {
+            "label": "Salida",
+            "value": "Punto coordinado previamente"
+          },
+          {
+            "label": "Disponibilidad",
+            "value": "Consulta para tus fechas"
+          },
+          {
+            "label": "Qué llevar",
+            "value": "Recibirás una lista recomendada"
+          },
+          {
+            "label": "Dificultad",
+            "value": "Opciones según tu ritmo"
+          },
+          {
+            "label": "Reserva",
+            "value": "Atención directa por WhatsApp"
+          }
+        ]
+      }
+    },
+    "international": {
+      "eyebrow": "Viajeros internacionales · Atención en inglés",
+      "title": "Planifica tu visita con atención en inglés.",
+      "copy": "Explora la web en tu idioma. Cuando quieras reservar, nuestro equipo te atenderá en inglés y te ayudará a confirmar los detalles de tu visita.",
+      "link": "Planificar mi visita",
+      "programLink": "Ver programa de 4 días",
+      "imageAlt": "Viajeros internacionales compartiendo una experiencia cultural con anfitriones locales en Tambopata",
+      "imageCaption": "Encuentros culturales y acompañamiento local en Tambopata.",
+      "highlights": ["Atención en inglés", "Contacto directo por WhatsApp", "Orientación antes de viajar"],
+      "points": [
+        {
+          "number": "01",
+          "title": "Atención en inglés",
+          "copy": "Nuestro equipo te atenderá en inglés y podrás compartir tus fechas, intereses y ritmo de viaje."
+        },
+        {
+          "number": "02",
+          "title": "Información antes de reservar",
+          "copy": "Confirmamos disponibilidad, recorrido, punto de salida y detalles de la experiencia."
+        },
+        {
+          "number": "03",
+          "title": "Una visita a tu medida",
+          "copy": "Recibe orientación para elegir entre naturaleza, aventura, fauna o cultura local."
+        }
+      ]
+    },
+    "destination": {
+      "eyebrow": "El pulso de la selva",
+      "title": {
+        "text": "Mira la Amazonía despertar.",
+        "emphasis": "despertar."
+      },
+      "copy": "En Tambopata, cada recorrido abre una ventana a un mundo que se mueve entre las ramas, el río y la luz del bosque.",
+      "highlights": [
+        {
+          "label": "Paisaje",
+          "value": "Ríos y lagos"
+        },
+        {
+          "label": "Encuentros",
+          "value": "Fauna silvestre"
+        },
+        {
+          "label": "Experiencia",
+          "value": "Cultura local"
+        }
+      ],
+      "link": "Planifica tu recorrido",
+      "gallery": [
+        {
+          "image": "/img/guacamayo.webp",
+          "alt": "Guacamayo rojo entre las hojas de la selva amazónica",
+          "caption": "Guacamayos · Tambopata"
+        },
+        {
+          "image": "/img/animales/tucan-v2.webp",
+          "alt": "Tucán amazónico sobre una rama",
+          "caption": "Observación de aves"
+        },
+        {
+          "image": "/img/animales/mono-selva.webp",
+          "alt": "Mono nocturno con su cría entre las ramas de la selva",
+          "caption": "Fauna silvestre"
+        },
+        {
+          "image": "/img/animales/ave-vuelo.webp",
+          "alt": "Ave amazónica en vuelo",
+          "caption": "Vida en movimiento"
+        }
+      ],
+      "guideEyebrow": "Una mirada cercana",
+      "guideTitle": "Tambopata se descubre paso a paso.",
+      "points": [
+        {
+          "number": "01",
+          "title": "Por el agua",
+          "copy": "Los ríos y lagos abren el camino hacia paisajes donde la selva se refleja y cambia con cada hora."
+        },
+        {
+          "number": "02",
+          "title": "Bajo el dosel",
+          "copy": "Camina con atención a los sonidos, las huellas y los movimientos que revelan la vida del bosque."
+        },
+        {
+          "number": "03",
+          "title": "Con la comunidad",
+          "copy": "Acércate a los sabores, historias y formas de vivir que dan identidad a este territorio amazónico."
+        }
+      ]
+    },
+    "values": {
+      "eyebrow": "Acompañamiento local",
+      "title": {
+        "text": "Conoce Tambopata con quienes la viven de cerca.",
+        "emphasis": "de cerca."
+      },
+      "copy": "Te orientamos antes y durante tu visita para construir una experiencia acorde con tu tiempo, tus intereses y el ritmo de la selva.",
+      "points": [
+        {
+          "number": "01",
+          "title": "Conocimiento local",
+          "copy": "Recomendaciones nacidas de conocer los ríos, lagos y bosques de Tambopata."
+        },
+        {
+          "number": "02",
+          "title": "Plan flexible",
+          "copy": "Opciones adaptadas a tus intereses, fechas y forma de viajar."
+        },
+        {
+          "number": "03",
+          "title": "Atención directa",
+          "copy": "Conversa por WhatsApp con una persona antes de tomar una decisión."
+        }
+      ]
+    },
+    "reviews": {
+      "eyebrow": "Voces del viaje",
+      "title": "Experiencias que merecen ser contadas.",
+      "intro": "Estamos preparando este espacio para compartir opiniones reales de quienes recorren Tambopata con nosotros.",
+      "source": "Reseñas de Google",
+      "label": "Opiniones verificadas",
+      "copy": "La calificación aparecerá aquí cuando conectemos el Perfil de Empresa.",
+      "readyTitle": "Listo para tus primeras opiniones.",
+      "readyCopy": "Cada reseña real ayudará a otros viajeros a conocer el servicio antes de comenzar su aventura.",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Comparte el enlace",
+          "copy": "Envíalo al finalizar cada experiencia."
+        },
+        {
+          "number": "02",
+          "title": "El viajero opina",
+          "copy": "La reseña se publica en su perfil de Google."
+        },
+        {
+          "number": "03",
+          "title": "Genera confianza",
+          "copy": "Mostramos opiniones reales dentro de la web."
+        }
+      ],
+      "button": "Compartir mi experiencia",
+      "note": "El botón podrá dirigir a Google cuando tengamos el enlace de reseñas."
+    },
+    "booking": {
+      "eyebrow": "Así comienza el viaje",
+      "title": "Haz espacio para lo inesperado.",
+      "copy": "Cuéntanos qué quieres conocer y te ayudaremos a encontrar la experiencia adecuada en Tambopata.",
+      "button": "Planificar mi experiencia",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Elige una experiencia",
+          "copy": "Explora nuestras experiencias y actividades."
+        },
+        {
+          "number": "02",
+          "title": "Escríbenos",
+          "copy": "Cuéntanos cuándo quieres visitar Tambopata."
+        },
+        {
+          "number": "03",
+          "title": "Empieza la aventura",
+          "copy": "Prepara tu visita y disfruta el camino."
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "Antes de partir",
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "question": "¿Cómo puedo consultar una experiencia?",
+          "answer": "Escríbenos por WhatsApp o mediante nuestros canales de contacto para conocer la disponibilidad."
+        },
+        {
+          "question": "¿Qué debo llevar?",
+          "answer": "Te compartiremos las recomendaciones necesarias según la experiencia que elijas."
+        },
+        {
+          "question": "¿Qué experiencias ofrece Shapingo Turs?",
+          "answer": "Ofrecemos visitas a reservas y lagos, observación de fauna y aves, navegación, caminatas y actividades de aventura."
+        },
+        {
+          "question": "¿Cómo puedo reservar?",
+          "answer": "Contáctanos para conversar sobre tu visita y coordinar los siguientes pasos."
+        }
+      ]
+    },
+    "contact": {
+      "eyebrow": "Tambopata te espera",
+      "title": "¿Listo para encontrar tu camino?",
+      "copy": "Cuéntanos qué quieres vivir en la Amazonía.",
+      "promises": [
+        "Orientación local",
+        "Atención personal",
+        "Consulta sin compromiso"
+      ],
+      "labels": [
+        "Nombre",
+        "Programa o tour",
+        "País de origen",
+        "Tipo de habitación",
+        "Fecha aproximada",
+        "Número de viajeros"
+      ],
+      "experienceOptions": [
+        "Selecciona una experiencia",
+        "Programa Amazonía 4 días / 3 noches",
+        "Lago Sandoval",
+        "Río Tambopata",
+        "Observación de fauna y aves",
+        "Encuentro amazónico",
+        "Caminata nocturna",
+        "Quiero una recomendación"
+      ],
+      "roomOptions": [
+        "Selecciona una habitación",
+        "Individual",
+        "Doble",
+        "Matrimonial",
+        "Triple",
+        "Necesito una recomendación"
+      ],
+      "consent": "He leído y acepto los términos del servicio , la política de cancelación y la política de privacidad .",
+      "submit": "Preparar consulta por correo",
+      "note": "Al continuar, se abrirá tu aplicación de correo con la consulta preparada. Podrás revisarla antes de enviarla.",
+      "ready": "Tu consulta está lista.",
+      "copyButton": "Copiar mensaje"
+    },
+    "footer": {
+      "title": "Experiencias auténticas en Tambopata",
+      "location": "Madre de Dios · Perú",
+      "links": [
+        "Experiencias",
+        "Nosotros",
+        "Contacto",
+        "Términos y condiciones",
+        "Información legal"
+      ]
+    }
+  },
+  "en": {
+    "language": "en",
+    "nav": [
+      "Experiences",
+      "The destination",
+      "Why choose us",
+      "Contact"
+    ],
+    "hero": {
+      "eyebrow": "Madre de Dios · Peru",
+      "title": {
+        "text": "Experience the jungle up close.",
+        "emphasis": "up close."
+      },
+      "copy": "Local tours through Tambopata’s rivers, lakes and forests. Explore the Amazon with personal guidance and at your own pace.",
+      "primary": "Ask on WhatsApp",
+      "secondary": "View experiences",
+      "trust": [
+        "Local guides",
+        "Small groups",
+        "Personal attention"
+      ],
+      "scroll": "Scroll to explore",
+      "note": "Nature · Adventure · Culture"
+    },
+    "experiences": {
+      "eyebrow": "A jungle to remember",
+      "title": "Experiences that begin where the road ends.",
+      "copy": "Discover a living Amazon through its rivers, forests, wildlife and the stories of the people who call it home.",
+      "cards": [
+        {
+          "href": "/tours/lago-sandoval",
+          "image": "/img/lago-sandoval.webp",
+          "alt": "Lake surrounded by the Amazon rainforest",
+          "number": "01 / Nature",
+          "title": "Sandoval Lake",
+          "summary": "Navigate among aguaje palms and discover monkeys, birds and reserve landscapes.",
+          "facts": [
+            {
+              "label": "Format",
+              "value": "Navigation + walk"
+            },
+            {
+              "label": "Ideal for",
+              "value": "Nature and wildlife"
+            }
+          ],
+          "link": "View experience",
+          "featured": true,
+          "wide": false
+        },
+        {
+          "href": "/tours/fauna-aves",
+          "image": "/img/animales/pico-rojo.webp",
+          "alt": "Amazonian toucan perched on a branch",
+          "number": "02 / Wildlife and birds",
+          "title": "Wildlife",
+          "summary": "Walk through the forest watching for its birds, sounds and wildlife.",
+          "facts": [
+            {
+              "label": "Format",
+              "value": "Guided observation"
+            },
+            {
+              "label": "Best time",
+              "value": "Depending on season"
+            }
+          ],
+          "link": "View experience",
+          "featured": false,
+          "wide": false
+        },
+        {
+          "href": "/tours/rio-tambopata",
+          "image": "/img/rio-tambopata.webp",
+          "alt": "Boat trip along an Amazonian river at sunset",
+          "number": "03 / Adventure",
+          "title": "Tambopata River",
+          "summary": "Navigate between forest and sandy beaches in the evening light.",
+          "facts": [
+            {
+              "label": "Format",
+              "value": "Navigation"
+            },
+            {
+              "label": "Ideal for",
+              "value": "Adventure and scenery"
+            }
+          ],
+          "link": "View experience",
+          "featured": false,
+          "wide": false
+        },
+        {
+          "href": "/tours/encuentro-amazonico",
+          "image": "/img/experiencia-cultural.webp",
+          "alt": "Travelers sharing an evening with local hosts in Tambopata",
+          "number": "04 / Local culture",
+          "title": "Amazonian encounter",
+          "summary": "Share an evening of stories, flavors and tradition with local hosts.",
+          "facts": [
+            {
+              "label": "Format",
+              "value": "Cultural encounter"
+            },
+            {
+              "label": "Ideal for",
+              "value": "Local connection"
+            }
+          ],
+          "link": "View experience",
+          "featured": false,
+          "wide": false
+        },
+        {
+          "href": "/tours/caminata-nocturna",
+          "image": "/img/caminata-nocturna.webp",
+          "alt": "Traveler during a nighttime activity in the Tambopata rainforest",
+          "number": "05 / Night adventure",
+          "title": "Night walk",
+          "summary": "Explore the sounds, movement and wildlife that emerge in the rainforest after sunset.",
+          "facts": [
+            { "label": "Format", "value": "Guided walk" },
+            { "label": "Time", "value": "After sunset" }
+          ],
+          "link": "View experience",
+          "featured": false,
+          "wide": false
+        }
+      ],
+      "planning": {
+        "eyebrow": "Before booking",
+        "title": "Essential information to choose with confidence.",
+        "copy": "Exact details depend on the route and your dates. We confirm every point with you before departure.",
+        "contact": "Check my dates",
+        "program": "View the 4-day program",
+        "facts": [
+          {
+            "label": "Duration",
+            "value": "Varies by route"
+          },
+          {
+            "label": "Departure",
+            "value": "Meeting point arranged in advance"
+          },
+          {
+            "label": "Availability",
+            "value": "Check your preferred dates"
+          },
+          {
+            "label": "What to bring",
+            "value": "You will receive a recommended list"
+          },
+          {
+            "label": "Difficulty",
+            "value": "Options suited to your pace"
+          },
+          {
+            "label": "Booking",
+            "value": "Direct assistance on WhatsApp"
+          }
+        ]
+      }
+    },
+    "international": {
+      "eyebrow": "International travelers · English-speaking support",
+      "title": "Plan your visit with English-speaking support.",
+      "copy": "Browse the site in your preferred language. When you are ready to book, our team will assist you in English and help confirm your visit details.",
+      "link": "Plan my visit",
+      "programLink": "View the 4-day program",
+      "imageAlt": "International travelers sharing a cultural experience with local hosts in Tambopata",
+      "imageCaption": "Cultural encounters and local support in Tambopata.",
+      "highlights": ["English-speaking support", "Direct WhatsApp contact", "Pre-trip guidance"],
+      "points": [
+        {
+          "number": "01",
+          "title": "English-speaking support",
+          "copy": "Our team will assist you in English while you share your dates, interests and travel pace."
+        },
+        {
+          "number": "02",
+          "title": "Information before booking",
+          "copy": "We confirm availability, route, meeting point and experience details."
+        },
+        {
+          "number": "03",
+          "title": "A visit shaped around you",
+          "copy": "Get guidance to choose between nature, adventure, wildlife or local culture."
+        }
+      ]
+    },
+    "destination": {
+      "eyebrow": "The pulse of the jungle",
+      "title": {
+        "text": "Watch the Amazon come alive.",
+        "emphasis": "come alive."
+      },
+      "copy": "In Tambopata, every journey opens a window into a world moving through the branches, the river and the forest light.",
+      "highlights": [
+        {
+          "label": "Landscape",
+          "value": "Rivers and lakes"
+        },
+        {
+          "label": "Encounters",
+          "value": "Wildlife"
+        },
+        {
+          "label": "Experience",
+          "value": "Local culture"
+        }
+      ],
+      "link": "Plan your journey",
+      "gallery": [
+        {
+          "image": "/img/guacamayo.webp",
+          "alt": "Red macaw among the leaves of the Amazon rainforest",
+          "caption": "Macaws · Tambopata"
+        },
+        {
+          "image": "/img/animales/tucan-v2.webp",
+          "alt": "Amazonian toucan perched on a branch",
+          "caption": "Birdwatching"
+        },
+        {
+          "image": "/img/animales/mono-selva.webp",
+          "alt": "Night monkey with its young among rainforest branches",
+          "caption": "Wildlife"
+        },
+        {
+          "image": "/img/animales/ave-vuelo.webp",
+          "alt": "Amazonian bird in flight",
+          "caption": "Life in motion"
+        }
+      ],
+      "guideEyebrow": "A closer look",
+      "guideTitle": "Discover Tambopata one step at a time.",
+      "points": [
+        {
+          "number": "01",
+          "title": "Along the water",
+          "copy": "Rivers and lakes open the way to landscapes where the jungle is reflected and changes throughout the day."
+        },
+        {
+          "number": "02",
+          "title": "Under the canopy",
+          "copy": "Walk attentively to the sounds, tracks and movements that reveal life in the forest."
+        },
+        {
+          "number": "03",
+          "title": "With the community",
+          "copy": "Discover the flavors, stories and ways of life that shape the identity of this Amazonian territory."
+        }
+      ]
+    },
+    "values": {
+      "eyebrow": "Local guidance",
+      "title": {
+        "text": "Discover Tambopata with people who experience it up close.",
+        "emphasis": "up close."
+      },
+      "copy": "We guide you before and during your visit to create an experience that fits your time, interests and the rhythm of the jungle.",
+      "points": [
+        {
+          "number": "01",
+          "title": "Local knowledge",
+          "copy": "Recommendations based on knowing Tambopata’s rivers, lakes and forests."
+        },
+        {
+          "number": "02",
+          "title": "Flexible plan",
+          "copy": "Options adapted to your interests, dates and way of traveling."
+        },
+        {
+          "number": "03",
+          "title": "Direct attention",
+          "copy": "Talk to a person on WhatsApp before making a decision."
+        }
+      ]
+    },
+    "reviews": {
+      "eyebrow": "Travelers’ voices",
+      "title": "Experiences worth sharing.",
+      "intro": "We are preparing this space to share genuine feedback from travelers who explore Tambopata with us.",
+      "source": "Google reviews",
+      "label": "Verified feedback",
+      "copy": "The rating will appear here once the Business Profile is connected.",
+      "readyTitle": "Ready for your first reviews.",
+      "readyCopy": "Every genuine review will help other travelers understand the service before their adventure begins.",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Share the link",
+          "copy": "Send it after each experience."
+        },
+        {
+          "number": "02",
+          "title": "The traveler reviews",
+          "copy": "The review is published on their Google profile."
+        },
+        {
+          "number": "03",
+          "title": "Build trust",
+          "copy": "We display genuine feedback on the website."
+        }
+      ],
+      "button": "Share my experience",
+      "note": "This button can link to Google once the review link is available."
+    },
+    "booking": {
+      "eyebrow": "This is how the journey begins",
+      "title": "Make room for the unexpected.",
+      "copy": "Tell us what you want to discover and we will help you find the right experience in Tambopata.",
+      "button": "Plan my experience",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Choose an experience",
+          "copy": "Explore our experiences and activities."
+        },
+        {
+          "number": "02",
+          "title": "Write to us",
+          "copy": "Tell us when you want to visit Tambopata."
+        },
+        {
+          "number": "03",
+          "title": "Start the adventure",
+          "copy": "Get ready for your visit and enjoy the journey."
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "Before you go",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "question": "How can I ask about an experience?",
+          "answer": "Write to us on WhatsApp or through our contact channels to check availability."
+        },
+        {
+          "question": "What should I bring?",
+          "answer": "We will share the recommendations you need for the experience you choose."
+        },
+        {
+          "question": "What experiences does Shapingo Turs offer?",
+          "answer": "We offer visits to reserves and lakes, wildlife and bird watching, navigation, hikes and adventure activities."
+        },
+        {
+          "question": "How can I book?",
+          "answer": "Contact us to discuss your visit and coordinate the next steps."
+        }
+      ]
+    },
+    "contact": {
+      "eyebrow": "Tambopata is waiting for you",
+      "title": "Ready to find your path?",
+      "copy": "Tell us what you want to experience in the Amazon.",
+      "promises": [
+        "Local guidance",
+        "Personal attention",
+        "No-obligation inquiry"
+      ],
+      "labels": [
+        "Name",
+        "Program or tour",
+        "Country of origin",
+        "Room type",
+        "Approximate date",
+        "Number of travelers"
+      ],
+      "experienceOptions": [
+        "Choose an experience",
+        "4-day / 3-night Amazon program",
+        "Sandoval Lake",
+        "Tambopata River",
+        "Wildlife and birdwatching",
+        "Amazonian encounter",
+        "Night walk",
+        "I want a recommendation"
+      ],
+      "roomOptions": [
+        "Choose a room",
+        "Single",
+        "Twin",
+        "Double",
+        "Triple",
+        "I need a recommendation"
+      ],
+      "consent": "I have read and accept the terms of service , the cancellation policy and the privacy policy .",
+      "submit": "Prepare email inquiry",
+      "note": "Your email application will open with the prepared inquiry. You can review it before sending.",
+      "ready": "Your inquiry is ready.",
+      "copyButton": "Copy message"
+    },
+    "footer": {
+      "title": "Authentic experiences in Tambopata",
+      "location": "Madre de Dios · Peru",
+      "links": [
+        "Experiences",
+        "About us",
+        "Contact",
+        "Terms and conditions",
+        "Legal information"
+      ]
+    }
+  },
+  "it": {
+    "language": "it",
+    "nav": [
+      "Esperienze",
+      "La destinazione",
+      "Perché sceglierci",
+      "Contatti"
+    ],
+    "hero": {
+      "eyebrow": "Madre de Dios · Perù",
+      "title": {
+        "text": "Vivi la giungla da vicino.",
+        "emphasis": "da vicino."
+      },
+      "copy": "Tour locali tra fiumi, laghi e foreste di Tambopata. Esplora l’Amazzonia con una guida attenta e al tuo ritmo.",
+      "primary": "Chiedi su WhatsApp",
+      "secondary": "Vedi le esperienze",
+      "trust": [
+        "Guide locali",
+        "Piccoli gruppi",
+        "Attenzione personale"
+      ],
+      "scroll": "Scorri per esplorare",
+      "note": "Natura · Avventura · Cultura"
+    },
+    "experiences": {
+      "eyebrow": "Una giungla da ricordare",
+      "title": "Esperienze che iniziano dove finisce la strada.",
+      "copy": "Scopri un’Amazzonia viva attraverso i suoi fiumi, le foreste, la fauna e le storie di chi la abita.",
+      "cards": [
+        {
+          "href": "/tours/lago-sandoval",
+          "image": "/img/lago-sandoval.webp",
+          "alt": "Lago circondato dalla foresta amazzonica",
+          "number": "01 / Natura",
+          "title": "Lago Sandoval",
+          "summary": "Naviga tra le palme aguaje e scopri scimmie, uccelli e paesaggi della riserva.",
+          "facts": [
+            {
+              "label": "Modalità",
+              "value": "Navigazione + camminata"
+            },
+            {
+              "label": "Ideale per",
+              "value": "Natura e fauna"
+            }
+          ],
+          "link": "Vedi esperienza",
+          "featured": true,
+          "wide": false
+        },
+        {
+          "href": "/tours/fauna-aves",
+          "image": "/img/animales/pico-rojo.webp",
+          "alt": "Tucano amazzonico posato su un ramo",
+          "number": "02 / Fauna e uccelli",
+          "title": "Fauna selvatica",
+          "summary": "Esplora la foresta osservando uccelli, suoni e fauna selvatica.",
+          "facts": [
+            {
+              "label": "Modalità",
+              "value": "Osservazione guidata"
+            },
+            {
+              "label": "Momento migliore",
+              "value": "Secondo la stagione"
+            }
+          ],
+          "link": "Vedi esperienza",
+          "featured": false,
+          "wide": false
+        },
+        {
+          "href": "/tours/rio-tambopata",
+          "image": "/img/rio-tambopata.webp",
+          "alt": "Navigazione su un fiume amazzonico al tramonto",
+          "number": "03 / Avventura",
+          "title": "Fiume Tambopata",
+          "summary": "Naviga tra foresta e spiagge di sabbia alla luce del tramonto.",
+          "facts": [
+            {
+              "label": "Modalità",
+              "value": "Navigazione"
+            },
+            {
+              "label": "Ideale per",
+              "value": "Avventura e paesaggio"
+            }
+          ],
+          "link": "Vedi esperienza",
+          "featured": false,
+          "wide": false
+        },
+        {
+          "href": "/tours/encuentro-amazonico",
+          "image": "/img/experiencia-cultural.webp",
+          "alt": "Viaggiatori che condividono una serata con ospiti locali a Tambopata",
+          "number": "04 / Cultura locale",
+          "title": "Incontro amazzonico",
+          "summary": "Condividi una serata di storie, sapori e tradizioni con gli ospiti locali.",
+          "facts": [
+            {
+              "label": "Modalità",
+              "value": "Incontro culturale"
+            },
+            {
+              "label": "Ideale per",
+              "value": "Connessione locale"
+            }
+          ],
+          "link": "Vedi esperienza",
+          "featured": false,
+          "wide": false
+        },
+        {
+          "href": "/tours/caminata-nocturna",
+          "image": "/img/caminata-nocturna.webp",
+          "alt": "Viaggiatrice durante un’attività notturna nella foresta di Tambopata",
+          "number": "05 / Avventura notturna",
+          "title": "Camminata notturna",
+          "summary": "Esplora i suoni, i movimenti e la fauna che emergono nella foresta dopo il tramonto.",
+          "facts": [
+            { "label": "Modalità", "value": "Camminata guidata" },
+            { "label": "Orario", "value": "Dopo il tramonto" }
+          ],
+          "link": "Vedi esperienza",
+          "featured": false,
+          "wide": false
+        }
+      ],
+      "planning": {
+        "eyebrow": "Prima di prenotare",
+        "title": "Informazioni essenziali per scegliere con calma.",
+        "copy": "I dettagli esatti dipendono dal percorso e dalle date. Confermiamo ogni punto con te prima della partenza.",
+        "contact": "Verifica le mie date",
+        "program": "Vedi il programma di 4 giorni",
+        "facts": [
+          {
+            "label": "Durata",
+            "value": "Varia in base al percorso"
+          },
+          {
+            "label": "Partenza",
+            "value": "Punto d’incontro concordato in anticipo"
+          },
+          {
+            "label": "Disponibilità",
+            "value": "Verifica le date desiderate"
+          },
+          {
+            "label": "Cosa portare",
+            "value": "Riceverai una lista consigliata"
+          },
+          {
+            "label": "Difficoltà",
+            "value": "Opzioni adatte al tuo ritmo"
+          },
+          {
+            "label": "Prenotazione",
+            "value": "Assistenza diretta su WhatsApp"
+          }
+        ]
+      }
+    },
+    "international": {
+      "eyebrow": "Viaggiatori internazionali · Assistenza in inglese",
+      "title": "Pianifica la tua visita con assistenza in inglese.",
+      "copy": "Esplora il sito nella tua lingua. Quando vorrai prenotare, il nostro team ti assisterà in inglese e ti aiuterà a confermare i dettagli della visita.",
+      "link": "Pianifica la mia visita",
+      "programLink": "Vedi il programma di 4 giorni",
+      "imageAlt": "Viaggiatori internazionali durante un’esperienza culturale con ospiti locali a Tambopata",
+      "imageCaption": "Incontri culturali e assistenza locale a Tambopata.",
+      "highlights": ["Assistenza in inglese", "Contatto diretto su WhatsApp", "Indicazioni prima del viaggio"],
+      "points": [
+        {
+          "number": "01",
+          "title": "Assistenza in inglese",
+          "copy": "Il nostro team ti assisterà in inglese mentre condividi date, interessi e ritmo di viaggio."
+        },
+        {
+          "number": "02",
+          "title": "Informazioni prima della prenotazione",
+          "copy": "Confermiamo disponibilità, percorso, punto d’incontro e dettagli dell’esperienza."
+        },
+        {
+          "number": "03",
+          "title": "Una visita su misura",
+          "copy": "Ricevi indicazioni per scegliere tra natura, avventura, fauna o cultura locale."
+        }
+      ]
+    },
+    "destination": {
+      "eyebrow": "Il battito della giungla",
+      "title": {
+        "text": "Guarda l’Amazzonia risvegliarsi.",
+        "emphasis": "risvegliarsi."
+      },
+      "copy": "A Tambopata, ogni percorso apre una finestra su un mondo che vive tra i rami, il fiume e la luce della foresta.",
+      "highlights": [
+        {
+          "label": "Paesaggio",
+          "value": "Fiumi e laghi"
+        },
+        {
+          "label": "Incontri",
+          "value": "Fauna selvatica"
+        },
+        {
+          "label": "Esperienza",
+          "value": "Cultura locale"
+        }
+      ],
+      "link": "Pianifica il tuo percorso",
+      "gallery": [
+        {
+          "image": "/img/guacamayo.webp",
+          "alt": "Ara rossa tra le foglie della foresta amazzonica",
+          "caption": "Ara · Tambopata"
+        },
+        {
+          "image": "/img/animales/tucan-v2.webp",
+          "alt": "Tucano amazzonico posato su un ramo",
+          "caption": "Osservazione degli uccelli"
+        },
+        {
+          "image": "/img/animales/mono-selva.webp",
+          "alt": "Scimmia notturna con il suo piccolo tra i rami della foresta",
+          "caption": "Fauna selvatica"
+        },
+        {
+          "image": "/img/animales/ave-vuelo.webp",
+          "alt": "Uccello amazzonico in volo",
+          "caption": "Vita in movimento"
+        }
+      ],
+      "guideEyebrow": "Uno sguardo da vicino",
+      "guideTitle": "Scopri Tambopata passo dopo passo.",
+      "points": [
+        {
+          "number": "01",
+          "title": "Sull’acqua",
+          "copy": "Fiumi e laghi aprono il cammino verso paesaggi in cui la giungla si riflette e cambia a ogni ora."
+        },
+        {
+          "number": "02",
+          "title": "Sotto la volta",
+          "copy": "Cammina prestando attenzione ai suoni, alle tracce e ai movimenti che rivelano la vita della foresta."
+        },
+        {
+          "number": "03",
+          "title": "Con la comunità",
+          "copy": "Avvicinati ai sapori, alle storie e ai modi di vivere che danno identità a questo territorio amazzonico."
+        }
+      ]
+    },
+    "values": {
+      "eyebrow": "Accompagnamento locale",
+      "title": {
+        "text": "Scopri Tambopata con chi la vive da vicino.",
+        "emphasis": "da vicino."
+      },
+      "copy": "Ti guidiamo prima e durante la visita per creare un’esperienza adatta al tuo tempo, ai tuoi interessi e al ritmo della giungla.",
+      "points": [
+        {
+          "number": "01",
+          "title": "Conoscenza locale",
+          "copy": "Consigli basati sulla conoscenza dei fiumi, laghi e foreste di Tambopata."
+        },
+        {
+          "number": "02",
+          "title": "Piano flessibile",
+          "copy": "Opzioni adattate ai tuoi interessi, date e modo di viaggiare."
+        },
+        {
+          "number": "03",
+          "title": "Contatto diretto",
+          "copy": "Parla con una persona su WhatsApp prima di decidere."
+        }
+      ]
+    },
+    "reviews": {
+      "eyebrow": "Voci del viaggio",
+      "title": "Esperienze che meritano di essere raccontate.",
+      "intro": "Stiamo preparando questo spazio per condividere opinioni reali di chi esplora Tambopata con noi.",
+      "source": "Recensioni Google",
+      "label": "Opinioni verificate",
+      "copy": "La valutazione apparirà qui quando collegheremo il Profilo dell’attività.",
+      "readyTitle": "Pronto per le tue prime recensioni.",
+      "readyCopy": "Ogni recensione reale aiuterà altri viaggiatori a conoscere il servizio prima di iniziare la loro avventura.",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Condividi il link",
+          "copy": "Invialo al termine di ogni esperienza."
+        },
+        {
+          "number": "02",
+          "title": "Il viaggiatore recensisce",
+          "copy": "La recensione viene pubblicata sul suo profilo Google."
+        },
+        {
+          "number": "03",
+          "title": "Crea fiducia",
+          "copy": "Mostriamo opinioni reali sul sito."
+        }
+      ],
+      "button": "Condividi la mia esperienza",
+      "note": "Il pulsante potrà collegarsi a Google quando avremo il link delle recensioni."
+    },
+    "booking": {
+      "eyebrow": "Così inizia il viaggio",
+      "title": "Fai spazio all’inaspettato.",
+      "copy": "Raccontaci cosa vuoi scoprire e ti aiuteremo a trovare l’esperienza giusta a Tambopata.",
+      "button": "Pianifica la mia esperienza",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Scegli un’esperienza",
+          "copy": "Esplora le nostre esperienze e attività."
+        },
+        {
+          "number": "02",
+          "title": "Scrivici",
+          "copy": "Raccontaci quando vuoi visitare Tambopata."
+        },
+        {
+          "number": "03",
+          "title": "Inizia l’avventura",
+          "copy": "Preparati alla visita e goditi il viaggio."
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "Prima di partire",
+      "title": "Domande frequenti",
+      "items": [
+        {
+          "question": "Come posso chiedere informazioni su un’esperienza?",
+          "answer": "Scrivici su WhatsApp o tramite i nostri canali di contatto per verificare la disponibilità."
+        },
+        {
+          "question": "Cosa devo portare?",
+          "answer": "Ti forniremo i consigli necessari in base all’esperienza scelta."
+        },
+        {
+          "question": "Quali esperienze offre Shapingo Turs?",
+          "answer": "Offriamo visite a riserve e laghi, osservazione di fauna e uccelli, navigazione, escursioni e attività d’avventura."
+        },
+        {
+          "question": "Come posso prenotare?",
+          "answer": "Contattaci per parlare della tua visita e coordinare i prossimi passi."
+        }
+      ]
+    },
+    "contact": {
+      "eyebrow": "Tambopata ti aspetta",
+      "title": "Pronto a trovare la tua strada?",
+      "copy": "Raccontaci cosa vuoi vivere in Amazzonia.",
+      "promises": [
+        "Orientamento locale",
+        "Attenzione personale",
+        "Richiesta senza impegno"
+      ],
+      "labels": [
+        "Nome",
+        "Programma o tour",
+        "Paese di origine",
+        "Tipo di camera",
+        "Data approssimativa",
+        "Numero di viaggiatori"
+      ],
+      "experienceOptions": [
+        "Scegli un’esperienza",
+        "Programma Amazzonia 4 giorni / 3 notti",
+        "Lago Sandoval",
+        "Fiume Tambopata",
+        "Osservazione di fauna e uccelli",
+        "Incontro amazzonico",
+        "Camminata notturna",
+        "Vorrei un consiglio"
+      ],
+      "roomOptions": [
+        "Scegli una camera",
+        "Singola",
+        "Doppia con letti separati",
+        "Matrimoniale",
+        "Tripla",
+        "Ho bisogno di un consiglio"
+      ],
+      "consent": "Ho letto e accetto i termini del servizio , la politica di cancellazione e la politica sulla privacy .",
+      "submit": "Prepara la richiesta via e-mail",
+      "note": "Si aprirà la tua applicazione e-mail con la richiesta pronta. Potrai rivederla prima di inviarla.",
+      "ready": "La tua richiesta è pronta.",
+      "copyButton": "Copia messaggio"
+    },
+    "footer": {
+      "title": "Esperienze autentiche a Tambopata",
+      "location": "Madre de Dios · Perù",
+      "links": [
+        "Esperienze",
+        "Chi siamo",
+        "Contatti",
+        "Termini e condizioni",
+        "Informazioni legali"
+      ]
+    }
+  },
+  "fr": {
+    "language": "fr",
+    "nav": [
+      "Expériences",
+      "La destination",
+      "Pourquoi nous choisir",
+      "Contact"
+    ],
+    "hero": {
+      "eyebrow": "Madre de Dios · Pérou",
+      "title": {
+        "text": "Vivez la jungle de près.",
+        "emphasis": "de près."
+      },
+      "copy": "Des excursions locales sur les rivières, les lacs et dans les forêts de Tambopata. Explorez l’Amazonie à votre rythme, bien accompagné.",
+      "primary": "Demander sur WhatsApp",
+      "secondary": "Voir les expériences",
+      "trust": [
+        "Guides locaux",
+        "Petits groupes",
+        "Attention personnalisée"
+      ],
+      "scroll": "Faites défiler pour explorer",
+      "note": "Nature · Aventure · Culture"
+    },
+    "experiences": {
+      "eyebrow": "Une jungle à retenir",
+      "title": "Des expériences qui commencent là où la route s’arrête.",
+      "copy": "Découvrez une Amazonie vivante à travers ses rivières, ses forêts, sa faune et les histoires de ceux qui y vivent.",
+      "cards": [
+        {
+          "href": "/tours/lago-sandoval",
+          "image": "/img/lago-sandoval.webp",
+          "alt": "Lac entouré par la forêt amazonienne",
+          "number": "01 / Nature",
+          "title": "Lac Sandoval",
+          "summary": "Naviguez parmi les palmiers aguaje et découvrez singes, oiseaux et paysages de la réserve.",
+          "facts": [
+            {
+              "label": "Format",
+              "value": "Navigation + marche"
+            },
+            {
+              "label": "Idéal pour",
+              "value": "Nature et faune"
+            }
+          ],
+          "link": "Voir l’expérience",
+          "featured": true,
+          "wide": false
+        },
+        {
+          "href": "/tours/fauna-aves",
+          "image": "/img/animales/pico-rojo.webp",
+          "alt": "Toucan amazonien posé sur une branche",
+          "number": "02 / Faune et oiseaux",
+          "title": "Faune sauvage",
+          "summary": "Parcourez la forêt à l’écoute de ses oiseaux, de ses sons et de sa faune.",
+          "facts": [
+            {
+              "label": "Format",
+              "value": "Observation guidée"
+            },
+            {
+              "label": "Meilleur moment",
+              "value": "Selon la saison"
+            }
+          ],
+          "link": "Voir l’expérience",
+          "featured": false,
+          "wide": false
+        },
+        {
+          "href": "/tours/rio-tambopata",
+          "image": "/img/rio-tambopata.webp",
+          "alt": "Navigation sur une rivière amazonienne au coucher du soleil",
+          "number": "03 / Aventure",
+          "title": "Rivière Tambopata",
+          "summary": "Naviguez entre forêt et plages de sable dans la lumière du soir.",
+          "facts": [
+            {
+              "label": "Format",
+              "value": "Navigation"
+            },
+            {
+              "label": "Idéal pour",
+              "value": "Aventure et paysages"
+            }
+          ],
+          "link": "Voir l’expérience",
+          "featured": false,
+          "wide": false
+        },
+        {
+          "href": "/tours/encuentro-amazonico",
+          "image": "/img/experiencia-cultural.webp",
+          "alt": "Voyageurs partageant une soirée avec des hôtes locaux à Tambopata",
+          "number": "04 / Culture locale",
+          "title": "Rencontre amazonienne",
+          "summary": "Partagez une soirée de récits, de saveurs et de traditions avec des hôtes locaux.",
+          "facts": [
+            {
+              "label": "Format",
+              "value": "Rencontre culturelle"
+            },
+            {
+              "label": "Idéal pour",
+              "value": "Lien local"
+            }
+          ],
+          "link": "Voir l’expérience",
+          "featured": false,
+          "wide": false
+        },
+        {
+          "href": "/tours/caminata-nocturna",
+          "image": "/img/caminata-nocturna.webp",
+          "alt": "Voyageuse pendant une activité nocturne dans la forêt de Tambopata",
+          "number": "05 / Aventure nocturne",
+          "title": "Marche nocturne",
+          "summary": "Explorez les sons, les mouvements et la faune qui apparaissent dans la forêt après le coucher du soleil.",
+          "facts": [
+            { "label": "Format", "value": "Marche guidée" },
+            { "label": "Horaire", "value": "Après le coucher du soleil" }
+          ],
+          "link": "Voir l’expérience",
+          "featured": false,
+          "wide": false
+        }
+      ],
+      "planning": {
+        "eyebrow": "Avant de réserver",
+        "title": "Les informations essentielles pour choisir sereinement.",
+        "copy": "Les détails exacts dépendent du parcours et de vos dates. Nous confirmons chaque point avec vous avant le départ.",
+        "contact": "Vérifier mes dates",
+        "program": "Voir le programme de 4 jours",
+        "facts": [
+          {
+            "label": "Durée",
+            "value": "Varie selon le parcours"
+          },
+          {
+            "label": "Départ",
+            "value": "Point de rendez-vous convenu à l’avance"
+          },
+          {
+            "label": "Disponibilité",
+            "value": "Vérifiez les dates souhaitées"
+          },
+          {
+            "label": "À apporter",
+            "value": "Vous recevrez une liste de recommandations"
+          },
+          {
+            "label": "Difficulté",
+            "value": "Des options adaptées à votre rythme"
+          },
+          {
+            "label": "Réservation",
+            "value": "Assistance directe sur WhatsApp"
+          }
+        ]
+      }
+    },
+    "international": {
+      "eyebrow": "Voyageurs internationaux · Assistance en anglais",
+      "title": "Planifiez votre visite avec une assistance en anglais.",
+      "copy": "Parcourez le site dans votre langue. Lorsque vous serez prêt à réserver, notre équipe vous accompagnera en anglais et vous aidera à confirmer les détails de votre visite.",
+      "link": "Planifier ma visite",
+      "programLink": "Voir le programme de 4 jours",
+      "imageAlt": "Voyageurs internationaux partageant une expérience culturelle avec des hôtes locaux à Tambopata",
+      "imageCaption": "Rencontres culturelles et accompagnement local à Tambopata.",
+      "highlights": ["Assistance en anglais", "Contact direct sur WhatsApp", "Conseils avant le voyage"],
+      "points": [
+        {
+          "number": "01",
+          "title": "Assistance en anglais",
+          "copy": "Notre équipe vous accompagnera en anglais pendant que vous partagez vos dates, vos envies et votre rythme de voyage."
+        },
+        {
+          "number": "02",
+          "title": "Informations avant de réserver",
+          "copy": "Nous confirmons la disponibilité, le parcours, le point de rendez-vous et les détails."
+        },
+        {
+          "number": "03",
+          "title": "Une visite adaptée à vos envies",
+          "copy": "Recevez des conseils pour choisir entre nature, aventure, faune ou culture locale."
+        }
+      ]
+    },
+    "destination": {
+      "eyebrow": "Le cœur de la jungle",
+      "title": {
+        "text": "Regardez l’Amazonie s’éveiller.",
+        "emphasis": "s’éveiller."
+      },
+      "copy": "À Tambopata, chaque parcours ouvre une fenêtre sur un monde qui évolue entre les branches, la rivière et la lumière de la forêt.",
+      "highlights": [
+        {
+          "label": "Paysage",
+          "value": "Rivières et lacs"
+        },
+        {
+          "label": "Rencontres",
+          "value": "Faune sauvage"
+        },
+        {
+          "label": "Expérience",
+          "value": "Culture locale"
+        }
+      ],
+      "link": "Planifiez votre parcours",
+      "gallery": [
+        {
+          "image": "/img/guacamayo.webp",
+          "alt": "Ara rouge parmi les feuilles de la forêt amazonienne",
+          "caption": "Aras · Tambopata"
+        },
+        {
+          "image": "/img/animales/tucan-v2.webp",
+          "alt": "Toucan amazonien posé sur une branche",
+          "caption": "Observation des oiseaux"
+        },
+        {
+          "image": "/img/animales/mono-selva.webp",
+          "alt": "Singe nocturne avec son petit parmi les branches de la forêt",
+          "caption": "Faune sauvage"
+        },
+        {
+          "image": "/img/animales/ave-vuelo.webp",
+          "alt": "Oiseau amazonien en vol",
+          "caption": "La vie en mouvement"
+        }
+      ],
+      "guideEyebrow": "Un regard de près",
+      "guideTitle": "Découvrez Tambopata pas à pas.",
+      "points": [
+        {
+          "number": "01",
+          "title": "Au fil de l’eau",
+          "copy": "Les rivières et les lacs ouvrent la voie vers des paysages où la jungle se reflète et change au fil des heures."
+        },
+        {
+          "number": "02",
+          "title": "Sous la canopée",
+          "copy": "Marchez attentivement aux sons, aux traces et aux mouvements qui révèlent la vie de la forêt."
+        },
+        {
+          "number": "03",
+          "title": "Avec la communauté",
+          "copy": "Découvrez les saveurs, les récits et les modes de vie qui donnent son identité à ce territoire amazonien."
+        }
+      ]
+    },
+    "values": {
+      "eyebrow": "Accompagnement local",
+      "title": {
+        "text": "Découvrez Tambopata avec ceux qui la vivent de près.",
+        "emphasis": "de près."
+      },
+      "copy": "Nous vous guidons avant et pendant votre visite pour créer une expérience adaptée à votre temps, vos envies et au rythme de la jungle.",
+      "points": [
+        {
+          "number": "01",
+          "title": "Connaissance locale",
+          "copy": "Des conseils fondés sur la connaissance des rivières, lacs et forêts de Tambopata."
+        },
+        {
+          "number": "02",
+          "title": "Programme flexible",
+          "copy": "Des options adaptées à vos envies, vos dates et votre façon de voyager."
+        },
+        {
+          "number": "03",
+          "title": "Contact direct",
+          "copy": "Échangez avec une personne sur WhatsApp avant de décider."
+        }
+      ]
+    },
+    "reviews": {
+      "eyebrow": "Voix du voyage",
+      "title": "Des expériences qui méritent d’être racontées.",
+      "intro": "Nous préparons cet espace pour partager les avis authentiques de ceux qui explorent Tambopata avec nous.",
+      "source": "Avis Google",
+      "label": "Avis vérifiés",
+      "copy": "La note apparaîtra ici lorsque le Profil d’établissement sera connecté.",
+      "readyTitle": "Prêt pour vos premiers avis.",
+      "readyCopy": "Chaque avis authentique aidera d’autres voyageurs à découvrir le service avant le début de leur aventure.",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Partagez le lien",
+          "copy": "Envoyez-le après chaque expérience."
+        },
+        {
+          "number": "02",
+          "title": "Le voyageur donne son avis",
+          "copy": "L’avis est publié sur son profil Google."
+        },
+        {
+          "number": "03",
+          "title": "Inspirez confiance",
+          "copy": "Nous affichons des avis authentiques sur le site."
+        }
+      ],
+      "button": "Partager mon expérience",
+      "note": "Le bouton pourra diriger vers Google lorsque le lien d’avis sera disponible."
+    },
+    "booking": {
+      "eyebrow": "C’est ainsi que le voyage commence",
+      "title": "Faites place à l’inattendu.",
+      "copy": "Dites-nous ce que vous souhaitez découvrir et nous vous aiderons à trouver l’expérience idéale à Tambopata.",
+      "button": "Planifier mon expérience",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Choisissez une expérience",
+          "copy": "Découvrez nos expériences et activités."
+        },
+        {
+          "number": "02",
+          "title": "Écrivez-nous",
+          "copy": "Dites-nous quand vous souhaitez visiter Tambopata."
+        },
+        {
+          "number": "03",
+          "title": "Commencez l’aventure",
+          "copy": "Préparez votre visite et profitez du voyage."
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "Avant de partir",
+      "title": "Questions fréquentes",
+      "items": [
+        {
+          "question": "Comment demander des informations sur une expérience ?",
+          "answer": "Écrivez-nous sur WhatsApp ou via nos canaux de contact pour vérifier les disponibilités."
+        },
+        {
+          "question": "Que dois-je apporter ?",
+          "answer": "Nous vous communiquerons les recommandations nécessaires selon l’expérience choisie."
+        },
+        {
+          "question": "Quelles expériences propose Shapingo Turs ?",
+          "answer": "Nous proposons des visites de réserves et de lacs, l’observation de la faune et des oiseaux, la navigation, les randonnées et des activités d’aventure."
+        },
+        {
+          "question": "Comment réserver ?",
+          "answer": "Contactez-nous pour parler de votre visite et organiser les prochaines étapes."
+        }
+      ]
+    },
+    "contact": {
+      "eyebrow": "Tambopata vous attend",
+      "title": "Prêt à trouver votre chemin ?",
+      "copy": "Dites-nous ce que vous souhaitez vivre en Amazonie.",
+      "promises": [
+        "Conseils locaux",
+        "Attention personnalisée",
+        "Demande sans engagement"
+      ],
+      "labels": [
+        "Nom",
+        "Programme ou excursion",
+        "Pays d’origine",
+        "Type de chambre",
+        "Date approximative",
+        "Nombre de voyageurs"
+      ],
+      "experienceOptions": [
+        "Choisissez une expérience",
+        "Programme Amazonie 4 jours / 3 nuits",
+        "Lac Sandoval",
+        "Rivière Tambopata",
+        "Observation de la faune et des oiseaux",
+        "Rencontre amazonienne",
+        "Marche nocturne",
+        "Je souhaite une recommandation"
+      ],
+      "roomOptions": [
+        "Choisissez une chambre",
+        "Individuelle",
+        "À deux lits",
+        "Double",
+        "Triple",
+        "J’ai besoin d’un conseil"
+      ],
+      "consent": "J’ai lu et j’accepte les conditions de service , la politique d’annulation et la politique de confidentialité .",
+      "submit": "Préparer la demande par e-mail",
+      "note": "Votre application de messagerie s’ouvrira avec la demande préparée. Vous pourrez la vérifier avant l’envoi.",
+      "ready": "Votre demande est prête.",
+      "copyButton": "Copier le message"
+    },
+    "footer": {
+      "title": "Expériences authentiques à Tambopata",
+      "location": "Madre de Dios · Pérou",
+      "links": [
+        "Expériences",
+        "À propos",
+        "Contact",
+        "Conditions générales",
+        "Informations légales"
+      ]
+    }
+  },
+  "zh-cn": {
+    "language": "zh-CN",
+    "nav": [
+      "体验项目",
+      "目的地",
+      "选择我们的理由",
+      "联系我们"
+    ],
+    "hero": {
+      "eyebrow": "秘鲁 · 马德雷德迪奥斯",
+      "title": {
+        "text": "近距离感受 亚马逊雨林。",
+        "emphasis": "亚马逊雨林。"
+      },
+      "copy": "探索坦博帕塔的河流、湖泊与森林。由当地向导陪伴，按照自己的节奏走进亚马逊。",
+      "primary": "通过 WhatsApp 咨询",
+      "secondary": "查看体验项目",
+      "trust": [
+        "当地向导",
+        "小团出行",
+        "贴心服务"
+      ],
+      "scroll": "向下探索",
+      "note": "自然 · 探险 · 文化"
+    },
+    "experiences": {
+      "eyebrow": "一段难忘的雨林之旅",
+      "title": "道路尽头，旅程才真正开始。",
+      "copy": "沿着河流和森林，观察野生动物，聆听当地人的故事，认识充满生命力的亚马逊。",
+      "cards": [
+        {
+          "href": "/tours/lago-sandoval",
+          "image": "/img/lago-sandoval.webp",
+          "alt": "亚马逊雨林环绕的湖泊",
+          "number": "01 / 自然",
+          "title": "桑多瓦尔湖",
+          "summary": "穿行于棕榈湿地，寻找猴子、鸟类与保护区的自然景观。",
+          "facts": [
+            {
+              "label": "方式",
+              "value": "徒步与乘船"
+            },
+            {
+              "label": "适合",
+              "value": "自然与动物"
+            }
+          ],
+          "link": "查看体验",
+          "featured": true,
+          "wide": false
+        },
+        {
+          "href": "/tours/fauna-aves",
+          "image": "/img/animales/pico-rojo.webp",
+          "alt": "停在树枝上的亚马逊巨嘴鸟",
+          "number": "02 / 野生动物与鸟类",
+          "title": "野生动物",
+          "summary": "走进森林，留意鸟鸣、动物踪迹与雨林中的每一次动静。",
+          "facts": [
+            {
+              "label": "方式",
+              "value": "向导陪同观察"
+            },
+            {
+              "label": "最佳时间",
+              "value": "视季节而定"
+            }
+          ],
+          "link": "查看体验",
+          "featured": false,
+          "wide": false
+        },
+        {
+          "href": "/tours/rio-tambopata",
+          "image": "/img/rio-tambopata.webp",
+          "alt": "夕阳下乘船游览亚马逊河流",
+          "number": "03 / 探险",
+          "title": "坦博帕塔河",
+          "summary": "在夕阳下乘船穿过森林与沙滩之间的坦博帕塔河。",
+          "facts": [
+            {
+              "label": "方式",
+              "value": "乘船"
+            },
+            {
+              "label": "适合",
+              "value": "探险与风景"
+            }
+          ],
+          "link": "查看体验",
+          "featured": false,
+          "wide": false
+        },
+        {
+          "href": "/tours/encuentro-amazonico",
+          "image": "/img/experiencia-cultural.webp",
+          "alt": "旅行者与坦博帕塔当地居民共度夜晚",
+          "number": "04 / 当地文化",
+          "title": "亚马逊文化体验",
+          "summary": "与当地居民共度一晚，分享故事、美食与亚马逊传统。",
+          "facts": [
+            {
+              "label": "方式",
+              "value": "文化交流"
+            },
+            {
+              "label": "适合",
+              "value": "深入当地生活"
+            }
+          ],
+          "link": "查看体验",
+          "featured": false,
+          "wide": false
+        },
+        {
+          "href": "/tours/caminata-nocturna",
+          "image": "/img/caminata-nocturna.webp",
+          "alt": "游客在坦博帕塔雨林参加夜间活动",
+          "number": "05 / 夜间探险",
+          "title": "夜间徒步",
+          "summary": "日落之后，探索雨林中出现的声音、动静与夜行生物。",
+          "facts": [
+            { "label": "方式", "value": "向导徒步" },
+            { "label": "时间", "value": "日落之后" }
+          ],
+          "link": "查看体验",
+          "featured": false,
+          "wide": false
+        }
+      ],
+      "planning": {
+        "eyebrow": "预订前须知",
+        "title": "安心选择所需的重要信息。",
+        "copy": "具体安排会根据路线和日期而变化。出发前，我们会与您逐项确认。",
+        "contact": "咨询我的出行日期",
+        "program": "查看 4 天游览计划",
+        "facts": [
+          {
+            "label": "时长",
+            "value": "根据路线而定"
+          },
+          {
+            "label": "出发",
+            "value": "提前确认集合地点"
+          },
+          {
+            "label": "可订日期",
+            "value": "请咨询您的日期"
+          },
+          {
+            "label": "携带物品",
+            "value": "我们会提供建议清单"
+          },
+          {
+            "label": "难度",
+            "value": "可按您的节奏选择"
+          },
+          {
+            "label": "预订",
+            "value": "通过 WhatsApp 直接联系"
+          }
+        ]
+      }
+    },
+    "international": {
+      "eyebrow": "国际旅行者 · 英语服务",
+      "title": "通过英语服务规划您的坦博帕塔之旅。",
+      "copy": "您可以使用熟悉的语言浏览网站。准备预订时，我们的团队将以英语为您提供帮助，并确认行程细节。",
+      "link": "规划我的旅程",
+      "programLink": "查看四日行程",
+      "imageAlt": "国际游客在坦博帕塔与当地接待者共同参加文化体验",
+      "imageCaption": "在坦博帕塔体验文化交流与当地陪同。",
+      "highlights": ["英语服务", "WhatsApp 直接联系", "行前指导"],
+      "points": [
+        {
+          "number": "01",
+          "title": "英语服务",
+          "copy": "我们的团队将以英语与您沟通日期、兴趣和旅行节奏。"
+        },
+        {
+          "number": "02",
+          "title": "预订前信息透明",
+          "copy": "我们会确认可订情况、路线、集合地点及体验详情。"
+        },
+        {
+          "number": "03",
+          "title": "为您量身规划",
+          "copy": "根据自然、探险、野生动物或当地文化等兴趣获得建议。"
+        }
+      ]
+    },
+    "destination": {
+      "eyebrow": "雨林的脉动",
+      "title": {
+        "text": "看亚马逊 从晨光中苏醒。",
+        "emphasis": "从晨光中苏醒。"
+      },
+      "copy": "在坦博帕塔，每一段旅程都会打开一扇窗，让您看见枝叶、河流与林间光影中的生命。",
+      "highlights": [
+        {
+          "label": "风景",
+          "value": "河流与湖泊"
+        },
+        {
+          "label": "邂逅",
+          "value": "野生动物"
+        },
+        {
+          "label": "体验",
+          "value": "当地文化"
+        }
+      ],
+      "link": "规划我的路线",
+      "gallery": [
+        {
+          "image": "/img/guacamayo.webp",
+          "alt": "亚马逊雨林树叶间的红色金刚鹦鹉",
+          "caption": "金刚鹦鹉 · 坦博帕塔"
+        },
+        {
+          "image": "/img/animales/tucan-v2.webp",
+          "alt": "停在树枝上的亚马逊巨嘴鸟",
+          "caption": "观鸟"
+        },
+        {
+          "image": "/img/animales/mono-selva.webp",
+          "alt": "雨林树枝间带着幼崽的夜猴",
+          "caption": "野生动物"
+        },
+        {
+          "image": "/img/animales/ave-vuelo.webp",
+          "alt": "飞翔中的亚马逊鸟类",
+          "caption": "飞翔的生命"
+        }
+      ],
+      "guideEyebrow": "深入观察",
+      "guideTitle": "一步一步认识坦博帕塔。",
+      "points": [
+        {
+          "number": "01",
+          "title": "沿水而行",
+          "copy": "河流与湖泊通往雨林倒映其中、随时间不断变化的风景。"
+        },
+        {
+          "number": "02",
+          "title": "走进林冠之下",
+          "copy": "留心声音、足迹和林间动静，发现森林中的生命。"
+        },
+        {
+          "number": "03",
+          "title": "走近当地社区",
+          "copy": "认识当地的味道、故事与生活方式，感受这片亚马逊土地的文化。"
+        }
+      ]
+    },
+    "values": {
+      "eyebrow": "当地陪伴",
+      "title": {
+        "text": "与真正了解这里的人一起 探索坦博帕塔。",
+        "emphasis": "探索坦博帕塔。"
+      },
+      "copy": "从行前准备到旅途中，我们都会提供建议，让体验符合您的时间、兴趣与雨林节奏。",
+      "points": [
+        {
+          "number": "01",
+          "title": "当地经验",
+          "copy": "基于对坦博帕塔河流、湖泊和森林的了解提供建议。"
+        },
+        {
+          "number": "02",
+          "title": "灵活安排",
+          "copy": "根据您的兴趣、日期和旅行方式灵活选择。"
+        },
+        {
+          "number": "03",
+          "title": "直接沟通",
+          "copy": "决定之前，可通过 WhatsApp 直接与工作人员交流。"
+        }
+      ]
+    },
+    "reviews": {
+      "eyebrow": "旅行者的声音",
+      "title": "值得分享的旅行体验。",
+      "intro": "我们正在准备这个空间，用于展示与我们一起探索坦博帕塔的旅行者真实评价。",
+      "source": "Google 评价",
+      "label": "真实评价",
+      "copy": "连接 Google 商家资料后，评分将在这里显示。",
+      "readyTitle": "期待您的第一条评价。",
+      "readyCopy": "每一条真实评价都会帮助其他旅行者在出发前了解我们的服务。",
+      "steps": [
+        {
+          "number": "01",
+          "title": "分享链接",
+          "copy": "每次体验结束后发送链接。"
+        },
+        {
+          "number": "02",
+          "title": "旅行者评价",
+          "copy": "评价会发布在 Google 商家资料中。"
+        },
+        {
+          "number": "03",
+          "title": "建立信任",
+          "copy": "我们将在网站中展示真实意见。"
+        }
+      ],
+      "button": "分享我的体验",
+      "note": "获得评价链接后，此按钮将直接连接到 Google。"
+    },
+    "booking": {
+      "eyebrow": "旅程从这里开始",
+      "title": "为意想不到的精彩留出空间。",
+      "copy": "告诉我们您想探索什么，我们会帮助您找到合适的坦博帕塔体验。",
+      "button": "规划我的体验",
+      "steps": [
+        {
+          "number": "01",
+          "title": "选择体验",
+          "copy": "浏览我们的体验与活动。"
+        },
+        {
+          "number": "02",
+          "title": "联系我们",
+          "copy": "告诉我们您计划何时到访坦博帕塔。"
+        },
+        {
+          "number": "03",
+          "title": "开始探险",
+          "copy": "准备好行程，享受每一步。"
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "出发前",
+      "title": "常见问题",
+      "items": [
+        {
+          "question": "如何咨询体验项目？",
+          "answer": "请通过 WhatsApp 或其他联系方式咨询可订情况。"
+        },
+        {
+          "question": "需要携带什么？",
+          "answer": "我们会根据您选择的体验提供所需物品建议。"
+        },
+        {
+          "question": "Shapingo Turs 提供哪些体验？",
+          "answer": "我们提供保护区与湖泊游览、观鸟与野生动物观察、乘船、徒步和探险活动。"
+        },
+        {
+          "question": "如何预订？",
+          "answer": "联系我们并告知行程计划，我们会协助确认下一步。"
+        }
+      ]
+    },
+    "contact": {
+      "eyebrow": "坦博帕塔在等您",
+      "title": "准备好找到属于您的路线了吗？",
+      "copy": "告诉我们您希望在亚马逊体验什么。",
+      "promises": [
+        "当地建议",
+        "贴心服务",
+        "免费咨询"
+      ],
+      "labels": [
+        "姓名",
+        "项目或行程",
+        "出发国家",
+        "房型",
+        "预计日期",
+        "旅行人数"
+      ],
+      "experienceOptions": [
+        "请选择体验",
+        "亚马逊 4 天 3 夜行程",
+        "桑多瓦尔湖",
+        "坦博帕塔河",
+        "野生动物与观鸟",
+        "亚马逊文化体验",
+        "夜间徒步",
+        "希望获得推荐"
+      ],
+      "roomOptions": [
+        "请选择房型",
+        "单人间",
+        "双床房",
+        "大床房",
+        "三人间",
+        "需要建议"
+      ],
+      "consent": "我已阅读并接受 服务条款 、 取消政策 和 隐私政策 。",
+      "submit": "准备电子邮件咨询",
+      "note": "继续后，系统将打开已准备好的电子邮件。发送前您可以检查和修改内容。",
+      "ready": "您的电子邮件内容已准备好。",
+      "copyButton": "复制邮件内容"
+    },
+    "footer": {
+      "title": "坦博帕塔真实旅行体验",
+      "location": "秘鲁 · 马德雷德迪奥斯",
+      "links": [
+        "体验项目",
+        "关于我们",
+        "联系我们",
+        "条款与条件",
+        "法律信息"
+      ]
+    }
+  }
+}
