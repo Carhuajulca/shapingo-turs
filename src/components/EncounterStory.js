@@ -1,3 +1,5 @@
+import OptimizedImage from "@/components/OptimizedImage";
+
 const flowers = [
   ["/img/encounter-orchid-red.png", "Flor roja y mariposa entre la vegetación", "Color y vida", "Un encuentro delicado entre la flora y la fauna del entorno."],
   ["/img/encounter-orchid-yellow.png", "Racimo de flores amarillas en la selva", "Flores doradas", "Pequeños detalles que revelan la riqueza del bosque."],
@@ -18,7 +20,7 @@ export default function EncounterStory() {
     <section className="encounter-gallery" aria-labelledby="encounter-gallery-title">
       <div className="encounter-section-heading"><div><p className="eyebrow dark">Una mirada al encuentro</p><h2 id="encounter-gallery-title">Detalles que hacen<br />vivo el bosque.</h2></div><p>Flores, colores y pequeños encuentros que acompañan esta experiencia en la Amazonía.</p></div>
       <div className="encounter-gallery-grid">{flowers.map(([image, alt, title, caption]) => <figure key={image}>
-        <img className="encounter-gallery-image encounter-gallery-flower" src={image} alt={alt} loading="lazy" />
+        <OptimizedImage className="encounter-gallery-image encounter-gallery-flower" src={image} alt={alt} loading="lazy" />
         <figcaption><strong>{title}</strong><span>{caption}</span></figcaption>
       </figure>)}</div>
     </section>
@@ -29,7 +31,7 @@ export default function EncounterStory() {
         ["Compartir y aprender", "Los detalles también cuentan historias.", "A través de gestos, accesorios y relatos, el encuentro invita a participar con curiosidad y respeto, entendiendo que cada detalle tiene un significado en su contexto.", "Una actividad de la experiencia", "/img/encounter-share-learn.png", "Visitante y anfitriona local compartiendo un momento cultural"],
         ["Conversar y conectar", "Un momento para escuchar y recordar.", "El intercambio se vuelve cercano al compartir tiempo, miradas y experiencias. Es una oportunidad para escuchar directamente a quienes conocen y habitan este territorio.", "Una conversación o momento compartido", "/img/encounter-connect.png", "Visitante compartiendo un momento cultural con una anfitriona local"],
       ].map(([eyebrow, title, copy, image, photo, photoAlt], index) => <article className="encounter-story-row" key={title}>
-        {photo ? <img className="encounter-story-image encounter-story-connect" src={photo} alt={photoAlt} loading="lazy" /> : <MediaSpace label="Aquí irá una imagen" detail={image} />}
+        {photo ? <OptimizedImage className="encounter-story-image encounter-story-connect" src={photo} alt={photoAlt} loading="lazy" /> : <MediaSpace label="Aquí irá una imagen" detail={image} />}
         <div className="encounter-story-copy"><p className="eyebrow dark">0{index + 1} / {eyebrow}</p><h3>{title}</h3><p>{copy}</p></div>
       </article>)}
     </section>

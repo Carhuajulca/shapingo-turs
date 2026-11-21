@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import { relatedTours } from "@/data/tours";
+import OptimizedImage from "@/components/OptimizedImage";
 
 export default function RelatedToursCarousel({ current, language = "es", labels, titles }) {
   const trackRef = useRef(null);
@@ -22,6 +23,6 @@ export default function RelatedToursCarousel({ current, language = "es", labels,
 
   return <section className="tour-related">
     <div className="tour-related-heading"><div><p className="eyebrow dark">{labels.eyebrow}</p><h2>{labels.title}</h2></div><div className="tour-related-actions"><button type="button" aria-label="Ver experiencias anteriores" onClick={() => move(-1)}>←</button><button type="button" aria-label="Ver más experiencias" onClick={() => move(1)}>→</button></div></div>
-    <div className="tour-related-track" ref={trackRef}>{tours.map(([slug, title, image]) => <a className="tour-related-card" href={`/${language}/tours/${slug}/`} key={slug}><img src={image} alt="" loading="lazy" /><span>{titles?.[slug] || title}</span><b aria-hidden="true">↗</b></a>)}</div>
+    <div className="tour-related-track" ref={trackRef}>{tours.map(([slug, title, image]) => <a className="tour-related-card" href={`/${language}/tours/${slug}/`} key={slug}><OptimizedImage src={image} alt="" loading="lazy" /><span>{titles?.[slug] || title}</span><b aria-hidden="true">↗</b></a>)}</div>
   </section>;
 }

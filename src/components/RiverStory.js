@@ -1,3 +1,5 @@
+import OptimizedImage from "@/components/OptimizedImage";
+
 const stories = [
   ["Embarcar", "La experiencia comienza junto al río.", "Antes de iniciar, el guía comparte las indicaciones de seguridad y presenta la ruta. Es el momento de acomodarse, preparar la cámara y observar cómo el paisaje empieza a abrirse frente al grupo.", "Viajeros durante el embarque en el río Tambopata", "/img/rio-tambopata/embarcar.jpg"],
   ["Navegar", "El bosque se descubre desde el agua.", "Durante el trayecto, las orillas, las playas y el dosel muestran distintas caras de la Amazonía. La velocidad y las pausas se adaptan a las condiciones del río y a lo que aparece en el camino.", "Viajeros navegando al atardecer por el río Tambopata", "/img/rio-tambopata/navegar.png"],
@@ -9,7 +11,7 @@ export default function RiverStory() {
     <section className="encounter-narrative" aria-labelledby="river-story-title">
       <div className="encounter-section-heading"><div><p className="eyebrow dark">Así se vive</p><h2 id="river-story-title">Embarcar. Navegar.<br />Contemplar.</h2></div><p>Un recorrido visual desde los preparativos hasta esos momentos en los que el río invita a detenerse y observar.</p></div>
       {stories.map(([eyebrow, title, copy, detail, image], index) => <article className="encounter-story-row" key={title}>
-        <img className="encounter-story-image" src={image} alt={detail} loading="lazy" />
+        <OptimizedImage className="encounter-story-image" src={image} alt={detail} loading="lazy" />
         <div className="encounter-story-copy"><p className="eyebrow dark">0{index + 1} / {eyebrow}</p><h3>{title}</h3><p>{copy}</p></div>
       </article>)}
     </section>

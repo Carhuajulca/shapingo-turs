@@ -1,3 +1,5 @@
+import OptimizedImage from "@/components/OptimizedImage";
+
 const copy = {
   es: { eyebrow: "Aves amazónicas", loros: "El primer encuentro ocurre con los loros y pericos: llamados, vuelos breves y una selva que comienza a despertar.", guacamayos: "Más adelante, los guacamayos llenan el paisaje de color y movimiento. La observación se realiza sin invadir su espacio.", videoEyebrow: "La experiencia en movimiento", videoTitle: "Una mañana entre aves.", videoCopy: "Un único video para acercarte al ambiente de la colpa.", fallback: "Tu navegador no admite video." },
   en: { eyebrow: "Amazonian birds", loros: "The first encounter is with parrots and parakeets: calls, brief flights and a forest beginning to wake.", guacamayos: "Later, macaws fill the landscape with color and movement. Observation takes place without entering their space.", videoEyebrow: "The experience in motion", videoTitle: "A morning among birds.", videoCopy: "One video bringing you closer to the atmosphere of the clay lick.", fallback: "Your browser does not support video." },
@@ -13,7 +15,7 @@ export function ColpaGallery({ language = "es" }) {
   return <div className="colpa-story">
     {sections.map((section, index) => <section className="colpa-story-section" key={section.title} aria-labelledby={section.title.replaceAll(" ", "-").toLowerCase()}>
       <div className="colpa-story-heading"><p className="eyebrow dark">{text.eyebrow}</p><h2 id={section.title.replaceAll(" ", "-").toLowerCase()}>{section.title}</h2><p>{section.copy}</p></div>
-      <div className="colpa-story-gallery">{images[index].map((image) => <img src={image} alt={section.title} loading="lazy" key={image} width="900" height="675" />)}</div>
+      <div className="colpa-story-gallery">{images[index].map((image) => <OptimizedImage src={image} alt={section.title} loading="lazy" key={image} width="900" height="675" />)}</div>
     </section>)}
   </div>;
 }

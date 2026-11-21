@@ -1,3 +1,5 @@
+import { optimizedImageSrc } from "@/components/OptimizedImage";
+
 const copy = {
   es: { eyebrow: "Un momento para recordar", title: "Así se siente la experiencia.", moments: "Tres momentos que hacen único el recorrido." },
   en: { eyebrow: "A moment to remember", title: "How the experience feels.", moments: "Three moments that make the journey unique." },
@@ -10,7 +12,7 @@ export default function ExperienceImpression({ tour, slug, language }) {
   const text = copy[language] || copy.es;
   return (
     <section className={`experience-impression experience-impression-${slug}`} id="recorrido" aria-labelledby={`impression-${slug}`}>
-      <div className="experience-impression-intro" style={{ backgroundImage: `url(${tour.image})` }}>
+      <div className="experience-impression-intro" style={{ backgroundImage: `url(${optimizedImageSrc(tour.image)})` }}>
         <div className="experience-impression-shade" />
         <div className="experience-impression-copy">
           <p className="eyebrow">{text.eyebrow}</p>

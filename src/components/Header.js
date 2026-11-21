@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import OptimizedImage from "@/components/OptimizedImage";
 
 const languages = [
   { id: "es", code: "ES", name: "Español" },
@@ -28,7 +29,7 @@ export default function Header({ language = "es", nav, currentPath = "/", contac
   return (
     <nav className="nav" aria-label="Navegación principal">
       <a className="brand" href={base} aria-label="Shapingo Turs inicio">
-        <img className="brand-mark" src="/img/shapingo-turs-logo.png" alt="Shapingo Turs" width="217" height="73" />
+        <OptimizedImage className="brand-mark" src="/img/shapingo-turs-logo.png" alt="Shapingo Turs" width="217" height="73" />
       </a>
       <button
         className="menu-toggle"

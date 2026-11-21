@@ -2,6 +2,7 @@ import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import HeroVideos from "@/components/HeroVideos";
+import OptimizedImage from "@/components/OptimizedImage";
 
 function EmHeading({ heading }) {
   if (typeof heading === "string") return heading;
@@ -36,7 +37,7 @@ export default function LandingPage({ language, content }) {
         <div className="section-heading"><p className="eyebrow dark">{content.experiences.eyebrow}</p><h2>{content.experiences.title}</h2><p className="section-copy">{content.experiences.copy}</p></div>
         <div className="experience-grid">
           {content.experiences.cards.map((card) => <a className={`experience-card${card.featured ? " experience-card-featured" : ""}${card.wide ? " experience-card-wide" : ""}`} href={`/${language}${card.href}/`} key={card.href}>
-            <img src={card.image} alt={card.alt} loading="lazy" width="900" height="700" />
+            <OptimizedImage src={card.image} alt={card.alt} loading="lazy" width="900" height="700" />
             <div className="card-overlay" />
             <div className="card-content"><p className="card-number">{card.number}</p><h3>{card.title}</h3><p className="experience-summary">{card.summary}</p>
               <div className="experience-facts">{card.facts.map((fact) => <span key={`${fact.label}-${fact.value}`}><small>{fact.label}</small><b>{fact.value}</b></span>)}</div>
@@ -62,7 +63,7 @@ export default function LandingPage({ language, content }) {
         <div className="colpa-routes">
           {content.colpa.routes.map((route) => <article className={`colpa-route colpa-route-${route.tone}`} key={route.title}>
             <div className="colpa-route-media">
-              <img src={route.image} alt={route.alt} loading="lazy" width="900" height="700" />
+              <OptimizedImage src={route.image} alt={route.alt} loading="lazy" width="900" height="700" />
               <span className="colpa-route-number">{route.number}</span>
               <span className="colpa-route-label">{route.label}</span>
             </div>
@@ -78,7 +79,7 @@ export default function LandingPage({ language, content }) {
 
       <section className="international" aria-labelledby="international-title">
         <figure className="international-media">
-          <img src="/img/international-travelers.webp" alt={content.international.imageAlt} loading="lazy" width="900" height="1200" />
+          <OptimizedImage src="/img/international-travelers.webp" alt={content.international.imageAlt} loading="lazy" width="900" height="1200" />
           <figcaption>{content.international.imageCaption}</figcaption>
         </figure>
         <div className="international-content">
@@ -91,7 +92,7 @@ export default function LandingPage({ language, content }) {
 
       <section className="wildlife" id="destino">
         <div className="wildlife-intro"><p className="eyebrow">{content.destination.eyebrow}</p><h2><EmHeading heading={content.destination.title} /></h2><p>{content.destination.copy}</p><div className="destination-highlights">{content.destination.highlights.map((item) => <span key={item.label}><small>{item.label}</small><b>{item.value}</b></span>)}</div><a className="wildlife-link" href={contactHref} target="_blank" rel="noopener noreferrer">{content.destination.link} <span>↗</span></a></div>
-        <div className="wildlife-gallery">{content.destination.gallery.map((photo, index) => <figure className={`wildlife-photo ${["wildlife-photo-main", "wildlife-photo-toucan", "wildlife-photo-monkey", "wildlife-photo-flight"][index]}`} key={photo.image}><img src={photo.image} alt={photo.alt} loading="lazy" width="700" height="620" /><figcaption>{photo.caption}</figcaption></figure>)}</div>
+        <div className="wildlife-gallery">{content.destination.gallery.map((photo, index) => <figure className={`wildlife-photo ${["wildlife-photo-main", "wildlife-photo-toucan", "wildlife-photo-monkey", "wildlife-photo-flight"][index]}`} key={photo.image}><OptimizedImage src={photo.image} alt={photo.alt} loading="lazy" width="700" height="620" /><figcaption>{photo.caption}</figcaption></figure>)}</div>
         <div className="destination-guide"><div className="destination-guide-heading"><p className="eyebrow">{content.destination.guideEyebrow}</p><h3>{content.destination.guideTitle}</h3></div><div className="destination-guide-grid">{content.destination.points.map((point) => <article key={point.number}><span>{point.number}</span><h4>{point.title}</h4><p>{point.copy}</p></article>)}</div></div>
       </section>
 

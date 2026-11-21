@@ -1,4 +1,5 @@
 import { MediaSpace } from "@/components/EncounterStory";
+import OptimizedImage from "@/components/OptimizedImage";
 
 const gallery = [
   ["Colores entre las ramas", "El plumaje azul, verde y rojo resalta entre el follaje del bosque.", "Ave de plumaje azul y rojo entre la vegetación", "/img/animales/aves-amazonicas-01.jpg"],
@@ -20,7 +21,7 @@ export default function WildlifeStory() {
     <section className="encounter-gallery" aria-labelledby="wildlife-gallery-title">
       <div className="encounter-section-heading"><div><p className="eyebrow dark">Una mirada a la vida silvestre</p><h2 id="wildlife-gallery-title">El bosque está lleno<br />de pequeñas historias.</h2></div><p>Colores, sonidos y movimientos. Una galería para acercarte a la experiencia de observar la Amazonía con atención.</p></div>
       <div className="encounter-gallery-grid">{gallery.map(([title, caption, detail, image], index) => <figure key={title}>
-        {image ? <img className="encounter-gallery-image" src={image} alt={detail} loading="lazy" /> : <MediaSpace label={`Aquí irá una imagen · ${String(index + 1).padStart(2, "0")}`} detail={detail} />}
+        {image ? <OptimizedImage className="encounter-gallery-image" src={image} alt={detail} loading="lazy" /> : <MediaSpace label={`Aquí irá una imagen · ${String(index + 1).padStart(2, "0")}`} detail={detail} />}
         <figcaption><strong>{title}</strong><span>{caption}</span></figcaption>
       </figure>)}</div>
       <p className="wildlife-sighting-note">Cada salida es diferente. Los animales viven en libertad y los avistamientos dependen de la temporada, el clima y su comportamiento natural.</p>
@@ -28,7 +29,7 @@ export default function WildlifeStory() {
     <section className="encounter-narrative" aria-labelledby="wildlife-story-title">
       <div className="encounter-section-heading"><div><p className="eyebrow dark">Así se vive</p><h2 id="wildlife-story-title">Escuchar. Observar.<br />Asombrarse.</h2></div><p>Una forma de explorar el bosque más allá de una lista de especies: con tiempo, guía local y atención a cada señal del entorno.</p></div>
       {stories.map(([eyebrow, title, copy, detail, image], index) => <article className="encounter-story-row" key={title}>
-        <img className="encounter-story-image" src={image} alt={detail} loading="lazy" />
+        <OptimizedImage className="encounter-story-image" src={image} alt={detail} loading="lazy" />
         <div className="encounter-story-copy"><p className="eyebrow dark">0{index + 1} / {eyebrow}</p><h3>{title}</h3><p>{copy}</p></div>
       </article>)}
     </section>

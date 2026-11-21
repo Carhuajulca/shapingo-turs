@@ -1,4 +1,5 @@
 import { MediaSpace } from "@/components/EncounterStory";
+import OptimizedImage from "@/components/OptimizedImage";
 
 const gallery = [
   ["La última luz", "El río queda en calma mientras los últimos colores del día dan paso a la noche.", "Atardecer sobre el río amazónico", "/img/night-walk/ultima-luz.jpg"],
@@ -20,7 +21,7 @@ export default function NightWalkStory() {
     <section className="encounter-gallery" aria-labelledby="night-gallery-title">
       <div className="encounter-section-heading"><div><p className="eyebrow dark">Cuando cae la noche</p><h2 id="night-gallery-title">El mismo bosque.<br />Otra forma de descubrirlo.</h2></div><p>Sombras, sonidos y pequeños detalles. Un primer vistazo a la caminata nocturna por la Amazonía, a pie o desde el agua.</p></div>
       <div className="encounter-gallery-grid">{gallery.map(([title, caption, detail, image], index) => <figure key={title}>
-        {image ? <img className="encounter-gallery-image" src={image} alt={detail} loading="lazy" /> : <MediaSpace label={`Aquí irá una imagen · ${String(index + 1).padStart(2, "0")}`} detail={detail} />}
+        {image ? <OptimizedImage className="encounter-gallery-image" src={image} alt={detail} loading="lazy" /> : <MediaSpace label={`Aquí irá una imagen · ${String(index + 1).padStart(2, "0")}`} detail={detail} />}
         <figcaption><strong>{title}</strong><span>{caption}</span></figcaption>
       </figure>)}</div>
       <p className="wildlife-sighting-note">Cada noche es diferente. La ruta depende del clima y del estado del sendero. Los animales viven en libertad y los avistamientos no están garantizados.</p>
@@ -28,7 +29,7 @@ export default function NightWalkStory() {
     <section className="encounter-narrative" aria-labelledby="night-story-title">
       <div className="encounter-section-heading"><div><p className="eyebrow dark">Así se vive</p><h2 id="night-story-title">Buscar. Escuchar.<br />Descubrir.</h2></div><p>Una propuesta de relato para imaginar el safari: desde la preparación hasta las pausas para observar el entorno.</p></div>
       {stories.map(([eyebrow, title, copy, detail, image], index) => <article className="encounter-story-row" key={title}>
-        {image ? <img className="encounter-story-image" src={image} alt={detail} loading="lazy" /> : <MediaSpace label="Aquí irá una imagen" detail={detail} />}
+        {image ? <OptimizedImage className="encounter-story-image" src={image} alt={detail} loading="lazy" /> : <MediaSpace label="Aquí irá una imagen" detail={detail} />}
         <div className="encounter-story-copy"><p className="eyebrow dark">0{index + 1} / {eyebrow}</p><h3>{title}</h3><p>{copy}</p></div>
       </article>)}
     </section>

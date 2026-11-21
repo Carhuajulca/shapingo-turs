@@ -1,3 +1,5 @@
+import OptimizedImage from "@/components/OptimizedImage";
+
 const images = ["/img/gastronomic-immersion-dinner.png"];
 const copy = {
   es: { eyebrow: "Una mirada a la mesa", title: "Inmersión gastronómica", text: "Una experiencia para descubrir ingredientes, preparaciones y relatos compartidos alrededor de la mesa.", detailEyebrow: "Compartir la mesa", detailTitle: "Una cena que se vive en compañía.", detailFirst: "Al final del día, el encuentro continúa entre sabores, conversación y el ambiente sereno de la selva.", detailSecond: "Más que probar, es una oportunidad para conocer las historias y los gestos que acompañan cada preparación.", alt: "Encuentro gastronómico amazónico" },
@@ -9,5 +11,5 @@ const copy = {
 
 export default function CommunityFlavorsStory({ language = "es" }) {
   const text = copy[language] || copy.es;
-  return <section className="community-flavors-story" aria-labelledby="community-flavors-title"><div className="community-flavors-heading"><p className="eyebrow dark">{text.eyebrow}</p><h2 id="community-flavors-title">{text.title}</h2><p>{text.text}</p></div><div className="community-flavors-gallery">{images.map((image) => <img src={image} alt={text.alt} loading="lazy" width="900" height="675" key={image} />)}<div className="community-flavors-detail"><p className="eyebrow dark">{text.detailEyebrow}</p><h3>{text.detailTitle}</h3><p>{text.detailFirst}</p><p>{text.detailSecond}</p></div></div></section>;
+  return <section className="community-flavors-story" aria-labelledby="community-flavors-title"><div className="community-flavors-heading"><p className="eyebrow dark">{text.eyebrow}</p><h2 id="community-flavors-title">{text.title}</h2><p>{text.text}</p></div><div className="community-flavors-gallery">{images.map((image) => <OptimizedImage src={image} alt={text.alt} loading="lazy" width="900" height="675" key={image} />)}<div className="community-flavors-detail"><p className="eyebrow dark">{text.detailEyebrow}</p><h3>{text.detailTitle}</h3><p>{text.detailFirst}</p><p>{text.detailSecond}</p></div></div></section>;
 }
