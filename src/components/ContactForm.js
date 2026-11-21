@@ -40,19 +40,15 @@ export default function ContactForm({ language, content }) {
   }, []);
 
   const experienceValues = useMemo(() => ["", "programa-4-dias", "lago-sandoval", "rio-tambopata", "fauna", "cultura", "caminata-nocturna", "otra"], []);
-  const roomValues = useMemo(() => ["", "individual", "doble", "matrimonial", "triple", "por-confirmar"], []);
 
   function submit(event) {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
     const experience = event.currentTarget.elements.experiencia.selectedOptions[0].text;
-    const room = event.currentTarget.elements.habitacion.selectedOptions[0].text;
     const message = [
       labels[0],
       `${labels[1]}: ${data.get("nombre")}`,
-      `${labels[2]}: ${data.get("pais")}`,
       `${labels[3]}: ${experience}`,
-      `${labels[4]}: ${room}`,
       `${labels[5]}: ${data.get("fecha")}`,
       `${labels[6]}: ${data.get("viajeros")}`,
     ].join("\n");
@@ -72,8 +68,6 @@ export default function ContactForm({ language, content }) {
       <div className="form-grid">
         <label>{content.labels[0]}<input type="text" name="nombre" autoComplete="name" required /></label>
         <label>{content.labels[1]}<select className="experience-select" name="experiencia" required>{content.experienceOptions.map((option, index) => <option key={experienceValues[index] || "empty"} value={experienceValues[index]}>{option}</option>)}</select></label>
-        <label>{content.labels[2]}<input type="text" name="pais" autoComplete="country-name" required /></label>
-        <label>{content.labels[3]}<select className="room-select" name="habitacion" required>{content.roomOptions.map((option, index) => <option key={roomValues[index] || "empty"} value={roomValues[index]}>{option}</option>)}</select></label>
         <label>{content.labels[4]}<input type="date" name="fecha" min={minimumDate} required /></label>
         <label>{content.labels[5]}<input type="number" name="viajeros" min="1" max="30" defaultValue="2" required /></label>
       </div>

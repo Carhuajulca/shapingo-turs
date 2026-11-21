@@ -3,7 +3,7 @@
     "language": "es",
     "nav": [
       "Experiencias",
-      "El destino",
+      "Tambopata",
       "Por qué elegirnos",
       "Contacto"
     ],
@@ -94,8 +94,8 @@
         },
         {
           "href": "/tours/encuentro-amazonico",
-          "image": "/img/experiencia-cultural.webp",
-          "alt": "Visitantes compartiendo una velada con anfitriones locales en Tambopata",
+          "image": "/img/community-flavors-preparation.png",
+          "alt": "Visitantes compartiendo una preparación tradicional con anfitrionas locales en Tambopata",
           "number": "04 / Cultura local",
           "title": "Encuentro amazónico",
           "summary": "Comparte una velada de historias, sabores y tradición con anfitriones locales.",
@@ -118,8 +118,8 @@
           "image": "/img/caminata-nocturna.webp",
           "alt": "Viajera durante una actividad nocturna en el bosque de Tambopata",
           "number": "05 / Aventura nocturna",
-          "title": "Caminata nocturna",
-          "summary": "Explora los sonidos, movimientos y fauna que aparecen en la selva después del atardecer.",
+          "title": "Caminata Nocturna",
+          "summary": "Busca la fauna que despierta después del atardecer, a pie o en bote, con acompañamiento local.",
           "facts": [
             { "label": "Modalidad", "value": "Caminata guiada" },
             { "label": "Horario", "value": "Después del atardecer" }
@@ -127,7 +127,24 @@
           "link": "Ver experiencia",
           "featured": false,
           "wide": false
-        }
+        },
+        {
+          "href": "/tours/colpa",
+          "image": "/img/animales/guacamayo.jpg",
+          "alt": "Guacamayos y loros en la colpa amazónica",
+          "number": "06 / Aves amazónicas",
+          "title": "Colpa",
+          "summary": "Observa loros y guacamayos al amanecer, cuando el bosque se llena de color y movimiento.",
+          "facts": [
+            { "label": "Modalidad", "value": "Navegación + observación" },
+            { "label": "Mejor momento", "value": "Primera luz" }
+          ],
+          "link": "Ver experiencia",
+          "featured": false,
+          "wide": false
+        },
+        { "href": "/tours/paseo-kayak", "image": "/img/kayak-hero.png", "alt": "Paseo en kayak por un río amazónico", "number": "07 / Agua y bosque", "title": "Paseo en kayak", "summary": "Deslízate por el agua y contempla el bosque desde una perspectiva cercana y tranquila.", "facts": [{ "label": "Modalidad", "value": "Kayak y navegación" }, { "label": "Disponibilidad", "value": "A coordinar" }], "link": "Ver experiencia", "featured": false, "wide": false },
+        { "href": "/tours/sabores-comunidad", "image": "/img/experiencia-cultural.webp", "alt": "Visitantes compartiendo una velada con anfitriones locales en Tambopata", "number": "08 / Cultura y sabores", "title": "Inmersión gastronómica", "summary": "Descubre recetas, ingredientes y tradiciones culinarias compartidas por las comunidades locales de la Amazonía.", "facts": [{ "label": "Enfoque", "value": "Ingredientes y recetas" }, { "label": "Disponibilidad", "value": "A coordinar" }], "link": "Ver experiencia", "featured": false, "wide": false }
       ],
       "planning": {
         "eyebrow": "Antes de reservar",
@@ -163,6 +180,43 @@
         ]
       }
     },
+    "colpa": {
+      "eyebrow": "Una experiencia, dos rutas",
+      "title": "Colpa: el amanecer de las aves.",
+      "copy": "Antes de que el bosque despierte por completo, el río conduce hacia un encuentro concentrado y silencioso con las aves de Tambopata.",
+      "note": "Imágenes referenciales reemplazables · La observación depende de la temporada y las condiciones.",
+      "contact": "Consultar ruta Colpa",
+      "routes": [
+        {
+          "number": "01",
+          "label": "Amanecer",
+          "tone": "loros",
+          "title": "Colpa de Loros",
+          "image": "/img/animales/aves-amazonicas-01.jpg",
+          "alt": "Loro amazónico entre la vegetación del bosque",
+          "summary": "Una salida temprana para observar loros y pericos en movimiento, escuchar sus llamados y entender cómo el bosque se activa con la primera luz.",
+          "facts": [
+            { "label": "Enfoque", "value": "Loros y pericos" },
+            { "label": "Ritmo", "value": "Madrugada y navegación" }
+          ],
+          "link": "Consultar esta ruta"
+        },
+        {
+          "number": "02",
+          "label": "Color y vuelo",
+          "tone": "guacamayos",
+          "title": "Colpa de Guacamayos",
+          "image": "/img/guacamayo.webp",
+          "alt": "Guacamayo rojo entre las hojas de la selva amazónica",
+          "summary": "Una experiencia para contemplar el vuelo y los colores de los guacamayos, con tiempo para observar sin invadir el ritmo natural de la collpa.",
+          "facts": [
+            { "label": "Enfoque", "value": "Guacamayos y paisaje" },
+            { "label": "Ritmo", "value": "Observación pausada" }
+          ],
+          "link": "Consultar esta ruta"
+        }
+      ]
+    },
     "international": {
       "eyebrow": "Viajeros internacionales · Atención en inglés",
       "title": "Planifica tu visita con atención en inglés.",
@@ -191,7 +245,7 @@
       ]
     },
     "destination": {
-      "eyebrow": "El pulso de la selva",
+      "eyebrow": "Tambopata · Madre de Dios",
       "title": {
         "text": "Mira la Amazonía despertar.",
         "emphasis": "despertar."
@@ -345,7 +399,7 @@
         },
         {
           "question": "¿Qué experiencias ofrece Shapingo Turs?",
-          "answer": "Ofrecemos visitas a reservas y lagos, observación de fauna y aves, navegación, caminatas y actividades de aventura."
+          "answer": "Ofrecemos experiencias en reservas y lagos, observación de fauna y aves, navegación y caminatas. También podrás descubrir la gastronomía amazónica a través de sabores locales y técnicas nativas."
         },
         {
           "question": "¿Cómo puedo reservar?",
@@ -377,7 +431,7 @@
         "Río Tambopata",
         "Observación de fauna y aves",
         "Encuentro amazónico",
-        "Caminata nocturna",
+        "Safari nocturno",
         "Quiero una recomendación"
       ],
       "roomOptions": [
@@ -410,7 +464,7 @@
     "language": "en",
     "nav": [
       "Experiences",
-      "The destination",
+      "Tambopata",
       "Why choose us",
       "Contact"
     ],
@@ -501,8 +555,8 @@
         },
         {
           "href": "/tours/encuentro-amazonico",
-          "image": "/img/experiencia-cultural.webp",
-          "alt": "Travelers sharing an evening with local hosts in Tambopata",
+          "image": "/img/community-flavors-preparation.png",
+          "alt": "Travelers sharing a traditional preparation with local hosts in Tambopata",
           "number": "04 / Local culture",
           "title": "Amazonian encounter",
           "summary": "Share an evening of stories, flavors and tradition with local hosts.",
@@ -534,7 +588,12 @@
           "link": "View experience",
           "featured": false,
           "wide": false
-        }
+        },
+        {
+          "href": "/tours/colpa", "image": "/img/animales/guacamayo.jpg", "alt": "Macaws and parrots at an Amazonian clay lick", "number": "06 / Amazonian birds", "title": "Colpa", "summary": "Watch parrots and macaws at first light, when the forest fills with color and movement.", "facts": [{ "label": "Activity", "value": "Navigation + observation" }, { "label": "Best time", "value": "First light" }], "link": "View experience", "featured": false, "wide": false
+        },
+        { "href": "/tours/paseo-kayak", "image": "/img/kayak-hero.png", "alt": "Kayaking along an Amazonian river", "number": "07 / Water and forest", "title": "Kayak outing", "summary": "Glide across the water and take in the forest from a close, unhurried perspective.", "facts": [{ "label": "Activity", "value": "Kayak and navigation" }, { "label": "Availability", "value": "Arranged in advance" }], "link": "View experience", "featured": false, "wide": false },
+        { "href": "/tours/sabores-comunidad", "image": "/img/experiencia-cultural.webp", "alt": "Travelers sharing an evening with local hosts in Tambopata", "number": "08 / Culture and flavors", "title": "Community Flavors", "summary": "Discover recipes, ingredients and culinary traditions shared by local communities in the Amazon.", "facts": [{ "label": "Focus", "value": "Ingredients and recipes" }, { "label": "Availability", "value": "Arranged in advance" }], "link": "View experience", "featured": false, "wide": false }
       ],
       "planning": {
         "eyebrow": "Before booking",
@@ -570,6 +629,43 @@
         ]
       }
     },
+    "colpa": {
+      "eyebrow": "One experience, two routes",
+      "title": "Colpa: where the birds begin the day.",
+      "copy": "Before the forest fully wakes, the river leads to a focused and quiet encounter with Tambopata’s birds.",
+      "note": "Replaceable reference images · Sightings depend on season and conditions.",
+      "contact": "Ask about the Colpa route",
+      "routes": [
+        {
+          "number": "01",
+          "label": "First light",
+          "tone": "loros",
+          "title": "Colpa de Loros",
+          "image": "/img/animales/aves-amazonicas-01.jpg",
+          "alt": "Amazon parrot among the rainforest vegetation",
+          "summary": "An early outing to watch parrots and parakeets in motion, listen to their calls and see the forest come alive with the first light.",
+          "facts": [
+            { "label": "Focus", "value": "Parrots and parakeets" },
+            { "label": "Pace", "value": "Dawn and navigation" }
+          ],
+          "link": "Ask about this route"
+        },
+        {
+          "number": "02",
+          "label": "Color and flight",
+          "tone": "guacamayos",
+          "title": "Colpa de Guacamayos",
+          "image": "/img/guacamayo.webp",
+          "alt": "Red macaw among the leaves of the Amazon rainforest",
+          "summary": "A chance to take in the flight and colors of macaws, with time to observe without interrupting the natural rhythm of the clay lick.",
+          "facts": [
+            { "label": "Focus", "value": "Macaws and landscape" },
+            { "label": "Pace", "value": "Slow observation" }
+          ],
+          "link": "Ask about this route"
+        }
+      ]
+    },
     "international": {
       "eyebrow": "International travelers · English-speaking support",
       "title": "Plan your visit with English-speaking support.",
@@ -598,7 +694,7 @@
       ]
     },
     "destination": {
-      "eyebrow": "The pulse of the jungle",
+      "eyebrow": "Tambopata · Madre de Dios",
       "title": {
         "text": "Watch the Amazon come alive.",
         "emphasis": "come alive."
@@ -817,7 +913,7 @@
     "language": "it",
     "nav": [
       "Esperienze",
-      "La destinazione",
+      "Tambopata",
       "Perché sceglierci",
       "Contatti"
     ],
@@ -908,8 +1004,8 @@
         },
         {
           "href": "/tours/encuentro-amazonico",
-          "image": "/img/experiencia-cultural.webp",
-          "alt": "Viaggiatori che condividono una serata con ospiti locali a Tambopata",
+          "image": "/img/community-flavors-preparation.png",
+          "alt": "Viaggiatori che condividono una preparazione tradizionale con ospiti locali a Tambopata",
           "number": "04 / Cultura locale",
           "title": "Incontro amazzonico",
           "summary": "Condividi una serata di storie, sapori e tradizioni con gli ospiti locali.",
@@ -941,7 +1037,12 @@
           "link": "Vedi esperienza",
           "featured": false,
           "wide": false
-        }
+        },
+        {
+          "href": "/tours/colpa", "image": "/img/animales/guacamayo.jpg", "alt": "Ara e pappagalli alla colpa amazzonica", "number": "06 / Uccelli amazzonici", "title": "Colpa", "summary": "Osserva pappagalli e ara alla prima luce, quando la foresta si riempie di colori e movimento.", "facts": [{ "label": "Modalità", "value": "Navigazione e osservazione" }, { "label": "Momento", "value": "Prima luce" }], "link": "Vedi esperienza", "featured": false, "wide": false
+        },
+        { "href": "/tours/paseo-kayak", "image": "/img/kayak-hero.png", "alt": "Escursione in kayak lungo un fiume amazzonico", "number": "07 / Acqua e foresta", "title": "Escursione in kayak", "summary": "Scivola sull’acqua e osserva la foresta da una prospettiva vicina e tranquilla.", "facts": [{ "label": "Modalità", "value": "Kayak e navigazione" }, { "label": "Disponibilità", "value": "Da concordare" }], "link": "Vedi esperienza", "featured": false, "wide": false },
+        { "href": "/tours/sabores-comunidad", "image": "/img/experiencia-cultural.webp", "alt": "Viaggiatori che condividono una serata con ospiti locali a Tambopata", "number": "08 / Cultura e sapori", "title": "Sapori della Comunità", "summary": "Scopri ricette, ingredienti e tradizioni culinarie condivisi dalle comunità locali dell’Amazzonia.", "facts": [{ "label": "Tema", "value": "Ingredienti e ricette" }, { "label": "Disponibilità", "value": "Da concordare" }], "link": "Vedi esperienza", "featured": false, "wide": false }
       ],
       "planning": {
         "eyebrow": "Prima di prenotare",
@@ -977,6 +1078,43 @@
         ]
       }
     },
+    "colpa": {
+      "eyebrow": "Un’esperienza, due percorsi",
+      "title": "Colpa: l’alba degli uccelli.",
+      "copy": "Prima che la foresta si svegli del tutto, il fiume conduce a un incontro silenzioso e concentrato con gli uccelli di Tambopata.",
+      "note": "Immagini di riferimento sostituibili · Gli avvistamenti dipendono dalla stagione e dalle condizioni.",
+      "contact": "Chiedi informazioni sul percorso Colpa",
+      "routes": [
+        {
+          "number": "01",
+          "label": "Prima luce",
+          "tone": "loros",
+          "title": "Colpa de Loros",
+          "image": "/img/animales/aves-amazonicas-01.jpg",
+          "alt": "Pappagallo amazzonico tra la vegetazione della foresta",
+          "summary": "Un’uscita all’alba per osservare pappagalli e parrocchetti, ascoltare i loro richiami e vedere la foresta attivarsi con la prima luce.",
+          "facts": [
+            { "label": "Tema", "value": "Pappagalli e parrocchetti" },
+            { "label": "Ritmo", "value": "Alba e navigazione" }
+          ],
+          "link": "Chiedi informazioni"
+        },
+        {
+          "number": "02",
+          "label": "Colori e volo",
+          "tone": "guacamayos",
+          "title": "Colpa de Guacamayos",
+          "image": "/img/guacamayo.webp",
+          "alt": "Ara rosso tra le foglie della foresta amazzonica",
+          "summary": "Un’esperienza per contemplare il volo e i colori degli ara, con tempo per osservare senza alterare il ritmo naturale della collpa.",
+          "facts": [
+            { "label": "Tema", "value": "Ara e paesaggio" },
+            { "label": "Ritmo", "value": "Osservazione lenta" }
+          ],
+          "link": "Chiedi informazioni"
+        }
+      ]
+    },
     "international": {
       "eyebrow": "Viaggiatori internazionali · Assistenza in inglese",
       "title": "Pianifica la tua visita con assistenza in inglese.",
@@ -1005,7 +1143,7 @@
       ]
     },
     "destination": {
-      "eyebrow": "Il battito della giungla",
+      "eyebrow": "Tambopata · Madre de Dios",
       "title": {
         "text": "Guarda l’Amazzonia risvegliarsi.",
         "emphasis": "risvegliarsi."
@@ -1224,7 +1362,7 @@
     "language": "fr",
     "nav": [
       "Expériences",
-      "La destination",
+      "Tambopata",
       "Pourquoi nous choisir",
       "Contact"
     ],
@@ -1315,8 +1453,8 @@
         },
         {
           "href": "/tours/encuentro-amazonico",
-          "image": "/img/experiencia-cultural.webp",
-          "alt": "Voyageurs partageant une soirée avec des hôtes locaux à Tambopata",
+          "image": "/img/community-flavors-preparation.png",
+          "alt": "Voyageurs partageant une préparation traditionnelle avec des hôtes locaux à Tambopata",
           "number": "04 / Culture locale",
           "title": "Rencontre amazonienne",
           "summary": "Partagez une soirée de récits, de saveurs et de traditions avec des hôtes locaux.",
@@ -1348,7 +1486,12 @@
           "link": "Voir l’expérience",
           "featured": false,
           "wide": false
-        }
+        },
+        {
+          "href": "/tours/colpa", "image": "/img/animales/guacamayo.jpg", "alt": "Aras et perroquets à la colpa amazonienne", "number": "06 / Oiseaux amazoniens", "title": "Colpa", "summary": "Observez perroquets et aras à la première lumière, quand la forêt se remplit de couleurs.", "facts": [{ "label": "Activité", "value": "Navigation et observation" }, { "label": "Moment", "value": "Première lumière" }], "link": "Voir l’expérience", "featured": false, "wide": false
+        },
+        { "href": "/tours/paseo-kayak", "image": "/img/kayak-hero.png", "alt": "Sortie en kayak sur une rivière amazonienne", "number": "07 / Eau et forêt", "title": "Sortie en kayak", "summary": "Glissez sur l’eau et découvrez la forêt depuis une perspective proche et paisible.", "facts": [{ "label": "Activité", "value": "Kayak et navigation" }, { "label": "Disponibilité", "value": "À coordonner" }], "link": "Voir l’expérience", "featured": false, "wide": false },
+        { "href": "/tours/sabores-comunidad", "image": "/img/experiencia-cultural.webp", "alt": "Voyageurs partageant une soirée avec des hôtes locaux à Tambopata", "number": "08 / Culture et saveurs", "title": "Saveurs de la Communauté", "summary": "Découvrez des recettes, des ingrédients et des traditions culinaires partagés par les communautés locales d’Amazonie.", "facts": [{ "label": "Thème", "value": "Ingrédients et recettes" }, { "label": "Disponibilité", "value": "À coordonner" }], "link": "Voir l’expérience", "featured": false, "wide": false }
       ],
       "planning": {
         "eyebrow": "Avant de réserver",
@@ -1384,6 +1527,43 @@
         ]
       }
     },
+    "colpa": {
+      "eyebrow": "Une expérience, deux parcours",
+      "title": "Colpa : l’aube des oiseaux.",
+      "copy": "Avant que la forêt ne s’éveille complètement, la rivière mène à une rencontre calme et attentive avec les oiseaux de Tambopata.",
+      "note": "Images de référence remplaçables · Les observations dépendent de la saison et des conditions.",
+      "contact": "Demander des informations sur le parcours Colpa",
+      "routes": [
+        {
+          "number": "01",
+          "label": "Première lumière",
+          "tone": "loros",
+          "title": "Colpa de Loros",
+          "image": "/img/animales/aves-amazonicas-01.jpg",
+          "alt": "Perroquet amazonien parmi la végétation de la forêt",
+          "summary": "Une sortie matinale pour observer les perroquets en mouvement, écouter leurs appels et voir la forêt s’animer avec la première lumière.",
+          "facts": [
+            { "label": "Thème", "value": "Perroquets et perruches" },
+            { "label": "Rythme", "value": "Aube et navigation" }
+          ],
+          "link": "Demander des informations"
+        },
+        {
+          "number": "02",
+          "label": "Couleurs et vol",
+          "tone": "guacamayos",
+          "title": "Colpa de Guacamayos",
+          "image": "/img/guacamayo.webp",
+          "alt": "Ara rouge parmi les feuilles de la forêt amazonienne",
+          "summary": "Une expérience pour contempler le vol et les couleurs des aras, avec le temps d’observer sans perturber le rythme naturel de la colpa.",
+          "facts": [
+            { "label": "Thème", "value": "Aras et paysage" },
+            { "label": "Rythme", "value": "Observation posée" }
+          ],
+          "link": "Demander des informations"
+        }
+      ]
+    },
     "international": {
       "eyebrow": "Voyageurs internationaux · Assistance en anglais",
       "title": "Planifiez votre visite avec une assistance en anglais.",
@@ -1412,7 +1592,7 @@
       ]
     },
     "destination": {
-      "eyebrow": "Le cœur de la jungle",
+      "eyebrow": "Tambopata · Madre de Dios",
       "title": {
         "text": "Regardez l’Amazonie s’éveiller.",
         "emphasis": "s’éveiller."
@@ -1631,7 +1811,7 @@
     "language": "zh-CN",
     "nav": [
       "体验项目",
-      "目的地",
+      "坦博帕塔",
       "选择我们的理由",
       "联系我们"
     ],
@@ -1722,8 +1902,8 @@
         },
         {
           "href": "/tours/encuentro-amazonico",
-          "image": "/img/experiencia-cultural.webp",
-          "alt": "旅行者与坦博帕塔当地居民共度夜晚",
+          "image": "/img/community-flavors-preparation.png",
+          "alt": "旅行者与坦博帕塔当地接待者分享传统制作",
           "number": "04 / 当地文化",
           "title": "亚马逊文化体验",
           "summary": "与当地居民共度一晚，分享故事、美食与亚马逊传统。",
@@ -1755,7 +1935,12 @@
           "link": "查看体验",
           "featured": false,
           "wide": false
-        }
+        },
+        {
+          "href": "/tours/colpa", "image": "/img/animales/guacamayo.jpg", "alt": "亚马逊鸟类聚集地的金刚鹦鹉与鹦鹉", "number": "06 / 亚马逊鸟类", "title": "Colpa", "summary": "在第一缕晨光中观察鹦鹉和金刚鹦鹉，看雨林充满色彩与动静。", "facts": [{ "label": "活动", "value": "乘船与观察" }, { "label": "时间", "value": "晨光初现" }], "link": "查看体验", "featured": false, "wide": false
+        },
+        { "href": "/tours/paseo-kayak", "image": "/img/kayak-hero.png", "alt": "亚马逊河上的皮划艇体验", "number": "07 / 水与雨林", "title": "皮划艇之旅", "summary": "沿水面缓缓前行，从安静而贴近的角度欣赏雨林。", "facts": [{ "label": "活动", "value": "皮划艇与航行" }, { "label": "空位", "value": "提前协调" }], "link": "查看体验", "featured": false, "wide": false },
+        { "href": "/tours/sabores-comunidad", "image": "/img/experiencia-cultural.webp", "alt": "旅行者与坦博帕塔当地居民共度夜晚", "number": "08 / 文化与味道", "title": "社区风味", "summary": "了解亚马逊当地社区分享的食谱、食材与烹饪传统。", "facts": [{ "label": "重点", "value": "食材与食谱" }, { "label": "空位", "value": "提前协调" }], "link": "查看体验", "featured": false, "wide": false }
       ],
       "planning": {
         "eyebrow": "预订前须知",
@@ -1791,6 +1976,43 @@
         ]
       }
     },
+    "colpa": {
+      "eyebrow": "一次体验，两条路线",
+      "title": "Colpa：鸟儿开始新一天的地方。",
+      "copy": "在雨林完全苏醒之前，沿河前往坦博帕塔的鸟类聚集地，安静而专注地迎接第一缕光线。",
+      "note": "可替换的参考图片 · 鸟类观察取决于季节和当日条件。",
+      "contact": "咨询 Colpa 路线",
+      "routes": [
+        {
+          "number": "01",
+          "label": "晨光",
+          "tone": "loros",
+          "title": "Colpa de Loros",
+          "image": "/img/animales/aves-amazonicas-01.jpg",
+          "alt": "雨林植被中的亚马逊鹦鹉",
+          "summary": "清晨出发，观察鹦鹉和小型鹦鹉的飞行，聆听它们的叫声，看雨林在第一缕光线中苏醒。",
+          "facts": [
+            { "label": "主题", "value": "鹦鹉与小型鹦鹉" },
+            { "label": "节奏", "value": "清晨与乘船" }
+          ],
+          "link": "咨询此路线"
+        },
+        {
+          "number": "02",
+          "label": "色彩与飞行",
+          "tone": "guacamayos",
+          "title": "Colpa de Guacamayos",
+          "image": "/img/guacamayo.webp",
+          "alt": "亚马逊雨林树叶间的红色金刚鹦鹉",
+          "summary": "欣赏金刚鹦鹉的飞行与色彩，在不打扰鸟群自然节奏的前提下，留出时间安静观察。",
+          "facts": [
+            { "label": "主题", "value": "金刚鹦鹉与风景" },
+            { "label": "节奏", "value": "从容观察" }
+          ],
+          "link": "咨询此路线"
+        }
+      ]
+    },
     "international": {
       "eyebrow": "国际旅行者 · 英语服务",
       "title": "通过英语服务规划您的坦博帕塔之旅。",
@@ -1819,7 +2041,7 @@
       ]
     },
     "destination": {
-      "eyebrow": "雨林的脉动",
+      "eyebrow": "坦博帕塔 · 马德雷德迪奥斯",
       "title": {
         "text": "看亚马逊 从晨光中苏醒。",
         "emphasis": "从晨光中苏醒。"

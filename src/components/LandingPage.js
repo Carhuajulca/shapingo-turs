@@ -10,13 +10,12 @@ function EmHeading({ heading }) {
   return <>{heading.text.slice(0, index)}<em>{heading.emphasis}</em>{heading.text.slice(index + heading.emphasis.length)}</>;
 }
 
-const whatsapp = "https://wa.me/51926284415";
+const whatsapp = "https://wa.me/51917906162";
 
 export default function LandingPage({ language, content }) {
-  const base = `/${language}/`;
   const contactHref = `${whatsapp}?text=${encodeURIComponent(content.hero.primary)}`;
   return <>
-    <Header language={language} nav={content.nav} />
+    <Header language={language} nav={content.nav} contactLabel={content.hero.primary} contactHref={contactHref} />
     <header className="hero" id="inicio">
       <HeroVideos />
       <div className="hero-content">
@@ -36,18 +35,44 @@ export default function LandingPage({ language, content }) {
       <section className="experiences" id="experiencias">
         <div className="section-heading"><p className="eyebrow dark">{content.experiences.eyebrow}</p><h2>{content.experiences.title}</h2><p className="section-copy">{content.experiences.copy}</p></div>
         <div className="experience-grid">
-          {content.experiences.cards.map((card) => <article className={`experience-card${card.featured ? " experience-card-featured" : ""}${card.wide ? " experience-card-wide" : ""}`} key={card.href}>
+          {content.experiences.cards.map((card) => <a className={`experience-card${card.featured ? " experience-card-featured" : ""}${card.wide ? " experience-card-wide" : ""}`} href={`/${language}${card.href}/`} key={card.href}>
             <img src={card.image} alt={card.alt} loading="lazy" width="900" height="700" />
             <div className="card-overlay" />
             <div className="card-content"><p className="card-number">{card.number}</p><h3>{card.title}</h3><p className="experience-summary">{card.summary}</p>
               <div className="experience-facts">{card.facts.map((fact) => <span key={`${fact.label}-${fact.value}`}><small>{fact.label}</small><b>{fact.value}</b></span>)}</div>
-              <a className="card-link" href={`/${language}${card.href}/`}>{card.link} <span aria-hidden="true">↗</span></a>
+              <span className="card-link">{card.link} <span aria-hidden="true">↗</span></span>
             </div>
-          </article>)}
+          </a>)}
         </div>
         <div className="experience-planning">
           <div className="planning-intro"><p className="eyebrow dark">{content.experiences.planning.eyebrow}</p><h3>{content.experiences.planning.title}</h3><p className="planning-copy">{content.experiences.planning.copy}</p><a className="planning-link" href={contactHref} target="_blank" rel="noopener noreferrer">{content.experiences.planning.contact} <span>↗</span></a><a className="planning-link program-link" href={`/${language}/tours/programa-4-dias/`}>{content.experiences.planning.program} <span>↗</span></a></div>
           <dl className="planning-grid">{content.experiences.planning.facts.map((fact) => <div key={fact.label}><dt>{fact.label}</dt><dd>{fact.value}</dd></div>)}</dl>
+        </div>
+      </section>
+
+      <section className="colpa" id="colpa" aria-labelledby="colpa-title">
+        <div className="colpa-heading">
+          <div>
+            <p className="eyebrow dark">{content.colpa.eyebrow}</p>
+            <h2 id="colpa-title">{content.colpa.title}</h2>
+          </div>
+          <p>{content.colpa.copy}</p>
+        </div>
+        <p className="colpa-note"><span aria-hidden="true">↳</span>{content.colpa.note}</p>
+        <div className="colpa-routes">
+          {content.colpa.routes.map((route) => <article className={`colpa-route colpa-route-${route.tone}`} key={route.title}>
+            <div className="colpa-route-media">
+              <img src={route.image} alt={route.alt} loading="lazy" width="900" height="700" />
+              <span className="colpa-route-number">{route.number}</span>
+              <span className="colpa-route-label">{route.label}</span>
+            </div>
+            <div className="colpa-route-content">
+              <h3>{route.title}</h3>
+              <p>{route.summary}</p>
+              <div className="colpa-route-facts">{route.facts.map((fact) => <span key={fact.label}><small>{fact.label}</small><b>{fact.value}</b></span>)}</div>
+              <a className="colpa-route-link" href={`${whatsapp}?text=${encodeURIComponent(`${content.colpa.contact}: ${route.title}`)}`} target="_blank" rel="noopener noreferrer">{route.link} <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>)}
         </div>
       </section>
 
@@ -82,6 +107,9 @@ export default function LandingPage({ language, content }) {
       <section className="contact" id="contacto"><div className="contact-inner"><p className="eyebrow">{content.contact.eyebrow}</p><h2 id="contact-title">{content.contact.title}</h2><p>{content.contact.copy}</p><div className="contact-promises">{content.contact.promises.map((item) => <span key={item}>{item}</span>)}</div><ContactForm language={language} content={content.contact} /></div><div className="contact-details"><span>SHAPINGO TURS S.A.C.</span><span>RUC 20607382345</span><span>Madre de Dios · Perú</span></div></section>
     </main>
     <Footer language={language} content={content.footer} />
-    <a className="mobile-contact" href={contactHref} target="_blank" rel="noopener noreferrer" aria-label={content.hero.primary}>WhatsApp</a>
+    <div className="mobile-actions" aria-label={content.hero.primary}>
+      <a className="mobile-experiences" href="#experiencias">{content.hero.secondary}</a>
+      <a className="mobile-contact" href={contactHref} target="_blank" rel="noopener noreferrer">{content.hero.primary}<span aria-hidden="true">↗</span></a>
+    </div>
   </>;
 }

@@ -1,40 +1,29 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 
-const videos = [
-  "/img/hero-tambopata-optimized.mp4",
-  "/img/hero-rio.mp4",
-  "/img/hero-navegacion.mp4",
-];
+const video = "/img/hero-tambopata-optimized.mp4";
 
 export default function HeroVideos() {
-  const refs = useRef([]);
-  const [active, setActive] = useState(0);
+  const ref = useRef(null);
 
   useEffect(() => {
-    const current = refs.current[active];
-    current?.play().catch(() => {});
-    const timer = window.setTimeout(() => {
-      current?.pause();
-      setActive((value) => (value + 1) % videos.length);
-    }, 9000);
-    return () => window.clearTimeout(timer);
-  }, [active]);
+    ref.current?.play().catch(() => {});
+  }, []);
 
-  return videos.map((src, index) => (
+  return (
     <video
-      key={src}
-      ref={(element) => { refs.current[index] = element; }}
-      className={`hero-video${active === index ? " is-active" : ""}`}
+      ref={ref}
+      className="hero-video is-active"
       muted
+      autoPlay
+      loop
       playsInline
-      preload={index === 0 ? "metadata" : "none"}
-      poster={index === 0 ? "/img/hero-tambopata-poster.webp" : undefined}
+      preload="metadata"
+      poster="/img/hero-tambopata-poster.webp"
       aria-hidden="true"
-      onEnded={() => setActive((value) => (value + 1) % videos.length)}
     >
-      <source src={src} type="video/mp4" />
+      <source src={video} type="video/mp4" />
     </video>
-  ));
+  );
 }

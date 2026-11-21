@@ -10,7 +10,7 @@ const languages = [
   { id: "zh-cn", code: "ZH", name: "中文" },
 ];
 
-export default function Header({ language = "es", nav, currentPath = "/" }) {
+export default function Header({ language = "es", nav, currentPath = "/", contactLabel = "Consultar", contactHref }) {
   const [menuOpen, setMenuOpen] = useState(false);
   const [languagesOpen, setLanguagesOpen] = useState(false);
   const pickerRef = useRef(null);
@@ -28,7 +28,7 @@ export default function Header({ language = "es", nav, currentPath = "/" }) {
   return (
     <nav className="nav" aria-label="Navegación principal">
       <a className="brand" href={base} aria-label="Shapingo Turs inicio">
-        <img className="brand-mark" src="/Shapingo log.svg" alt="Shapingo Turs" width="130" height="60" />
+        <img className="brand-mark" src="/img/shapingo-turs-logo.png" alt="Shapingo Turs" width="217" height="73" />
       </a>
       <button
         className="menu-toggle"
@@ -48,6 +48,7 @@ export default function Header({ language = "es", nav, currentPath = "/" }) {
           <a href={`${base}#nosotros`} onClick={() => setMenuOpen(false)}>{nav[2]}</a>
           <a href={`${base}#contacto`} onClick={() => setMenuOpen(false)}>{nav[3]}</a>
         </div>
+        <a className="nav-contact" href={contactHref || `${base}#contacto`} target={contactHref ? "_blank" : undefined} rel={contactHref ? "noopener noreferrer" : undefined} onClick={() => setMenuOpen(false)}>{contactLabel}<span aria-hidden="true">↗</span></a>
         <div className="language-picker" ref={pickerRef}>
           <button
             className="lang-trigger"

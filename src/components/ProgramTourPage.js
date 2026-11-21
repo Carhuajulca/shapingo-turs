@@ -16,7 +16,7 @@ const services = {
 
 export default function ProgramTourPage({ language = "es" }) {
   const p=getProgram(language), ui=tourUi[language], path="/tours/programa-4-dias/";
-  const contactHref="https://wa.me/51926284415";
+  const contactHref="https://wa.me/51917906162";
   return <div className="tour-page"><TourHeader language={language} currentPath={path}/><header className="tour-hero" style={{backgroundImage:"linear-gradient(90deg,rgba(3,28,42,.92),rgba(3,28,42,.28)),url(/img/lago-sandoval.webp)"}}><div className="tour-hero-content"><a className="tour-breadcrumb" href={`/${language}/#experiencias`}>← {p.back}</a><p className="eyebrow">{p.eyebrow}</p><h1>{p.title}</h1><p className="tour-hero-copy">{p.intro}</p><div className="tour-hero-actions"><a className="button button-primary" href={contactHref} target="_blank" rel="noopener noreferrer">{p.consult} <span>↗</span></a><a className="button button-quiet" href="#itinerario">{p.itinerary}</a></div></div></header><main>
   <section className="tour-overview"><div className="tour-overview-copy"><p className="eyebrow dark">{p.experience}</p><h2>{p.overviewTitle}</h2>{p.overview.map(x=><p key={x}>{x}</p>)}</div><dl className="tour-facts">{p.facts.map(([l,v])=><div key={l}><dt>{l}</dt><dd>{v}</dd></div>)}</dl></section>
   <section className="tour-journey" id="itinerario"><div className="tour-journey-heading"><h2>{p.journeyTitle}</h2><p>{p.journeyCopy}</p></div><div className="tour-steps program-steps">{p.days.map(d=><article className="tour-step" key={d.number}><span>{d.number}</span><h3>{d.title}</h3><p className="day-description">{d.copy}</p></article>)}</div></section>

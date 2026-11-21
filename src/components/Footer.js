@@ -3,7 +3,7 @@ export default function Footer({ language = "es", content }) {
   return (
     <footer className="footer">
       <a className="footer-brand" href={base} aria-label="Shapingo Turs inicio">
-        <img src="/Shapingo log.svg" alt="Shapingo Turs" width="120" height="55" />
+        <img src="/img/shapingo-turs-logo.png" alt="Shapingo Turs" width="217" height="73" />
       </a>
       <div className="footer-copy"><strong>{content.title}</strong><span>{content.location}</span></div>
       <div className="footer-links">
@@ -14,7 +14,7 @@ export default function Footer({ language = "es", content }) {
         <a href={`/${language}/legal/`}>{content.links[4]}</a>
       </div>
       <div className="footer-contact">
-        <a href="https://wa.me/51926284415" target="_blank" rel="noopener noreferrer">WhatsApp · +51 926 284 415</a><a href="mailto:shapingotoursperu@gmail.com">shapingotoursperu@gmail.com</a>
+        <a href="https://wa.me/51917906162" target="_blank" rel="noopener noreferrer">WhatsApp · +51 917 906 162</a><a href="mailto:shapingotoursperu@gmail.com">shapingotoursperu@gmail.com</a>
         <span>© 2026</span>
       </div>
     </footer>
