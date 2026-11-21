@@ -443,9 +443,9 @@
         "Necesito una recomendación"
       ],
       "consent": "He leído y acepto los términos del servicio , la política de cancelación y la política de privacidad .",
-      "submit": "Preparar consulta por correo",
-      "note": "Al continuar, se abrirá tu aplicación de correo con la consulta preparada. Podrás revisarla antes de enviarla.",
-      "ready": "Tu consulta está lista.",
+      "submit": "Enviar consulta",
+      "note": "Tu consulta llegará directamente a nuestro equipo. Te responderemos al correo que indiques.",
+      "ready": "Tu consulta fue enviada correctamente.",
       "copyButton": "Copiar mensaje"
     },
     "footer": {
@@ -892,9 +892,9 @@
         "I need a recommendation"
       ],
       "consent": "I have read and accept the terms of service , the cancellation policy and the privacy policy .",
-      "submit": "Prepare email inquiry",
-      "note": "Your email application will open with the prepared inquiry. You can review it before sending.",
-      "ready": "Your inquiry is ready.",
+      "submit": "Send inquiry",
+      "note": "Your inquiry will go directly to our team. We will reply to the email you provide.",
+      "ready": "Your inquiry was sent successfully.",
       "copyButton": "Copy message"
     },
     "footer": {
@@ -1341,9 +1341,9 @@
         "Ho bisogno di un consiglio"
       ],
       "consent": "Ho letto e accetto i termini del servizio , la politica di cancellazione e la politica sulla privacy .",
-      "submit": "Prepara la richiesta via e-mail",
-      "note": "Si aprirà la tua applicazione e-mail con la richiesta pronta. Potrai rivederla prima di inviarla.",
-      "ready": "La tua richiesta è pronta.",
+      "submit": "Invia richiesta",
+      "note": "La tua richiesta arriverà direttamente al nostro team. Risponderemo all’indirizzo e-mail indicato.",
+      "ready": "La tua richiesta è stata inviata correttamente.",
       "copyButton": "Copia messaggio"
     },
     "footer": {
@@ -1790,9 +1790,9 @@
         "J’ai besoin d’un conseil"
       ],
       "consent": "J’ai lu et j’accepte les conditions de service , la politique d’annulation et la politique de confidentialité .",
-      "submit": "Préparer la demande par e-mail",
-      "note": "Votre application de messagerie s’ouvrira avec la demande préparée. Vous pourrez la vérifier avant l’envoi.",
-      "ready": "Votre demande est prête.",
+      "submit": "Envoyer la demande",
+      "note": "Votre demande sera envoyée directement à notre équipe. Nous répondrons à l’adresse indiquée.",
+      "ready": "Votre demande a été envoyée avec succès.",
       "copyButton": "Copier le message"
     },
     "footer": {
@@ -2239,9 +2239,9 @@
         "需要建议"
       ],
       "consent": "我已阅读并接受 服务条款 、 取消政策 和 隐私政策 。",
-      "submit": "准备电子邮件咨询",
-      "note": "继续后，系统将打开已准备好的电子邮件。发送前您可以检查和修改内容。",
-      "ready": "您的电子邮件内容已准备好。",
+      "submit": "发送咨询",
+      "note": "您的咨询将直接发送给我们的团队。我们会回复您填写的电子邮箱。",
+      "ready": "您的咨询已成功发送。",
       "copyButton": "复制邮件内容"
     },
     "footer": {
