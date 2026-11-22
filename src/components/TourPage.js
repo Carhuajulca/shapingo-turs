@@ -27,7 +27,7 @@ export default function TourPage({ tour, slug, language = "es" }) {
       {slug === "encuentro-amazonico" && language === "es" && <EncounterStory />}
       {slug === "fauna-aves" && language === "es" && <WildlifeStory />}
       {slug === "caminata-nocturna" && language === "es" && <NightWalkStory />}
-      {slug === "rio-tambopata" && language === "es" && <RiverStory />}
+      {slug === "rio-tambopata" && <RiverStory language={language} />}
       {slug === "colpa" && <ColpaGallery language={language} />}
       {slug === "paseo-kayak" && <KayakStory language={language} />}
       {slug === "sabores-comunidad" && <CommunityFlavorsStory language={language} />}
