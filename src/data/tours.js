@@ -9,7 +9,7 @@ export const tours = {
     notesTitle: "Antes de salir.", notes: ["Recibirás una lista de artículos recomendados.", "La observación de fauna nunca puede garantizarse.", "El punto de encuentro se coordina previamente.", "Consulta disponibilidad para tus fechas."], cta: "¿Quieres conocer Lago Sandoval?", ctaCopy: "Cuéntanos tus fechas y el número de viajeros."
   },
   "rio-tambopata": {
-    eyebrow: "Aventura · Paisaje", title: "Río Tambopata", image: "/img/rio-tambopata.webp",
+    eyebrow: "Aventura · Paisaje", title: "Safari por el río Tambopata", image: "/img/rio-tambopata.webp",
     intro: "Navega entre bosque, orillas y amplios horizontes para descubrir cómo el río marca el ritmo de la Amazonía.",
     overviewTitle: "La selva vista desde el agua.", overview: ["El río ofrece una lectura distinta del territorio: playas temporales, paredes de bosque y cambios de luz que transforman el paisaje durante el recorrido.", "La ruta y el horario se coordinan según la temporada, las condiciones del río y las fechas del viajero."],
     facts: [["Modalidad", "Navegación"], ["Enfoque", "Aventura y paisaje"], ["Duración", "Se confirma al reservar"], ["Disponibilidad", "Consulta para tus fechas"]],
