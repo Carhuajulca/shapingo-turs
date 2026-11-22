@@ -51,8 +51,9 @@ export default function ContactForm({ language, content }) {
     setIsSending(true);
     setStatus("");
     try {
-      const response = await fetch("/api/contact", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ name: data.get("nombre"), email: data.get("correo"), experience, date: data.get("fecha"), travelers: data.get("viajeros"), language, website: data.get("website") }) });
-      if (!response.ok) throw new Error("Unable to send message.");
+      const response = await fetch("/api/contact/", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ name: data.get("nombre"), email: data.get("correo"), experience, date: data.get("fecha"), travelers: data.get("viajeros"), language, website: data.get("website") }) });
+      const result = await response.json().catch(() => null);
+      if (!response.ok || !result?.ok) throw new Error("Unable to send message.");
       setPreparedMessage(message);
       setStatus("sent");
       event.currentTarget.reset();
