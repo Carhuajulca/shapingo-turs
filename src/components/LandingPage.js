@@ -51,32 +51,6 @@ export default function LandingPage({ language, content }) {
         </div>
       </section>
 
-      <section className="colpa" id="colpa" aria-labelledby="colpa-title">
-        <div className="colpa-heading">
-          <div>
-            <p className="eyebrow dark">{content.colpa.eyebrow}</p>
-            <h2 id="colpa-title">{content.colpa.title}</h2>
-          </div>
-          <p>{content.colpa.copy}</p>
-        </div>
-        <p className="colpa-note"><span aria-hidden="true">↳</span>{content.colpa.note}</p>
-        <div className="colpa-routes">
-          {content.colpa.routes.map((route) => <article className={`colpa-route colpa-route-${route.tone}`} key={route.title}>
-            <div className="colpa-route-media">
-              <OptimizedImage src={route.image} alt={route.alt} loading="lazy" width="900" height="700" />
-              <span className="colpa-route-number">{route.number}</span>
-              <span className="colpa-route-label">{route.label}</span>
-            </div>
-            <div className="colpa-route-content">
-              <h3>{route.title}</h3>
-              <p>{route.summary}</p>
-              <div className="colpa-route-facts">{route.facts.map((fact) => <span key={fact.label}><small>{fact.label}</small><b>{fact.value}</b></span>)}</div>
-              <a className="colpa-route-link" href={`${whatsapp}?text=${encodeURIComponent(`${content.colpa.contact}: ${route.title}`)}`} target="_blank" rel="noopener noreferrer">{route.link} <span aria-hidden="true">↗</span></a>
-            </div>
-          </article>)}
-        </div>
-      </section>
-
       <section className="international" aria-labelledby="international-title">
         <figure className="international-media">
           <OptimizedImage src="/img/international-travelers.webp" alt={content.international.imageAlt} loading="lazy" width="900" height="1200" />

@@ -173,40 +173,6 @@ h1 em { display: block; color: var(--sun); font-weight: 500; letter-spacing: -0.
 .planning-grid dt { color: var(--clay); font-size: 9px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; }
 .planning-grid dd { margin: 8px 0 0; color: var(--deep); font-size: 13px; font-weight: 600; line-height: 1.45; }
 
-.colpa { padding: 118px max(32px, calc((100vw - var(--content)) / 2)) 132px; color: var(--deep); background: #fff; }
-.colpa-heading { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(260px, .9fr); gap: 70px; align-items: end; }
-.colpa-heading h2 { max-width: 690px; margin: 0; font-family: 'Alegreya', Georgia, serif; font-size: clamp(3rem, 6vw, 6.2rem); font-weight: 500; letter-spacing: -.07em; line-height: .9; }
-.colpa-heading > p { max-width: 400px; margin: 0 0 6px; color: rgba(18, 56, 71, .68); font-size: 14px; line-height: 1.8; }
-.colpa-note { display: flex; align-items: center; gap: 11px; margin: 36px 0 28px; color: rgba(18, 56, 71, .54); font-size: 11px; letter-spacing: .05em; }
-.colpa-note span { color: var(--clay); font-size: 18px; }
-.colpa-routes { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
-.colpa-route { display: grid; grid-template-rows: 310px 1fr; overflow: hidden; border: 1px solid rgba(5, 45, 67, .13); border-radius: 24px; background: var(--sand); box-shadow: 0 18px 50px rgba(5, 45, 67, .08); }
-.colpa-route-loros { background: #f8f1dc; }
-.colpa-route-guacamayos { color: var(--ink); background: var(--deep); }
-.colpa-route-media { position: relative; overflow: hidden; }
-.colpa-route-media::after { position: absolute; inset: 0; content: ''; background: linear-gradient(0deg, rgba(3, 38, 55, .72), transparent 62%); pointer-events: none; }
-.colpa-route-guacamayos .colpa-route-media::after { background: linear-gradient(0deg, rgba(3, 38, 55, .86), transparent 62%); }
-.colpa-route-media img { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform 700ms cubic-bezier(.2, .7, .2, 1); }
-.colpa-route:hover .colpa-route-media img { transform: scale(1.045); }
-.colpa-route-loros .colpa-route-media img { object-position: center 44%; }
-.colpa-route-guacamayos .colpa-route-media img { object-position: center 46%; }
-.colpa-route-number, .colpa-route-label { position: absolute; z-index: 1; bottom: 20px; color: #fff; font-size: 10px; font-weight: 700; letter-spacing: .13em; text-transform: uppercase; }
-.colpa-route-number { left: 22px; color: var(--sun); }
-.colpa-route-label { right: 22px; opacity: .82; }
-.colpa-route-content { display: flex; flex-direction: column; padding: 29px 28px 27px; }
-.colpa-route h3 { margin: 0; font-family: 'Alegreya', Georgia, serif; font-size: clamp(2rem, 3.2vw, 3.2rem); font-weight: 500; letter-spacing: -.055em; line-height: .95; }
-.colpa-route-content > p { max-width: 440px; margin: 15px 0 0; color: rgba(18, 56, 71, .7); font-size: 13px; line-height: 1.7; }
-.colpa-route-guacamayos .colpa-route-content > p { color: rgba(248, 244, 233, .68); }
-.colpa-route-facts { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 24px; padding-top: 16px; border-top: 1px solid rgba(5, 45, 67, .14); }
-.colpa-route-guacamayos .colpa-route-facts { border-top-color: rgba(248, 244, 233, .2); }
-.colpa-route-facts span { display: grid; gap: 5px; min-width: 0; }
-.colpa-route-facts small { color: var(--clay); font-size: 8px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
-.colpa-route-guacamayos .colpa-route-facts small { color: var(--sun); }
-.colpa-route-facts b { color: var(--deep); font-size: 12px; font-weight: 600; line-height: 1.35; }
-.colpa-route-guacamayos .colpa-route-facts b { color: var(--ink); }
-.colpa-route-link { display: inline-flex; align-items: center; gap: 14px; width: max-content; margin-top: auto; padding-top: 25px; color: var(--river); font-size: 11px; font-weight: 700; }
-.colpa-route-link span { color: var(--clay); font-size: 17px; }
-.colpa-route-guacamayos .colpa-route-link { color: var(--sun); }
 .colpa-story-section, .colpa-story-video { padding: 100px max(32px, calc((100vw - var(--content)) / 2)); }
 .colpa-story-section { background: var(--sand); }
 .colpa-story-section:nth-child(2) { background: #fff; }
@@ -391,7 +357,15 @@ h1 em { display: block; color: var(--sun); font-weight: 500; letter-spacing: -0.
 .footer-copy, .footer-links, .footer-contact { display: grid; gap: 10px; }
 .footer-copy strong { color: var(--deep); font-size: 12px; font-weight: 600; }
 .footer-copy span, .footer-links, .footer-contact { color: rgba(5, 45, 67, 0.68); font-size: 11px; line-height: 1.5; }
-.footer a { transition: color 180ms ease; }
+.footer-socials { display: flex; gap: 10px; }
+.footer-socials a { display: inline-flex; align-items: center; justify-content: center; width: 42px; height: 42px; border: 1px solid rgba(5, 45, 67, 0.16); border-radius: 50%; color: var(--deep); }
+.footer-socials a:hover { transform: translateY(-2px); }
+.footer-socials svg { width: 22px; height: 22px; }
+.footer-socials .footer-social-whatsapp { color: #fff; background: #25d366; border-color: #25d366; }
+.footer-socials .footer-social-instagram { color: #fff; background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5); border-color: transparent; }
+.footer-socials .footer-social-email { color: #fff; background: var(--deep); border-color: var(--deep); }
+.footer-socials .footer-social-whatsapp:hover, .footer-socials .footer-social-instagram:hover, .footer-socials .footer-social-email:hover { color: #fff; filter: brightness(0.92); }
+.footer a { transition: color 180ms ease, transform 180ms ease, filter 180ms ease; }
 .footer a:hover { color: var(--river); }
 .mobile-actions { display: none; }
 
@@ -423,9 +397,6 @@ h1 em { display: block; color: var(--sun); font-weight: 500; letter-spacing: -0.
   .experience-grid { grid-template-columns: 1fr; }
   .experience-card, .experience-card-featured { min-height: 0; grid-row: auto; }
   .experience-planning { grid-template-columns: 1fr; padding: 36px; }
-  .colpa-heading { grid-template-columns: 1fr; gap: 24px; }
-  .colpa-heading > p { max-width: 620px; }
-  .colpa-routes { grid-template-columns: 1fr; }
   .wildlife { display: block; padding-inline: 32px; }
   .wildlife-intro { max-width: 520px; }
   .wildlife-gallery { margin-top: 54px; }
@@ -448,7 +419,7 @@ h1 em { display: block; color: var(--sun); font-weight: 500; letter-spacing: -0.
   .hero-trust { gap: 7px; margin-top: 23px; }
   .hero-trust span { padding: 7px 9px; font-size: 9px; }
   .hero-footer { align-items: flex-start; flex-direction: column; gap: 14px; margin-bottom: 22px; }
-  .experiences, .colpa, .wildlife, .values, .booking, .faq { padding: 88px 20px 96px; }
+  .experiences, .wildlife, .values, .booking, .faq { padding: 88px 20px 96px; }
   .international { display: block; padding: 78px 20px 86px; }
   .international-media { min-height: 520px; border-radius: 20px; }
   .international-content { margin-top: 42px; }
