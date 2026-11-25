@@ -5,6 +5,7 @@ import { relatedTours } from "@/data/tours";
 import OptimizedImage from "@/components/OptimizedImage";
 
 export default function RelatedToursCarousel({ current, language = "es", labels, titles }) {
+  const navigationLabels = { es: ["Ver experiencias anteriores", "Ver más experiencias"], en: ["Previous experiences", "More experiences"], it: ["Esperienze precedenti", "Altre esperienze"], fr: ["Expériences précédentes", "Autres expériences"], "zh-cn": ["查看之前的体验", "查看更多体验"], de: ["Vorherige Erlebnisse", "Weitere Erlebnisse"] };
   const trackRef = useRef(null);
   const tours = relatedTours.filter(([slug]) => slug !== current);
   const move = (direction) => trackRef.current?.scrollBy({ left: direction * trackRef.current.clientWidth * 0.78, behavior: "smooth" });
@@ -22,7 +23,7 @@ export default function RelatedToursCarousel({ current, language = "es", labels,
   }, []);
 
   return <section className="tour-related">
-    <div className="tour-related-heading"><div><p className="eyebrow dark">{labels.eyebrow}</p><h2>{labels.title}</h2></div><div className="tour-related-actions"><button type="button" aria-label="Ver experiencias anteriores" onClick={() => move(-1)}>←</button><button type="button" aria-label="Ver más experiencias" onClick={() => move(1)}>→</button></div></div>
+    <div className="tour-related-heading"><div><p className="eyebrow dark">{labels.eyebrow}</p><h2>{labels.title}</h2></div><div className="tour-related-actions"><button type="button" aria-label={navigationLabels[language][0]} onClick={() => move(-1)}>←</button><button type="button" aria-label={navigationLabels[language][1]} onClick={() => move(1)}>→</button></div></div>
     <div className="tour-related-track" ref={trackRef}>{tours.map(([slug, title, image]) => <a className="tour-related-card" href={`/${language}/tours/${slug}/`} key={slug}><OptimizedImage src={image} alt="" loading="lazy" /><span>{titles?.[slug] || title}</span><b aria-hidden="true">↗</b></a>)}</div>
   </section>;
 }

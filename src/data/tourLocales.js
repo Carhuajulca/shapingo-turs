@@ -1,7 +1,10 @@
 import { tours as spanishTours } from "@/data/tours";
 import { extraTourLocales } from "@/data/extraTourLocales";
+import { germanTours } from "@/data/germanTours";
+import { germanTourUi } from "@/data/germanProgram";
 
 export const tourUi = {
+  de: germanTourUi,
   es: { back: "Experiencias", experience: "La experiencia", consult: "Consultar experiencia", route: "Ver recorrido", relatedEyebrow: "También puedes explorar", relatedTitle: "Otras experiencias en Tambopata.", whatsapp: "Consultar por WhatsApp", titles: { "lago-sandoval": "Lago Sandoval", "lago-yacumama": "Lago Yacumama", "rio-tambopata": "Safari por el río Tambopata", "fauna-aves": "Fauna y aves", "encuentro-amazonico": "Vida y cultura amazónica", "caminata-nocturna": "Caminata nocturna", colpa: "Collpa de Guacamayos", "collpa-loros": "Collpa de Loros", "paseo-kayak": "Paseo en kayak", "sabores-comunidad": "Inmersión gastronómica" } },
   en: { back: "Experiences", experience: "The experience", consult: "Ask about this experience", route: "View itinerary", relatedEyebrow: "You may also explore", relatedTitle: "More experiences in Tambopata.", whatsapp: "Ask on WhatsApp", titles: { "lago-sandoval": "Sandoval Lake", "lago-yacumama": "Yacumama Lake", "rio-tambopata": "Safari on the Tambopata River", "fauna-aves": "Wildlife and birds", "encuentro-amazonico": "Amazonian encounter", "caminata-nocturna": "Night walk", colpa: "Macaw Clay Lick", "collpa-loros": "Parrot Clay Lick", "paseo-kayak": "Kayak outing", "sabores-comunidad": "Community Flavors" } },
   it: { back: "Esperienze", experience: "L’esperienza", consult: "Chiedi informazioni", route: "Vedi il percorso", relatedEyebrow: "Puoi anche esplorare", relatedTitle: "Altre esperienze a Tambopata.", whatsapp: "Contattaci su WhatsApp", titles: { "lago-sandoval": "Lago Sandoval", "lago-yacumama": "Lago Yacumama", "rio-tambopata": "Safari sul fiume Tambopata", "fauna-aves": "Fauna e uccelli", "encuentro-amazonico": "Incontro amazzonico", "caminata-nocturna": "Camminata notturna", colpa: "Collpa degli Ara", "collpa-loros": "Collpa dei Pappagalli", "paseo-kayak": "Escursione in kayak", "sabores-comunidad": "Sapori della Comunità" } },
@@ -113,6 +116,7 @@ for (const [language, tours] of Object.entries(extraTourLocales)) {
 }
 
 export function getTour(language, slug) {
+  if (language === "de") return germanTours[slug];
   if (language === "es") return spanishTours[slug];
   const translation = translations[language]?.[slug];
   return translation ? { ...translation, image: spanishTours[slug]?.image } : undefined;

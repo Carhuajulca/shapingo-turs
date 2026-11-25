@@ -9,6 +9,7 @@ const languages = [
   { id: "it", code: "IT", name: "Italiano" },
   { id: "fr", code: "FR", name: "Français" },
   { id: "zh-cn", code: "ZH", name: "中文" },
+  { id: "de", code: "DE", name: "Deutsch" },
 ];
 const accessibility = {
   es: { nav: "Navegación principal", home: "Inicio de Shapingo Turs", open: "Abrir menú", close: "Cerrar menú", select: "Seleccionar idioma", available: "Idiomas disponibles" },
@@ -16,6 +17,7 @@ const accessibility = {
   it: { nav: "Navigazione principale", home: "Home di Shapingo Turs", open: "Apri menu", close: "Chiudi menu", select: "Seleziona lingua", available: "Lingue disponibili" },
   fr: { nav: "Navigation principale", home: "Accueil de Shapingo Turs", open: "Ouvrir le menu", close: "Fermer le menu", select: "Choisir la langue", available: "Langues disponibles" },
   "zh-cn": { nav: "主导航", home: "Shapingo Turs 首页", open: "打开菜单", close: "关闭菜单", select: "选择语言", available: "可用语言" },
+  de: { nav: "Hauptnavigation", home: "Shapingo Turs Startseite", open: "Menü öffnen", close: "Menü schließen", select: "Sprache wählen", available: "Verfügbare Sprachen" },
 };
 
 export default function Header({ language = "es", nav, currentPath = "/", contactLabel = "Consultar", contactHref }) {

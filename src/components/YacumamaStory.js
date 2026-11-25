@@ -3,6 +3,7 @@ import OptimizedImage from "@/components/OptimizedImage";
 const images = ["/img/lago-yacumama-navegacion.webp", "/img/lago-yacumama-pesca.webp", "/img/lago-yacumama-paisaje.webp"];
 
 const copy = {
+  de: { eyebrow: "Das Erlebnis am See", title: "Ruhig fahren. Zum Angeln anhalten.", intro: "Entdecken Sie den Yacumama-See vom Wasser aus: zwischen Palmen, Wasserpflanzen und Spiegelungen.", scenes: [["01", "Die Landschaft erkunden", "Steigen Sie ins Boot und fahren Sie mit dem Guide durch die Kanäle. Palmen, Seerosen und das Leben am Wasser werden sichtbar.", "Gäste im Boot auf dem Yacumama-See"], ["02", "Angelpause", "Versuchen Sie sich an einem geeigneten Ort im Freizeitangeln. Ob ein Fang gelingt, hängt von den Bedingungen ab.", "Gast mit einem Fisch am Yacumama-See"], ["03", "Den See erneut betrachten", "Nach dem Angeln geht die Fahrt zwischen Seerosen und Palmen weiter. Genießen Sie die Landschaft und ihre Geräusche.", "Seerosen und Palmen am Yacumama-See"]], closing: "Nach der Angelpause bleibt Zeit, die Landschaft und die Pflanzenwelt in Ruhe zu erleben." },
   es: {
     eyebrow: "La experiencia en el lago",
     title: "Navegar despacio. Detenerse a pescar.",

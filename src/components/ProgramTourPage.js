@@ -2,6 +2,7 @@ import { RelatedTours, TourFooter, TourHeader } from "@/components/TourShell";
 import { getProgram } from "@/data/programLocales";
 import { tourUi } from "@/data/tourLocales";
 import OptimizedImage from "@/components/OptimizedImage";
+import { germanProgramPrep, germanProgramServices } from "@/data/germanProgram";
 
 const prep = {
   es:[["Clima y ropa","Calor, humedad y posibles lluvias. Lleva ropa ligera de manga larga, impermeable y calzado cerrado."],["Protección personal","Lleva repelente, protector solar, sombrero, botella reutilizable y linterna."],["Salud","Informa alergias, restricciones alimentarias y condiciones médicas. Consulta las vacunas con un profesional."],["Dinero y conectividad","Lleva efectivo en soles. La señal móvil e internet pueden ser limitados."],["Equipaje","Usa equipaje ligero, mochila de día y protección para documentos y cámara."],["Requisitos","Se requiere movilidad para senderos irregulares y embarcaciones."]],
@@ -14,6 +15,8 @@ const prep = {
 const services = {
   es:["Habitación privada","Baño privado","Agua caliente","Electricidad","Restaurante","Comidas preparadas diariamente"], en:["Private room","Private bathroom","Hot water","Electricity","Restaurant","Fresh meals"], it:["Camera privata","Bagno privato","Acqua calda","Elettricità","Ristorante","Pasti preparati ogni giorno"], fr:["Chambre privée","Salle de bains privée","Eau chaude","Électricité","Restaurant","Repas préparés chaque jour"], "zh-cn":["独立房间","独立浴室","热水","电力","餐厅","每日新鲜餐食"]
 };
+prep.de = germanProgramPrep;
+services.de = germanProgramServices;
 
 export default function ProgramTourPage({ language = "es" }) {
   const p=getProgram(language), ui=tourUi[language], path="/tours/programa-4-dias/";

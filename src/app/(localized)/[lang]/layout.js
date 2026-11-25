@@ -2,7 +2,7 @@ import "../../globals.css";
 import { notFound } from "next/navigation";
 import GoogleTagManager from "@/components/GoogleTagManager";
 
-const languages = ["es", "en", "it", "fr", "zh-cn"];
+const languages = ["es", "en", "it", "fr", "zh-cn", "de"];
 
 export const metadata = {
   metadataBase: new URL("https://shapingotours.com"),

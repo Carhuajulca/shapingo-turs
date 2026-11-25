@@ -1,7 +1,7 @@
 export const SITE_URL = "https://shapingotours.com";
 export const CONTENT_UPDATED_AT = "2026-11-25";
 
-export const languages = ["es", "en", "it", "fr", "zh-cn"];
+export const languages = ["es", "en", "it", "fr", "zh-cn", "de"];
 export const tourSlugs = [
   "lago-sandoval",
   "lago-yacumama",
@@ -22,6 +22,7 @@ export const languageTags = {
   it: "it",
   fr: "fr",
   "zh-cn": "zh-CN",
+  de: "de",
 };
 
 export const homeLabels = {
@@ -30,6 +31,7 @@ export const homeLabels = {
   it: "Home",
   fr: "Accueil",
   "zh-cn": "首页",
+  de: "Startseite",
 };
 
 export const tourTitleSuffixes = {
@@ -38,6 +40,7 @@ export const tourTitleSuffixes = {
   it: "Tour a Tambopata",
   fr: "Excursion à Tambopata",
   "zh-cn": "坦博帕塔旅游体验",
+  de: "Tambopata-Tour",
 };
 
 export const homeKeywords = {
@@ -46,6 +49,7 @@ export const homeKeywords = {
   it: ["tour Tambopata", "tour Puerto Maldonado", "Amazzonia peruviana", "Lago Sandoval", "esperienze Tambopata"],
   fr: ["excursions Tambopata", "tours Puerto Maldonado", "Amazonie péruvienne", "lac Sandoval", "expériences Tambopata"],
   "zh-cn": ["坦博帕塔旅游", "马尔多纳多港旅游", "秘鲁亚马逊", "桑多瓦尔湖", "亚马逊雨林体验"],
+  de: ["Tambopata-Touren", "Puerto Maldonado", "peruanischer Amazonas", "Sandoval-See", "Regenwald-Erlebnisse"],
 };
 
 const slugKeywords = {
@@ -77,6 +81,7 @@ export function localizedAlternates(pathname = "") {
     it: `/it${pathname}`,
     fr: `/fr${pathname}`,
     "zh-CN": `/zh-cn${pathname}`,
+    de: `/de${pathname}`,
     "x-default": `/en${pathname}`,
   };
 }

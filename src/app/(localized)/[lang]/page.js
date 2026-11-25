@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import JsonLd from "@/components/JsonLd";
 import LandingPage from "@/components/LandingPage";
 import landing from "@/data/landing.json";
+import { germanLanding } from "@/data/germanLanding";
 import {
   faqJsonLd,
   homeKeywords,
@@ -18,6 +19,7 @@ const titles = {
   it: "Shapingo Turs | Esperienze a Tambopata",
   fr: "Shapingo Turs | Expériences à Tambopata",
   "zh-cn": "Shapingo Turs | 坦博帕塔亚马逊体验",
+  de: "Shapingo Turs | Tambopata-Touren und Amazonas-Erlebnisse",
 };
 
 export const dynamicParams = false;
@@ -25,7 +27,7 @@ export function generateStaticParams() { return languages.map((lang) => ({ lang 
 
 export async function generateMetadata({ params }) {
   const { lang } = await params;
-  const content = landing[lang];
+  const content = lang === "de" ? germanLanding : landing[lang];
   if (!content) return {};
   return {
     title: titles[lang],
@@ -54,8 +56,8 @@ export async function generateMetadata({ params }) {
 
 export default async function LanguagePage({ params }) {
   const { lang } = await params;
-  if (!landing[lang]) notFound();
-  const content = landing[lang];
+  if (!languages.includes(lang)) notFound();
+  const content = lang === "de" ? germanLanding : landing[lang];
   const schemas = [
     organizationJsonLd(lang),
     websiteJsonLd(lang, titles[lang], content.hero.copy),
