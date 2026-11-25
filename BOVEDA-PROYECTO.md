@@ -9,8 +9,8 @@
 - **Razón social:** SHAPINGO TURS S.A.C.
 - **RUC:** 20607382345.
 - **WhatsApp:** +51 926 284 415.
-- **Dominio previsto:** `shapingoturs.com`.
-- **Correo de privacidad previsto:** `privacidad@shapingoturs.com`.
+- **Dominio previsto:** `shapingotours.com`.
+- **Correo de privacidad previsto:** `privacidad@shapingotours.com`.
 - **Ubicación general:** Tambopata, Madre de Dios, Perú.
 - **Público prioritario:** viajeros extranjeros interesados en naturaleza, fauna, aventura y cultura amazónica.
 - **Idioma de atención personalizada:** inglés.
@@ -170,7 +170,7 @@
 
 ### Información legal y privacidad
 
-- Comprar el dominio y activar `privacidad@shapingoturs.com`.
+- Comprar el dominio y activar `privacidad@shapingotours.com`.
 - Incorporar el domicilio fiscal registrado en SUNAT.
 - Definir el plazo de conservación de consultas y reservas.
 - Confirmar si se utilizarán Google Analytics, publicidad o cookies adicionales.
@@ -186,7 +186,7 @@
 
 ### Dominio, publicación y SEO
 
-- Comprar y configurar `shapingoturs.com`.
+- Comprar y configurar `shapingotours.com`.
 - Contratar o elegir el alojamiento web.
 - Configurar HTTPS y correos corporativos.
 - Reemplazar direcciones canónicas y sitemap con el dominio definitivo.

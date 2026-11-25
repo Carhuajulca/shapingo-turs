@@ -29,6 +29,6 @@ export async function generateMetadata({ params }) {
 export default async function LanguagePage({ params }) {
   const { lang } = await params;
   if (!landing[lang]) notFound();
-  const organization = { "@context": "https://schema.org", "@type": "TouristInformationCenter", name: "Shapingo Turs", legalName: "SHAPINGO TURS S.A.C.", taxID: "20607382345", url: "https://shapingoturs.com", telephone: "+51917906162", address: { "@type": "PostalAddress", addressRegion: "Madre de Dios", addressCountry: "PE" }, areaServed: "Tambopata" };
+  const organization = { "@context": "https://schema.org", "@type": "TouristInformationCenter", name: "Shapingo Turs", legalName: "SHAPINGO TURS S.A.C.", taxID: "20607382345", url: "https://shapingotours.com", telephone: "+51917906162", address: { "@type": "PostalAddress", addressRegion: "Madre de Dios", addressCountry: "PE" }, areaServed: "Tambopata" };
   return <><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organization) }} /><LandingPage language={lang} content={landing[lang]} /></>;
 }

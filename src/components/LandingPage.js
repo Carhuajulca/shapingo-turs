@@ -36,7 +36,7 @@ export default function LandingPage({ language, content }) {
       <section className="experiences" id="experiencias">
         <div className="section-heading"><p className="eyebrow dark">{content.experiences.eyebrow}</p><h2>{content.experiences.title}</h2><p className="section-copy">{content.experiences.copy}</p></div>
         <div className="experience-grid">
-          {content.experiences.cards.map((card) => <a className={`experience-card${card.featured ? " experience-card-featured" : ""}${card.wide ? " experience-card-wide" : ""}`} href={`/${language}${card.href}/`} key={card.href}>
+          {content.experiences.cards.map((card) => <a className={`experience-card${card.featured ? " experience-card-featured" : ""}${card.wide ? " experience-card-wide" : ""}`} href={`/${language}${card.href}/`} key={`${card.number}-${card.href}`}>
             <OptimizedImage src={card.image} alt={card.alt} loading="lazy" width="900" height="700" />
             <div className="card-overlay" />
             <div className="card-content"><p className="card-number">{card.number}</p><h3>{card.title}</h3><p className="experience-summary">{card.summary}</p>

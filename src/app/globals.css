@@ -198,6 +198,33 @@ h1 em { display: block; color: var(--sun); font-weight: 500; letter-spacing: -0.
 .community-flavors-detail > p:not(.eyebrow) { margin: 22px 0 0; color: #50656b; font-size: 14px; line-height: 1.8; }
 @media (max-width: 720px) { .community-flavors-story { padding: 70px 20px; } .community-flavors-heading { grid-template-columns: 1fr; gap: 20px; } .community-flavors-heading .eyebrow { margin-bottom: 0; } .community-flavors-gallery { grid-template-columns: 1fr; } }
 @media (max-width: 720px) { .colpa-story-section, .colpa-story-video { padding: 70px 20px; } .colpa-story-heading { grid-template-columns: 1fr; gap: 20px; } .colpa-story-heading .eyebrow { margin-bottom: 0; } .colpa-story-gallery { grid-template-columns: 1fr; } }
+.collpa-loros-story { padding: 110px max(32px, calc((100vw - var(--content)) / 2)); color: var(--deep); background: var(--sand); }
+.collpa-loros-heading { display: grid; grid-template-columns: minmax(0, 1fr) minmax(280px, .75fr); gap: 28px 70px; align-items: end; }
+.collpa-loros-heading .eyebrow { grid-column: 1 / -1; margin: 0 0 -12px; }
+.collpa-loros-heading h2 { max-width: 760px; margin: 0; font-family: 'Alegreya', Georgia, serif; font-size: clamp(3rem, 5.5vw, 5.8rem); font-weight: 500; letter-spacing: -.065em; line-height: .92; }
+.collpa-loros-heading > p:last-child { max-width: 500px; margin: 0; color: #50656b; font-size: 14px; line-height: 1.85; }
+.collpa-guacamayos-scenes { margin-top: 64px; }
+.collpa-guacamayos-scenes .encounter-story-row:first-child { margin-top: 0; }
+.collpa-guacamayos-photo { width: 100%; aspect-ratio: 4 / 3; overflow: hidden; border-radius: 16px; background: #d4ded7; }
+.collpa-guacamayos-photo img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center 28%; }
+.collpa-guacamayos-scenes .encounter-story-row:nth-child(even) > .collpa-guacamayos-photo { order: 2; }
+.yacumama-scenes { margin-top: 64px; }
+.yacumama-scenes .encounter-story-row:first-child { margin-top: 0; }
+.yacumama-photo { width: 100%; aspect-ratio: 4 / 3; overflow: hidden; border-radius: 16px; background: #d4ded7; }
+.yacumama-photo img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.yacumama-scenes .encounter-story-row:nth-child(2) img { object-position: center 70%; }
+.yacumama-scenes .encounter-story-row:nth-child(even) > .yacumama-photo { order: 2; }
+.yacumama-closing { max-width: 760px; margin: 64px auto 0; color: #50656b; font-family: 'Alegreya', Georgia, serif; font-size: clamp(1.5rem, 2.5vw, 2.4rem); line-height: 1.25; text-align: center; }
+.collpa-loros-moments { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 50px; margin-top: 72px; border-top: 1px solid rgba(5,45,67,.16); }
+.collpa-loros-moments article { display: grid; grid-template-columns: 44px 1fr; gap: 8px 18px; padding: 30px 0; border-bottom: 1px solid rgba(5,45,67,.16); }
+.collpa-loros-moments span { grid-row: 1 / span 2; color: var(--clay); font-size: 10px; font-weight: 700; letter-spacing: .12em; }
+.collpa-loros-moments h3 { margin: 0; font-family: 'Alegreya', Georgia, serif; font-size: clamp(1.65rem, 2.5vw, 2.35rem); font-weight: 500; letter-spacing: -.04em; line-height: 1; }
+.collpa-loros-moments p { max-width: 520px; margin: 4px 0 0; color: #50656b; font-size: 13px; line-height: 1.75; }
+.collpa-loros-note { display: grid; grid-template-columns: minmax(0, .85fr) minmax(280px, 1fr); gap: 32px 70px; margin-top: 70px; padding: 42px; border-radius: 24px; color: var(--ink); background: #2e4533; }
+.collpa-loros-note h3 { margin: 0; font-family: 'Alegreya', Georgia, serif; font-size: clamp(2rem, 3.5vw, 3.6rem); font-weight: 500; letter-spacing: -.05em; line-height: .98; }
+.collpa-loros-note p { align-self: center; max-width: 560px; margin: 0; color: rgba(248,244,233,.72); font-size: 13px; line-height: 1.8; }
+@media (max-width: 720px) { .collpa-loros-story { padding: 76px 20px; } .collpa-loros-heading, .collpa-loros-moments, .collpa-loros-note { grid-template-columns: 1fr; } .collpa-loros-heading { gap: 20px; } .collpa-loros-heading .eyebrow { margin-bottom: 0; } .collpa-loros-moments { margin-top: 48px; } .collpa-guacamayos-scenes { margin-top: 48px; } .collpa-guacamayos-scenes .encounter-story-row:nth-child(even) > .collpa-guacamayos-photo { order: initial; } .collpa-loros-note { margin-top: 48px; padding: 30px 24px; } }
+@media (max-width: 720px) { .yacumama-scenes { margin-top: 48px; } .yacumama-scenes .encounter-story-row:nth-child(even) > .yacumama-photo { order: initial; } .yacumama-closing { margin-top: 48px; } }
 
 .international { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: clamp(42px, 6vw, 88px); align-items: center; padding: 96px max(32px, calc((100vw - var(--content)) / 2)); color: #fff; background: var(--deep); }
 .international-media { position: relative; min-height: 680px; margin: 0; overflow: hidden; border-radius: 28px; background: rgba(255,255,255,.08); }
@@ -344,9 +371,12 @@ h1 em { display: block; color: var(--sun); font-weight: 500; letter-spacing: -0.
 .form-note { max-width: 390px; margin: 0; color: rgba(5, 45, 67, 0.62); font-size: 12px; line-height: 1.55; }
 .form-honeypot { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
 .form-error { margin: 0; color: #a33a1a; font-size: 13px; line-height: 1.55; }
+.form-success { margin: 22px 0 0; color: #20563f; font-size: 13px; font-weight: 600; line-height: 1.6; }
 .form-result { margin-top: 25px; padding-top: 24px; border-top: 1px solid rgba(73, 184, 210, 0.2); }
 .form-result > p { margin: 0 0 12px; color: var(--ink); font-size: 13px; font-weight: 600; }
 .form-result textarea { min-height: 145px; resize: vertical; }
+.open-message { display: inline-flex; align-items: center; gap: 12px; margin-top: 12px; padding: 11px 16px; border-radius: 999px; color: #fff; background: var(--deep); font-size: 11px; font-weight: 700; }
+.open-message:hover { background: var(--river); }
 .copy-message { margin-top: 12px; padding: 10px 14px; border: 1px solid rgba(248, 244, 233, 0.28); border-radius: 999px; color: var(--ink); background: transparent; cursor: pointer; font-size: 11px; font-weight: 600; }
 .copy-status { margin-left: 10px; color: var(--sun); font-size: 11px; }
 .contact-details { display: flex; justify-content: center; gap: 28px; margin-top: 90px; color: rgba(5, 45, 67, 0.56); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; }
@@ -485,6 +515,7 @@ h1 em { display: block; color: var(--sun); font-weight: 500; letter-spacing: -0.
 .tour-hero::after { position: absolute; inset: 0; z-index: -1; content: ''; background: linear-gradient(90deg, rgba(2, 27, 41, .9), rgba(2, 27, 41, .54) 55%, rgba(2, 27, 41, .2)), linear-gradient(0deg, rgba(2, 27, 41, .72), transparent 55%); }
 .tour-hero-fauna-aves { background-position: center top; }
 .tour-hero-lago-sandoval { background-position: center 56%; }
+.tour-hero-colpa { background-position: center 45%; }
 .tour-hero-paseo-kayak { background-position: center 56%; }
 .tour-hero-encuentro-amazonico { background-position: center 48%; }
 .tour-hero-fauna-aves::after { background: linear-gradient(90deg, rgba(2, 27, 41, .9), rgba(2, 27, 41, .48) 48%, rgba(2, 27, 41, .08) 78%), linear-gradient(0deg, rgba(2, 27, 41, .56), transparent 52%); }
@@ -648,6 +679,7 @@ h1 em { display: block; color: var(--sun); font-weight: 500; letter-spacing: -0.
 @media (max-width: 720px) {
   .tour-hero { min-height: 72svh; padding: 125px 20px 54px; }
   .tour-hero-caminata-nocturna { background-position: center 28%; }
+  .tour-hero-colpa { background-position: 65% center; }
   .tour-hero h1 { font-size: clamp(3.5rem, 18vw, 5.6rem); }
   .tour-hero-copy { font-size: 14px; }
   .tour-overview, .sandoval-guide, .tour-journey, .tour-related, .tour-inclusions, .tour-lodge, .tour-prep { padding: 88px 20px; }

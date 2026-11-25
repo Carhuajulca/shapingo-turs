@@ -8,6 +8,15 @@ export const tours = {
     steps: [["01", "Camino hacia el lago", "Avanza por el bosque prestando atención a los sonidos, las plantas y las señales de vida silvestre."], ["02", "Navegación tranquila", "Recorre las aguas del lago y contempla el paisaje desde una perspectiva cercana y silenciosa."], ["03", "Observación consciente", "Busca aves y otros animales con orientación local, entendiendo que cada encuentro depende de la naturaleza."]],
     notesTitle: "Antes de salir.", notes: ["Recibirás una lista de artículos recomendados.", "La observación de fauna nunca puede garantizarse.", "El punto de encuentro se coordina previamente.", "Consulta disponibilidad para tus fechas."], cta: "¿Quieres conocer Lago Sandoval?", ctaCopy: "Cuéntanos tus fechas y el número de viajeros."
   },
+  "lago-yacumama": {
+    eyebrow: "Naturaleza · Lagos amazónicos", title: "Lago Yacumama", image: "/img/lago-yacumama.webp",
+    intro: "Navega entre palmeras y plantas acuáticas, contempla la vida del lago y haz una pausa para probar la pesca recreativa.",
+    overviewTitle: "Una travesía entre agua, palmeras y pesca.", overview: ["El recorrido por Lago Yacumama comienza a bordo de un bote, entre el espejo de agua, la vegetación inundable y las palmeras que se elevan sobre el paisaje.", "A un ritmo pausado, podrás escuchar el entorno, observar aves y detenerte en un punto adecuado para intentar la pesca recreativa con orientación local."],
+    facts: [["Modalidad", "Navegación y pesca"], ["Enfoque", "Paisaje y vida silvestre"], ["Disponibilidad", "Según condiciones"], ["Ritmo", "Tranquilo y contemplativo"]],
+    journeyTitle: "Navegar, pescar y contemplar.", journeyCopy: "La ruta y la posibilidad de pescar se adaptan al nivel del agua, al clima y a las condiciones del día.",
+    steps: [["01", "Llegada al lago", "Recibe las indicaciones del guía antes de subir al bote y comenzar el recorrido."], ["02", "Navegación tranquila", "Avanza entre plantas acuáticas y palmeras mientras observas los reflejos y escuchas el paisaje."], ["03", "Pausa para pescar", "En un lugar adecuado, prueba la pesca recreativa y disfruta la calma del lago; una captura no está garantizada."]],
+    notesTitle: "Antes de visitar el lago.", notes: ["El acceso, la navegación y la pesca dependen del clima y del nivel del agua.", "La captura de peces y los avistamientos de fauna no están garantizados.", "Se recomienda protección solar, repelente, sombrero y agua.", "La ruta, el horario y la actividad de pesca se confirman antes de la salida."], cta: "¿Quieres conocer Lago Yacumama?", ctaCopy: "Cuéntanos tus fechas y el número de viajeros para confirmar la navegación y la pesca."
+  },
   "rio-tambopata": {
     eyebrow: "Aventura · Paisaje", title: "Safari por el río Tambopata", image: "/img/rio-tambopata.webp",
     intro: "Navega entre bosque, orillas y amplios horizontes para descubrir cómo el río marca el ritmo de la Amazonía.",
@@ -36,13 +45,22 @@ export const tours = {
     notesTitle: "Antes del encuentro.", notes: ["La actividad requiere coordinación previa.", "Los contenidos pueden variar según los anfitriones.", "Se promueve una interacción respetuosa.", "Consulta opciones para tu grupo y tus fechas."], cta: "¿Quieres vivir un encuentro amazónico?", ctaCopy: "Cuéntanos tus fechas y qué te gustaría conocer."
   },
   "colpa": {
-    eyebrow: "Aves amazónicas · Tambopata", title: "Colpa", image: "/img/animales/guacamayo.jpg",
-    intro: "Una salida al amanecer para observar loros y guacamayos en uno de los encuentros más vivos de la selva.",
-    overviewTitle: "Dos encuentros al ritmo de la primera luz.", overview: ["La experiencia combina navegación y observación responsable para acercarse a las aves sin alterar su comportamiento.", "La presencia y diversidad de especies dependen de la temporada, el clima y las condiciones del día."],
-    facts: [["Modalidad", "Navegación y observación"], ["Enfoque", "Loros y guacamayos"], ["Horario", "Primera luz"], ["Disponibilidad", "Consulta para tus fechas"]],
-    journeyTitle: "Escuchar, esperar y observar.", journeyCopy: "El recorrido se adapta al río, al clima y al ritmo natural de las aves.",
-    steps: [["01", "Llegar con la luz", "Sal del alojamiento temprano y navega hacia el lugar de observación con orientación local."], ["02", "Colpa de Loros", "Observa el movimiento de loros y pericos, sus llamados y el despertar del bosque."], ["03", "Colpa de Guacamayos", "Contempla los colores y el vuelo de los guacamayos desde una distancia responsable."]],
-    notesTitle: "Antes de salir.", notes: ["La observación de fauna no está garantizada.", "La salida depende del clima y las condiciones del río.", "Se recomienda ropa discreta, protección solar y binoculares.", "Consulta disponibilidad para tus fechas."], cta: "¿Quieres conocer la Colpa?", ctaCopy: "Cuéntanos tus fechas y qué aves te gustaría observar."
+    eyebrow: "Aves amazónicas · Tambopata", title: "Collpa de Guacamayos", image: "/img/collpa-guacamayos-hero.webp",
+    intro: "Una salida al amanecer para observar el vuelo, los colores y los llamados de los guacamayos en la collpa.",
+    overviewTitle: "El color llega con la primera luz.", overview: ["La experiencia combina navegación y observación responsable para acercarse a los guacamayos sin alterar su comportamiento.", "La presencia, cantidad y permanencia de las aves dependen de la temporada, el clima y las condiciones naturales del día."],
+    facts: [["Modalidad", "Navegación y observación"], ["Enfoque", "Guacamayos"], ["Horario", "Primera luz"], ["Disponibilidad", "Consulta para tus fechas"]],
+    journeyTitle: "Escuchar, esperar y observar.", journeyCopy: "El recorrido se adapta al río, al clima y al ritmo natural de los guacamayos.",
+    steps: [["01", "Llegar con la luz", "Sal del alojamiento temprano y navega hacia el lugar de observación con orientación local."], ["02", "Esperar en silencio", "Permanece a una distancia responsable mientras escuchas los primeros llamados y observas el movimiento de las aves."], ["03", "Collpa de Guacamayos", "Contempla sus colores y vuelos mientras conoces la importancia de este lugar para la especie."]],
+    notesTitle: "Antes de salir.", notes: ["La observación de fauna no está garantizada.", "La salida depende del clima y las condiciones del río.", "Se recomienda ropa discreta, protección solar y binoculares.", "Consulta disponibilidad para tus fechas."], cta: "¿Quieres conocer la Collpa de Guacamayos?", ctaCopy: "Cuéntanos tus fechas y el número de viajeros."
+  },
+  "collpa-loros": {
+    eyebrow: "Aves amazónicas · Primera luz", title: "Collpa de Loros", image: "/img/collpa-loros.webp",
+    intro: "Una salida antes del amanecer para escuchar el despertar del bosque y observar loros y pericos reunirse en la pared de arcilla.",
+    overviewTitle: "La espera también forma parte del encuentro.", overview: ["La experiencia comienza de madrugada, cuando el bosque todavía está en calma. Con acompañamiento local, se llega al punto de observación y se espera a una distancia responsable.", "Los llamados suelen anunciar a las aves antes de verlas. Su presencia, cantidad y tiempo de permanencia dependen del clima, la temporada y su comportamiento natural."],
+    facts: [["Modalidad", "Traslado y observación"], ["Enfoque", "Loros y pericos"], ["Horario", "Antes del amanecer"], ["Ritmo", "Silencioso y pausado"]],
+    journeyTitle: "Llegar, esperar y observar.", journeyCopy: "Cada salida respeta el ritmo de las aves y las condiciones naturales del día.",
+    steps: [["01", "Salida temprana", "Parte antes del amanecer para llegar al lugar de observación con la primera luz."], ["02", "Espera en silencio", "Escucha los primeros llamados y sigue las indicaciones del guía para no alterar a las aves."], ["03", "Encuentro en la collpa", "Observa loros y pericos reunirse, volar y posarse mientras conoces la importancia de este lugar."]],
+    notesTitle: "Antes de visitar la collpa.", notes: ["Los avistamientos y la cantidad de aves no se pueden garantizar.", "La salida depende del clima y de las condiciones de acceso.", "Se recomienda ropa discreta, repelente y binoculares.", "Evita ruidos fuertes y sigue siempre las indicaciones del guía."], cta: "¿Quieres conocer la Collpa de Loros?", ctaCopy: "Cuéntanos tus fechas y el número de viajeros para confirmar la salida."
   },
   "paseo-kayak": {
     eyebrow: "Agua y bosque · Tambopata", title: "Paseo en kayak", image: "/img/kayak-hero.png",
