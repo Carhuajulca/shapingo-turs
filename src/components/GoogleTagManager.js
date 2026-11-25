@@ -11,6 +11,7 @@ const copy = {
   it: { eyebrow: "La tua privacy", title: "Sei tu a decidere sull’analisi.", body: "Usiamo l’archiviazione necessaria per ricordare la tua scelta. Google Tag Manager si attiva solo se accetti l’analisi.", accept: "Accetta analisi", reject: "Solo necessari", settings: "Privacy", policy: "Vedi informativa sulla privacy" },
   fr: { eyebrow: "Votre vie privée", title: "Vous décidez pour les statistiques.", body: "Nous utilisons le stockage nécessaire pour mémoriser votre choix. Google Tag Manager ne s’active que si vous acceptez les statistiques.", accept: "Accepter les statistiques", reject: "Nécessaires uniquement", settings: "Confidentialité", policy: "Voir la politique de confidentialité" },
   "zh-cn": { eyebrow: "您的隐私", title: "分析工具由您决定。", body: "我们仅使用必要的本地存储来记住您的选择。只有在您同意后，Google Tag Manager 才会启用。", accept: "接受分析", reject: "仅必要功能", settings: "隐私", policy: "查看隐私政策" },
+  de: { eyebrow: "Ihre Privatsphäre", title: "Sie entscheiden über die Analyse.", body: "Wir speichern Ihre Auswahl lokal. Google Tag Manager wird nur aktiviert, wenn Sie der Analyse zustimmen.", accept: "Analyse erlauben", reject: "Nur notwendige Funktionen", settings: "Datenschutz", policy: "Datenschutzerklärung ansehen" },
 };
 
 function denyGoogleConsent() {

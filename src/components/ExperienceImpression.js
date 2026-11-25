@@ -6,6 +6,7 @@ const copy = {
   it: { eyebrow: "Un momento da ricordare", title: "Così si vive l’esperienza.", moments: "Tre momenti che rendono unico il percorso." },
   fr: { eyebrow: "Un moment à retenir", title: "Voici ce que l’on ressent.", moments: "Trois moments qui rendent le parcours unique." },
   "zh-cn": { eyebrow: "值得记住的时刻", title: "这就是体验的感受。", moments: "让这段旅程独特的三个瞬间。" },
+  de: { eyebrow: "Ein Moment zum Erinnern", title: "So fühlt sich das Erlebnis an.", moments: "Drei Momente, die jede Tour besonders machen." },
 };
 
 export default function ExperienceImpression({ tour, slug, language }) {

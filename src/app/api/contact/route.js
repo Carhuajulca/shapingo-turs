@@ -19,7 +19,7 @@ const experienceNames = {
   "collpa-loros": "Collpa de Loros",
   otra: "Quiero una recomendación",
 };
-const languageNames = { es: "Español", en: "Inglés", it: "Italiano", fr: "Francés", "zh-cn": "Chino" };
+const languageNames = { es: "Español", en: "Inglés", it: "Italiano", fr: "Francés", "zh-cn": "Chino", de: "Alemán" };
 const roomNames = { "": "Sin preferencia", individual: "Individual", doble: "Doble", matrimonial: "Matrimonial", triple: "Triple", recomendacion: "Necesita una recomendación" };
 const legacyExperienceNames = new Map(
   Object.values(landing).flatMap(({ contact }) =>

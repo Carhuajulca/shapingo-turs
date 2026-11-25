@@ -6,6 +6,7 @@ const accessibility = {
   it: { home: "Home di Shapingo Turs", whatsapp: "Shapingo Turs su WhatsApp", instagram: "Shapingo Turs su Instagram", email: "Invia un’e-mail a Shapingo Turs" },
   fr: { home: "Accueil de Shapingo Turs", whatsapp: "Shapingo Turs sur WhatsApp", instagram: "Shapingo Turs sur Instagram", email: "Envoyer un e-mail à Shapingo Turs" },
   "zh-cn": { home: "Shapingo Turs 首页", whatsapp: "通过 WhatsApp 联系 Shapingo Turs", instagram: "Shapingo Turs 的 Instagram", email: "给 Shapingo Turs 发送邮件" },
+  de: { home: "Shapingo Turs Startseite", whatsapp: "Shapingo Turs auf WhatsApp", instagram: "Shapingo Turs auf Instagram", email: "E-Mail an Shapingo Turs" },
 };
 
 export default function Footer({ language = "es", content }) {

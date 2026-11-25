@@ -2,6 +2,7 @@ import OptimizedImage from "@/components/OptimizedImage";
 
 const images = ["/img/collpa-guacamayos-01.webp", "/img/collpa-guacamayos-02.webp"];
 const copy = {
+  de: { eyebrow: "Das Erlebnis Schritt für Schritt", title: "Ein Morgen voller Farben und Flugbewegungen.", intro: "Der Besuch der Ara-Lehmlecke beginnt vor Sonnenaufgang. Am Beobachtungsplatz warten Sie auf die ersten Rufe der Vögel.", moments: [["01", "Vor Sonnenaufgang aufbrechen", "Die frühe Abfahrt ermöglicht die Ankunft vor der Hauptaktivität der Vögel. Die genaue Uhrzeit hängt von der Route ab."], ["02", "Zur Lehmlecke fahren", "Der Weg kann Bootsfahrt und Landweg verbinden. Ihr Guide erklärt die Umgebung und die Regeln für die Beobachtung."], ["03", "Leise warten", "Die Gruppe bleibt in geeignetem Abstand. Oft hört man die Aras, bevor sie über dem Wald erscheinen."], ["04", "Die Begegnung genießen", "Aras kommen einzeln, paarweise oder in Gruppen und füllen die Landschaft mit Farben und Rufen."]], noteTitle: "Die Natur bestimmt den Ablauf.", note: "Zahl und Aufenthaltsdauer der Aras hängen von Jahreszeit, Wetter und Nahrung ab. Sichtungen sind nicht garantiert.", alts: ["Aras an der Lehmwand", "Aras am Morgen an der Lehmlecke"] },
   es: {
     eyebrow: "La experiencia, paso a paso", title: "Una mañana marcada por el vuelo y el color.",
     intro: "Visitar la Collpa de Guacamayos es comenzar el día antes del amanecer, avanzar hacia el punto de observación y esperar a que los primeros llamados anuncien uno de los encuentros más intensos de la Amazonía.",

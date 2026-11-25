@@ -1,3 +1,5 @@
+import { germanProgram } from "@/data/germanProgram";
+
 const base = {
   es: {
     back:"Experiencias", eyebrow:"Programa completo · Tambopata", title:"Amazonía en cuatro días.", intro:"Un recorrido de 4 días y 3 noches para descubrir ríos, lagos, bosque, dosel y collpas con acompañamiento de un guía naturalista de habla inglesa.", consult:"Consultar programa", itinerary:"Ver itinerario", experience:"La experiencia", overviewTitle:"Una mirada amplia a la vida amazónica.", overview:["El programa combina navegación, caminatas y observación de fauna en algunos de los ecosistemas más representativos de Tambopata.","La disponibilidad, el precio y los detalles finales se confirman según las fechas. El alojamiento previsto es Cocos House Tambopata."], facts:[["Duración","4 días / 3 noches"],["Dificultad","Moderada"],["Alojamiento","Habitación privada"],["Alimentación","Almuerzo día 1 a desayuno día 4"],["Atención","Guía naturalista en inglés"],["Grupo","Según disponibilidad"]], journeyTitle:"Un día distinto, cada día.", journeyCopy:"Los horarios son aproximados y pueden adaptarse al clima, al nivel de los ríos, a la operación y a la actividad natural de la fauna.", info:"Información clara", infoTitle:"Todo lo que necesitas saber antes de reservar.", includedTitle:"El programa incluye", excludedTitle:"No incluye", lodgeEyebrow:"Alojamiento", lodgeTitle:"Cocos House Tambopata.", lodgeCopy:"Un lodge rodeado por la selva y ubicado cerca del río Tambopata, pensado como punto de descanso entre las actividades.", photoNote:"Las fotografías actuales de las habitaciones se comparten durante la consulta.", lodgeNote:"El tipo de habitación se confirma según el número de viajeros y la disponibilidad.", lodgeButton:"Consultar alojamiento", prepEyebrow:"Antes de viajar", prepTitle:"Prepárate para la selva.", prepIntro:"Al confirmar la reserva recibirás recomendaciones adaptadas a la temporada y a tus fechas.", relatedEyebrow:"También puedes explorar", relatedTitle:"Experiencias incluidas en el programa.", cta:"¿Quieres recibir el programa completo?", ctaCopy:"Escríbenos tus fechas y el número de viajeros. La atención personalizada se realiza en inglés.", whatsapp:"Consultar por WhatsApp"
@@ -47,6 +49,7 @@ const excluded = {
 };
 
 export function getProgram(language) {
+  if (language === "de") return germanProgram;
   const p = base[language];
   return { ...p, days: dayTitles[language].map(([number,title],i)=>({number,title,copy:genericDayCopy[language][i]})), included:included[language], excluded:excluded[language] };
 }

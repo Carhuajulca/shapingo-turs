@@ -5,6 +5,7 @@ const copy = {
   it: { eyebrow: "Uno sguardo dall’acqua", title: "Il fiume cambia prospettiva.", text: "Remare con calma apre un modo diverso di guardare: riflessi, rive vive e la foresta che accompagna ogni tratto.", alt: "Paesaggio amazzonico durante un’escursione in kayak", motion: "Acqua · foresta · movimento" },
   fr: { eyebrow: "Un regard depuis l’eau", title: "La rivière change la perspective.", text: "Pagayer lentement invite à regarder autrement : reflets, rives vivantes et la forêt qui accompagne chaque étape.", alt: "Paysage amazonien pendant une sortie en kayak", motion: "Eau · forêt · mouvement" },
   "zh-cn": { eyebrow: "从水面看雨林", title: "河流改变观看的角度。", text: "缓缓划行，会看到不一样的景象：水面倒影、生机盎然的河岸与始终相伴的雨林。", alt: "皮划艇体验中的亚马逊景观", motion: "水面 · 雨林 · 前行" },
+  de: { eyebrow: "Blick vom Wasser", title: "Der Fluss verändert die Perspektive.", text: "Beim ruhigen Paddeln entdecken Sie Spiegelungen, lebendige Ufer und den Wald an Ihrer Seite.", alt: "Amazonaslandschaft während einer Kajaktour", motion: "Wasser · Regenwald · Bewegung" },
 };
 
 export default function KayakStory({ language = "es" }) {

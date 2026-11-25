@@ -8,6 +8,7 @@ const messageLabels = {
   it: ["Ciao, vorrei ricevere informazioni per visitare Tambopata.", "Nome", "Paese", "Programma o tour", "Camera", "Data approssimativa", "Viaggiatori", "Indirizzo email"],
   fr: ["Bonjour, je souhaiterais recevoir des informations pour visiter Tambopata.", "Nom", "Pays", "Programme ou excursion", "Chambre", "Date approximative", "Voyageurs", "Adresse e-mail"],
   "zh-cn": ["您好，我想了解前往坦博帕塔旅行的信息。", "姓名", "国家", "项目或行程", "房型", "预计日期", "旅行人数", "电子邮箱"],
+  de: ["Guten Tag, ich möchte Informationen zu einer Reise nach Tambopata.", "Name", "Land", "Programm oder Tour", "Zimmer", "Ungefährer Termin", "Reisende", "E-Mail-Adresse"],
 };
 const consent = {
   es: ["He leído y acepto los", "términos del servicio", "la", "política de cancelación", "y la", "política de privacidad"],
@@ -15,6 +16,7 @@ const consent = {
   it: ["Ho letto e accetto i", "termini del servizio", "la", "politica di cancellazione", "e la", "politica sulla privacy"],
   fr: ["J’ai lu et j’accepte les", "conditions de service", "la", "politique d’annulation", "et la", "politique de confidentialité"],
   "zh-cn": ["我已阅读并接受", "服务条款", "", "取消政策", "和", "隐私政策"],
+  de: ["Ich habe die", "Nutzungsbedingungen", "die", "Stornierungsbedingungen", "und die", "Datenschutzerklärung"],
 };
 const whatsappNumber = "51917906162";
 const contactEmail = "shapingotoursperu@gmail.com";
@@ -25,6 +27,7 @@ const formStatus = {
   it: { sending: "Invio della richiesta…", error: "Non siamo riusciti a inviare la richiesta automaticamente. Puoi aprire il messaggio su WhatsApp." },
   fr: { sending: "Envoi de votre demande…", error: "Nous n’avons pas pu envoyer votre demande automatiquement. Vous pouvez ouvrir le message dans WhatsApp." },
   "zh-cn": { sending: "正在发送咨询…", error: "无法自动发送咨询。您可以在邮件应用中打开准备好的内容。" },
+  de: { sending: "Anfrage wird gesendet…", error: "Die Anfrage konnte nicht automatisch gesendet werden. Sie können die Nachricht über WhatsApp öffnen." },
 };
 const extraLabels = {
   es: { phone: "WhatsApp o teléfono", message: "¿Qué te gustaría conocer?", messagePlaceholder: "Cuéntanos tus intereses, dudas o necesidades especiales.", optional: "Opcional" },
@@ -32,6 +35,7 @@ const extraLabels = {
   it: { phone: "WhatsApp o telefono", message: "Cosa vorresti scoprire?", messagePlaceholder: "Raccontaci i tuoi interessi, dubbi o esigenze particolari.", optional: "Facoltativo" },
   fr: { phone: "WhatsApp ou téléphone", message: "Que souhaitez-vous découvrir ?", messagePlaceholder: "Parlez-nous de vos intérêts, questions ou besoins particuliers.", optional: "Facultatif" },
   "zh-cn": { phone: "WhatsApp 或电话", message: "您想了解什么？", messagePlaceholder: "请告诉我们您的兴趣、问题或特殊需求。", optional: "选填" },
+  de: { phone: "WhatsApp oder Telefon", message: "Was möchten Sie wissen?", messagePlaceholder: "Teilen Sie uns Ihre Interessen, Fragen oder besonderen Bedürfnisse mit.", optional: "Optional" },
 };
 
 export default function ContactForm({ language, content }) {

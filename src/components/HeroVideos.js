@@ -22,6 +22,7 @@ export default function HeroVideos() {
 
     nextVideo.currentTime = 0;
     setActiveVideo(index);
+    nextVideo.load();
     nextVideo.play().catch(() => {});
   }
 
@@ -35,7 +36,7 @@ export default function HeroVideos() {
           muted
           autoPlay={index === 0}
           playsInline
-          preload={index === 0 ? "metadata" : "auto"}
+          preload={index === 0 ? "metadata" : "none"}
           poster="/img/hero-tambopata-poster.webp"
           aria-hidden="true"
           onEnded={() => playNextVideo((index + 1) % videos.length)}

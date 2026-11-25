@@ -1,14 +1,25 @@
 import { notFound } from "next/navigation";
+import JsonLd from "@/components/JsonLd";
 import LandingPage from "@/components/LandingPage";
 import landing from "@/data/landing.json";
+import { germanLanding } from "@/data/germanLanding";
+import {
+  faqJsonLd,
+  homeKeywords,
+  languageTags,
+  languages,
+  localizedAlternates,
+  organizationJsonLd,
+  websiteJsonLd,
+} from "@/data/seo";
 
-const languages = ["es", "en", "it", "fr", "zh-cn"];
 const titles = {
   es: "Shapingo Turs | Experiencias en Tambopata",
   en: "Shapingo Turs | Tambopata tours and Amazon experiences",
   it: "Shapingo Turs | Esperienze a Tambopata",
   fr: "Shapingo Turs | Expériences à Tambopata",
   "zh-cn": "Shapingo Turs | 坦博帕塔亚马逊体验",
+  de: "Shapingo Turs | Tambopata-Touren und Amazonas-Erlebnisse",
 };
 
 export const dynamicParams = false;
@@ -16,19 +27,41 @@ export function generateStaticParams() { return languages.map((lang) => ({ lang 
 
 export async function generateMetadata({ params }) {
   const { lang } = await params;
-  const content = landing[lang];
+  const content = lang === "de" ? germanLanding : landing[lang];
   if (!content) return {};
   return {
     title: titles[lang],
     description: content.hero.copy,
-    alternates: { canonical: `/${lang}/`, languages: { es: "/es/", en: "/en/", it: "/it/", fr: "/fr/", "zh-CN": "/zh-cn/", "x-default": "/en/" } },
-    openGraph: { title: titles[lang], description: content.hero.copy, url: `/${lang}/`, siteName: "Shapingo Turs", type: "website", images: [{ url: "/img/lago-sandoval.webp", width: 1200, height: 630 }] },
+    keywords: homeKeywords[lang],
+    alternates: { canonical: `/${lang}/`, languages: localizedAlternates("/") },
+    robots: { index: true, follow: true },
+    openGraph: {
+      title: titles[lang],
+      description: content.hero.copy,
+      url: `/${lang}/`,
+      siteName: "Shapingo Turs",
+      type: "website",
+      locale: languageTags[lang],
+      alternateLocale: Object.values(languageTags).filter((locale) => locale !== languageTags[lang]),
+      images: [{ url: "/img/hero-tambopata-poster.webp", width: 1280, height: 720, alt: content.hero.title.text || content.hero.title }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: titles[lang],
+      description: content.hero.copy,
+      images: ["/img/hero-tambopata-poster.webp"],
+    },
   };
 }
 
 export default async function LanguagePage({ params }) {
   const { lang } = await params;
-  if (!landing[lang]) notFound();
-  const organization = { "@context": "https://schema.org", "@type": "TouristInformationCenter", name: "Shapingo Turs", legalName: "SHAPINGO TURS S.A.C.", taxID: "20607382345", url: "https://shapingotours.com", telephone: "+51917906162", address: { "@type": "PostalAddress", addressRegion: "Madre de Dios", addressCountry: "PE" }, areaServed: "Tambopata" };
-  return <><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organization) }} /><LandingPage language={lang} content={landing[lang]} /></>;
+  if (!languages.includes(lang)) notFound();
+  const content = lang === "de" ? germanLanding : landing[lang];
+  const schemas = [
+    organizationJsonLd(lang),
+    websiteJsonLd(lang, titles[lang], content.hero.copy),
+    faqJsonLd(lang, content.faq.items),
+  ];
+  return <><JsonLd data={schemas} /><LandingPage language={lang} content={content} /></>;
 }
