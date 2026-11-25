@@ -20,6 +20,7 @@ const experienceNames = {
   otra: "Quiero una recomendación",
 };
 const languageNames = { es: "Español", en: "Inglés", it: "Italiano", fr: "Francés", "zh-cn": "Chino" };
+const roomNames = { "": "Sin preferencia", individual: "Individual", doble: "Doble", matrimonial: "Matrimonial", triple: "Triple", recomendacion: "Necesita una recomendación" };
 const legacyExperienceNames = new Map(
   Object.values(landing).flatMap(({ contact }) =>
     contact.experienceOptions.slice(1).map((label, index) => [label, landing.es.contact.experienceOptions[index + 1]])
@@ -33,16 +34,21 @@ export async function POST(request) {
 
     const name = String(body.name || "").trim();
     const email = String(body.email || "").trim();
+    const country = String(body.country || "").trim();
+    const phone = String(body.phone || "").trim();
     const selectedExperience = String(body.experience || "").trim();
     const experience = Object.hasOwn(experienceNames, selectedExperience)
       ? experienceNames[selectedExperience]
       : legacyExperienceNames.get(selectedExperience);
     const date = String(body.date || "").trim();
     const travelers = Number(body.travelers);
+    const selectedRoom = String(body.room || "").trim();
+    const room = Object.hasOwn(roomNames, selectedRoom) ? roomNames[selectedRoom] : null;
+    const message = String(body.message || "").trim();
     const selectedLanguage = String(body.language || "es").trim();
     const language = Object.hasOwn(languageNames, selectedLanguage) ? languageNames[selectedLanguage] : null;
 
-    if (!body.consent || !name || name.length > 120 || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) || email.length > 254 || !experience || !/^\d{4}-\d{2}-\d{2}$/.test(date) || !Number.isInteger(travelers) || travelers < 1 || travelers > 30 || !language) {
+    if (!body.consent || !name || name.length > 120 || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) || email.length > 254 || !country || country.length > 120 || phone.length > 40 || !experience || !room || !/^\d{4}-\d{2}-\d{2}$/.test(date) || !Number.isInteger(travelers) || travelers < 1 || travelers > 30 || message.length > 1500 || !language) {
       return Response.json({ error: "Invalid contact details." }, { status: 400 });
     }
 
@@ -70,10 +76,14 @@ export async function POST(request) {
         "",
         `Nombre: ${name}`,
         `Correo: ${email}`,
+        `País: ${country}`,
+        `WhatsApp o teléfono: ${phone || "No indicado"}`,
         `Experiencia: ${experience}`,
+        `Habitación: ${room}`,
         `Fecha aproximada: ${day}/${month}/${year}`,
         `Viajeros: ${travelers}`,
         `Idioma del formulario: ${language}`,
+        `Mensaje: ${message || "Sin mensaje adicional"}`,
       ].join("\n"),
     });
 
