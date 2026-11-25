@@ -5,6 +5,7 @@ Sitio Next.js con servidor Node.js (`npm run build` y `npm run start`).
 ## Formulario de contacto
 
 El formulario envía consultas desde `contacto@shapingotours.com` a `shapingotoursperu@gmail.com` mediante la ruta `/api/contact/` y el SMTP de Hostinger. La contraseña SMTP se guarda solo en el servidor.
+Las consultas recibidas usan etiquetas y nombres de experiencias en español, aunque el visitante complete el formulario en otro idioma. El correo indica el idioma de la página.
 
 Para publicar:
 

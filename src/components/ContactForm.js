@@ -79,7 +79,7 @@ export default function ContactForm({ language, content }) {
         body: JSON.stringify({
           name: data.get("nombre"),
           email: data.get("correo"),
-          experience,
+          experience: data.get("experiencia"),
           date: data.get("fecha"),
           travelers: data.get("viajeros"),
           language,
