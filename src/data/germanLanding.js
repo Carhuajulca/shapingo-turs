@@ -92,8 +92,8 @@ export const germanLanding = {
     highlights: [["Landschaft", "Flüsse und Seen"], ["Begegnungen", "Tierwelt"], ["Erlebnis", "Lokale Kultur"]].map(([label, value]) => ({ label, value })),
     link: "Reise planen",
     gallery: english.destination.gallery.map((photo, index) => ({ ...photo,
-      alt: ["Roter Ara zwischen Blättern", "Tukan auf einem Ast", "Nachtaffe mit Jungtier", "Vogel im Flug"][index],
-      caption: ["Aras · Tambopata", "Vogelbeobachtung", "Tierwelt", "Leben in Bewegung"][index],
+      alt: ["Roter Ara zwischen Blättern", "Tukan auf einem Ast", "Nachtaffe mit Jungtier", "Sonnenuntergang über einem Amazonasfluss mit orangefarbenen Spiegelungen"][index],
+      caption: ["Aras · Tambopata", "Vogelbeobachtung", "Tierwelt", "Amazonischer Sonnenuntergang"][index],
     })),
     guideEyebrow: "Genauer hinsehen", guideTitle: "Entdecken Sie Tambopata Schritt für Schritt.",
     points: [

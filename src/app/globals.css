@@ -266,7 +266,7 @@ h1 em { display: block; color: var(--sun); font-weight: 500; letter-spacing: -0.
 .wildlife-photo figcaption { position: absolute; z-index: 1; bottom: 15px; left: 17px; color: rgba(245, 241, 232, 0.84); font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; }
 .wildlife-photo-main { grid-row: 1 / span 2; }
 .wildlife-photo-main img { object-position: 56% center; }
-.wildlife-photo-flight { grid-column: 2 / span 2; }
+.wildlife-photo-sunset { grid-column: 2 / span 2; }
 .destination-guide { grid-column: 1 / -1; display: grid; grid-template-columns: 0.7fr 1.3fr; gap: clamp(60px, 9vw, 150px); padding-top: 58px; border-top: 1px solid rgba(245, 241, 232, 0.2); }
 .destination-guide-heading h3 { max-width: 430px; margin: 0; font-family: 'Fraunces', Georgia, serif; font-size: clamp(2.4rem, 4vw, 4.4rem); font-weight: 500; letter-spacing: -0.06em; line-height: 0.96; }
 .destination-guide-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
@@ -482,7 +482,7 @@ h1 em { display: block; color: var(--sun); font-weight: 500; letter-spacing: -0.
   .planning-grid div:last-child { border-bottom: 1px solid rgba(5, 45, 67, 0.14); }
   .wildlife-gallery { grid-template-columns: 1fr 1fr; grid-template-rows: 330px 190px 190px; gap: 9px; }
   .wildlife-photo-main { grid-column: 1 / span 2; grid-row: auto; }
-  .wildlife-photo-flight { grid-column: auto; }
+  .wildlife-photo-sunset { grid-column: auto; }
   .destination-guide-grid { grid-template-columns: 1fr; }
   .destination-guide-grid article { min-height: 210px; }
   .values-grid { display: block; }
@@ -730,10 +730,13 @@ h1 em { display: block; color: var(--sun); font-weight: 500; letter-spacing: -0.
 .encounter-section-heading > p { max-width: 360px; margin: 0; font-size: 14px; line-height: 1.8; opacity: .78; }
 .encounter-draft { padding: 15px 20px; margin: 0 0 30px; border-left: 3px solid var(--clay); background: #ece4d5; font-size: 12px; line-height: 1.7; }
 .encounter-gallery-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 32px 20px; }
-.night-walk-story .encounter-gallery-grid, .wildlife-story .encounter-gallery-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.night-walk-story .encounter-gallery-grid, .wildlife-story .encounter-gallery-grid, .sandoval-gallery .encounter-gallery-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .encounter-gallery-grid figure { margin: 0; min-width: 0; }
 .encounter-gallery-image { display: block; width: 100%; aspect-ratio: 4 / 3; border-radius: 16px; object-fit: cover; background: #d4ded7; }
+.sandoval-gallery .encounter-gallery-image { height: auto; }
 .encounter-gallery-image.encounter-gallery-flower { aspect-ratio: 3 / 4; object-position: center; }
+.sandoval-gallery .encounter-gallery-grid figure:nth-child(1) img { object-position: center 58%; }
+.sandoval-gallery .encounter-gallery-grid figure:nth-child(4) img { object-position: center 60%; }
 .encounter-placeholder { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; aspect-ratio: 4 / 3; padding: 24px; border: 1px dashed #899b96; border-radius: 16px; color: #355851; text-align: center; background: linear-gradient(135deg, #e3e9df, #d4ded7); }
 .encounter-placeholder strong { font-size: 13px; font-weight: 600; }
 .encounter-placeholder > span:last-child { max-width: 280px; font-size: 12px; line-height: 1.6; }
@@ -768,14 +771,14 @@ h1 em { display: block; color: var(--sun); font-weight: 500; letter-spacing: -0.
   .encounter-section-heading { grid-template-columns: 1fr; gap: 24px; }
   .encounter-section-heading > p { max-width: 560px; }
   .encounter-gallery-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .night-walk-story .encounter-gallery-grid, .wildlife-story .encounter-gallery-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .night-walk-story .encounter-gallery-grid, .wildlife-story .encounter-gallery-grid, .sandoval-gallery .encounter-gallery-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .river-story-grid { grid-auto-rows: 520px; }
   .encounter-video-list { grid-template-columns: 1fr; }
 }
 @media (max-width: 560px) {
   .encounter-gallery, .encounter-narrative, .encounter-video { padding: 64px 20px; }
   .encounter-gallery-grid, .encounter-story-row { grid-template-columns: 1fr; }
-  .night-walk-story .encounter-gallery-grid, .wildlife-story .encounter-gallery-grid { grid-template-columns: 1fr; }
+  .night-walk-story .encounter-gallery-grid, .wildlife-story .encounter-gallery-grid, .sandoval-gallery .encounter-gallery-grid { grid-template-columns: 1fr; }
   .encounter-story-row { gap: 28px; margin-top: 48px; }
   .encounter-story-row:nth-of-type(even) > .encounter-story-image { order: initial; }
   .river-story-grid { grid-template-columns: 1fr; grid-auto-rows: auto; }
