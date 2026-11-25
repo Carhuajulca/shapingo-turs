@@ -16,6 +16,7 @@ const whatsapp = "https://wa.me/51917906162";
 export default function LandingPage({ language, content }) {
   const contactHref = `${whatsapp}?text=${encodeURIComponent(content.hero.primary)}`;
   return <>
+    <link rel="preload" as="image" href="/img/hero-tambopata-poster.webp" fetchPriority="high" />
     <Header language={language} nav={content.nav} contactLabel={content.hero.primary} contactHref={contactHref} />
     <header className="hero" id="inicio">
       <HeroVideos />

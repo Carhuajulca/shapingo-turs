@@ -17,10 +17,12 @@ import { optimizedImageSrc } from "@/components/OptimizedImage";
 export default function TourPage({ tour, slug, language = "es" }) {
   const ui = tourUi[language];
   const path = `/tours/${slug}/`;
+  const heroImage = optimizedImageSrc(tour.image);
   const contactHref = `https://wa.me/51917906162?text=${encodeURIComponent(`${ui.consult}: ${tour.title}`)}`;
   return <div className="tour-page">
+    <link rel="preload" as="image" href={heroImage} fetchPriority="high" />
     <TourHeader language={language} currentPath={path} />
-    <header className={`tour-hero tour-hero-${slug}`} style={{ backgroundImage: `url(${optimizedImageSrc(tour.image)})` }}><div className="tour-hero-content"><a className="tour-breadcrumb" href={`/${language}/#experiencias`}>← {ui.back}</a><p className="eyebrow">{tour.eyebrow}</p><h1>{tour.title}</h1><p className="tour-hero-copy">{tour.intro}</p><div className="tour-hero-actions"><a className="button button-primary" href={contactHref} target="_blank" rel="noopener noreferrer">{ui.consult} <span>↗</span></a><a className="button button-quiet" href="#recorrido">{ui.route}</a></div></div></header>
+    <header className={`tour-hero tour-hero-${slug}`} style={{ backgroundImage: `url(${heroImage})` }}><div className="tour-hero-content"><a className="tour-breadcrumb" href={`/${language}/#experiencias`}>← {ui.back}</a><p className="eyebrow">{tour.eyebrow}</p><h1>{tour.title}</h1><p className="tour-hero-copy">{tour.intro}</p><div className="tour-hero-actions"><a className="button button-primary" href={contactHref} target="_blank" rel="noopener noreferrer">{ui.consult} <span>↗</span></a><a className="button button-quiet" href="#recorrido">{ui.route}</a></div></div></header>
     <main>
       <section className="tour-overview"><div className="tour-overview-copy"><p className="eyebrow dark">{ui.experience}</p><h2>{tour.overviewTitle}</h2>{tour.overview.map((p) => <p key={p}>{p}</p>)}</div><dl className="tour-facts">{tour.facts.map(([label, value]) => <div key={label}><dt>{label}</dt><dd>{value}</dd></div>)}</dl></section>
       <ExperienceImpression tour={tour} slug={slug} language={language} />

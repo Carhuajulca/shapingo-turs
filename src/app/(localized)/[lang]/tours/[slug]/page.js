@@ -1,10 +1,55 @@
 import { notFound } from "next/navigation";
+import JsonLd from "@/components/JsonLd";
 import TourPage from "@/components/TourPage";
 import ProgramTourPage from "@/components/ProgramTourPage";
+import { getProgram } from "@/data/programLocales";
 import { getTour } from "@/data/tourLocales";
-const languages=["es","en","it","fr","zh-cn"],slugs=["lago-sandoval","lago-yacumama","rio-tambopata","fauna-aves","encuentro-amazonico","caminata-nocturna","colpa","collpa-loros","paseo-kayak","sabores-comunidad","programa-4-dias"];
-const programMetadata={es:{title:"Amazonía en cuatro días",intro:"Programa de 4 días y 3 noches en Tambopata con alojamiento, actividades y guía naturalista en inglés."},en:{title:"Four-day Amazon program",intro:"A 4-day, 3-night Tambopata program with accommodation, activities and an English-speaking naturalist guide."},it:{title:"Programma Amazzonia di quattro giorni",intro:"Programma di 4 giorni e 3 notti a Tambopata con alloggio, attività e guida naturalistica in inglese."},fr:{title:"Programme Amazonie de quatre jours",intro:"Programme de 4 jours et 3 nuits à Tambopata avec hébergement, activités et guide naturaliste anglophone."},"zh-cn":{title:"亚马逊四日行程",intro:"坦博帕塔 4 天 3 夜行程，包含住宿、活动与英语自然向导。"}};
+import {
+  languageTags,
+  languages,
+  localizedAlternates,
+  optimizedImagePath,
+  tourJsonLd,
+  tourKeywords,
+  tourSlugs,
+  tourTitleSuffixes,
+} from "@/data/seo";
+
 export const dynamicParams=false;
-export function generateStaticParams(){return languages.flatMap(lang=>slugs.map(slug=>({lang,slug})))}
-export async function generateMetadata({params}){const{lang,slug}=await params;const item=slug==="programa-4-dias"?programMetadata[lang]:getTour(lang,slug);if(!item)return{};const path=`/${lang}/tours/${slug}/`;const hrefs=Object.fromEntries(languages.map(x=>[x==="zh-cn"?"zh-CN":x,`/${x}/tours/${slug}/`]));return{title:item.title,description:item.intro,alternates:{canonical:path,languages:{...hrefs,"x-default":`/en/tours/${slug}/`}},openGraph:{title:item.title,description:item.intro,url:path,type:"website"}}}
-export default async function Page({params}){const{lang,slug}=await params;if(!languages.includes(lang)||!slugs.includes(slug))notFound();if(slug==="programa-4-dias")return <ProgramTourPage language={lang}/>;const tour=getTour(lang,slug);if(!tour)notFound();return <TourPage tour={tour} slug={slug} language={lang}/>}
+export function generateStaticParams(){return languages.flatMap(lang=>tourSlugs.map(slug=>({lang,slug})))}
+
+export async function generateMetadata({params}) {
+  const { lang, slug } = await params;
+  const item = slug === "programa-4-dias" ? getProgram(lang) : getTour(lang, slug);
+  if (!item) return {};
+  const path = `/${lang}/tours/${slug}/`;
+  const title = `${item.title} — ${tourTitleSuffixes[lang]}`;
+  const image = slug === "programa-4-dias" ? "/img/lago-sandoval.webp" : optimizedImagePath(item.image);
+  return {
+    title,
+    description: item.intro,
+    keywords: tourKeywords(lang, slug),
+    alternates: { canonical: path, languages: localizedAlternates(`/tours/${slug}/`) },
+    robots: { index: true, follow: true },
+    openGraph: {
+      title,
+      description: item.intro,
+      url: path,
+      siteName: "Shapingo Turs",
+      type: "website",
+      locale: languageTags[lang],
+      alternateLocale: Object.values(languageTags).filter((locale) => locale !== languageTags[lang]),
+      images: [{ url: image, alt: item.title }],
+    },
+    twitter: { card: "summary_large_image", title, description: item.intro, images: [image] },
+  };
+}
+
+export default async function Page({params}) {
+  const { lang, slug } = await params;
+  if (!languages.includes(lang) || !tourSlugs.includes(slug)) notFound();
+  const isProgram = slug === "programa-4-dias";
+  const tour = isProgram ? { ...getProgram(lang), image: "/img/lago-sandoval.webp" } : getTour(lang, slug);
+  if (!tour) notFound();
+  return <><JsonLd data={tourJsonLd({ language: lang, slug, tour })} />{isProgram ? <ProgramTourPage language={lang}/> : <TourPage tour={tour} slug={slug} language={lang}/>}</>;
+}
