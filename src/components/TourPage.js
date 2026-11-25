@@ -25,11 +25,11 @@ export default function TourPage({ tour, slug, language = "es" }) {
       <section className="tour-overview"><div className="tour-overview-copy"><p className="eyebrow dark">{ui.experience}</p><h2>{tour.overviewTitle}</h2>{tour.overview.map((p) => <p key={p}>{p}</p>)}</div><dl className="tour-facts">{tour.facts.map(([label, value]) => <div key={label}><dt>{label}</dt><dd>{value}</dd></div>)}</dl></section>
       <ExperienceImpression tour={tour} slug={slug} language={language} />
       {slug === "lago-yacumama" && <YacumamaStory language={language} />}
-      {slug === "lago-sandoval" && language === "es" && <SandovalGuide />}
-      {slug === "lago-sandoval" && language === "es" && <SandovalRoute />}
-      {slug === "encuentro-amazonico" && language === "es" && <EncounterStory />}
-      {slug === "fauna-aves" && language === "es" && <WildlifeStory />}
-      {slug === "caminata-nocturna" && language === "es" && <NightWalkStory />}
+      {slug === "lago-sandoval" && <SandovalGuide language={language} />}
+      {slug === "lago-sandoval" && <SandovalRoute language={language} />}
+      {slug === "encuentro-amazonico" && <EncounterStory language={language} />}
+      {slug === "fauna-aves" && <WildlifeStory language={language} />}
+      {slug === "caminata-nocturna" && <NightWalkStory language={language} />}
       {slug === "rio-tambopata" && <RiverStory language={language} />}
       {slug === "colpa" && <CollpaGuacamayosStory language={language} />}
       {slug === "collpa-loros" && <CollpaLorosStory language={language} />}

@@ -26,6 +26,13 @@ const formStatus = {
   fr: { sending: "Envoi de votre demande…", error: "Nous n’avons pas pu envoyer votre demande automatiquement. Vous pouvez ouvrir le message dans WhatsApp." },
   "zh-cn": { sending: "正在发送咨询…", error: "无法自动发送咨询。您可以在邮件应用中打开准备好的内容。" },
 };
+const extraLabels = {
+  es: { phone: "WhatsApp o teléfono", message: "¿Qué te gustaría conocer?", messagePlaceholder: "Cuéntanos tus intereses, dudas o necesidades especiales.", optional: "Opcional" },
+  en: { phone: "WhatsApp or phone", message: "What would you like to discover?", messagePlaceholder: "Tell us about your interests, questions, or special requirements.", optional: "Optional" },
+  it: { phone: "WhatsApp o telefono", message: "Cosa vorresti scoprire?", messagePlaceholder: "Raccontaci i tuoi interessi, dubbi o esigenze particolari.", optional: "Facoltativo" },
+  fr: { phone: "WhatsApp ou téléphone", message: "Que souhaitez-vous découvrir ?", messagePlaceholder: "Parlez-nous de vos intérêts, questions ou besoins particuliers.", optional: "Facultatif" },
+  "zh-cn": { phone: "WhatsApp 或电话", message: "您想了解什么？", messagePlaceholder: "请告诉我们您的兴趣、问题或特殊需求。", optional: "选填" },
+};
 
 export default function ContactForm({ language, content }) {
   const [minimumDate, setMinimumDate] = useState("");
@@ -35,6 +42,7 @@ export default function ContactForm({ language, content }) {
   const [status, setStatus] = useState("idle");
   const labels = messageLabels[language] || messageLabels.es;
   const consentText = consent[language] || consent.es;
+  const extras = extraLabels[language] || extraLabels.es;
 
   useEffect(() => {
     const today = new Date();
@@ -45,6 +53,7 @@ export default function ContactForm({ language, content }) {
   }, []);
 
   const experienceValues = useMemo(() => ["", "programa-4-dias", "lago-sandoval", "rio-tambopata", "fauna-aves", "encuentro-amazonico", "caminata-nocturna", "colpa", "paseo-kayak", "sabores-comunidad", "lago-yacumama", "collpa-loros", "otra"], []);
+  const roomValues = useMemo(() => ["", "individual", "doble", "matrimonial", "triple", "recomendacion"], []);
 
   async function submit(event) {
     event.preventDefault();
@@ -55,9 +64,13 @@ export default function ContactForm({ language, content }) {
       labels[0],
       `${labels[1]}: ${data.get("nombre")}`,
       `${labels[7]}: ${data.get("correo")}`,
+      `${labels[2]}: ${data.get("pais")}`,
+      `${extras.phone}: ${data.get("telefono") || extras.optional}`,
       `${labels[3]}: ${experience}`,
+      `${labels[4]}: ${form.elements.habitacion.selectedOptions[0].text || extras.optional}`,
       `${labels[5]}: ${data.get("fecha")}`,
       `${labels[6]}: ${data.get("viajeros")}`,
+      `${extras.message}: ${data.get("mensaje") || extras.optional}`,
     ].join("\n");
     const href = language === "zh-cn"
       ? `mailto:${contactEmail}?subject=${encodeURIComponent(`${experience} · Shapingo Turs`)}&body=${encodeURIComponent(message)}`
@@ -79,9 +92,13 @@ export default function ContactForm({ language, content }) {
         body: JSON.stringify({
           name: data.get("nombre"),
           email: data.get("correo"),
+          country: data.get("pais"),
+          phone: data.get("telefono"),
           experience: data.get("experiencia"),
+          room: data.get("habitacion"),
           date: data.get("fecha"),
           travelers: data.get("viajeros"),
+          message: data.get("mensaje"),
           language,
           website: data.get("_honey"),
           consent: data.get("acepta_condiciones") === "on",
@@ -109,10 +126,14 @@ export default function ContactForm({ language, content }) {
       <div className="form-grid">
         <label>{content.labels[0]}<input type="text" name="nombre" autoComplete="name" required /></label>
         <label>{labels[7]}<input type="email" name="correo" autoComplete="email" required /></label>
+        <label>{content.labels[2]}<input type="text" name="pais" autoComplete="country-name" required /></label>
+        <label>{extras.phone} <small>{extras.optional}</small><input type="tel" name="telefono" autoComplete="tel" /></label>
         <label>{content.labels[1]}<select className="experience-select" name="experiencia" required>{content.experienceOptions.map((option, index) => <option key={experienceValues[index] || "empty"} value={experienceValues[index]}>{option}</option>)}</select></label>
+        <label>{content.labels[3]} <small>{extras.optional}</small><select name="habitacion">{content.roomOptions.map((option, index) => <option key={roomValues[index] || "empty"} value={roomValues[index]}>{option}</option>)}</select></label>
         <label>{content.labels[4]}<input type="date" name="fecha" min={minimumDate} required /></label>
         <label>{content.labels[5]}<input type="number" name="viajeros" min="1" max="30" defaultValue="2" required /></label>
       </div>
+      <label>{extras.message} <small>{extras.optional}</small><textarea name="mensaje" rows="4" maxLength="1500" placeholder={extras.messagePlaceholder} /></label>
       <label className="consent-label">
         <input type="checkbox" name="acepta_condiciones" required />
         <span className="consent-copy">

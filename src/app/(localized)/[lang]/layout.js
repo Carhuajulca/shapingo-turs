@@ -14,5 +14,5 @@ export default async function LocalizedLayout({ children, params }) {
   const { lang } = await params;
   if (!languages.includes(lang)) notFound();
   const htmlLanguage = lang === "zh-cn" ? "zh-CN" : lang;
-  return <html lang={htmlLanguage}><head><link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" /><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,500&display=swap" rel="stylesheet" /></head><body>{children}<GoogleTagManager /></body></html>;
+  return <html lang={htmlLanguage}><head><link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" /><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,500&display=swap" rel="stylesheet" /></head><body>{children}<GoogleTagManager language={lang} /></body></html>;
 }
