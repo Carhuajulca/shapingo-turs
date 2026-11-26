@@ -1,6 +1,6 @@
 import OptimizedImage from "@/components/OptimizedImage";
 
-const images = ["/img/gastronomic-immersion-dinner.png"];
+const images = ["/img/gastronomic-immersion-dinner.webp"];
 const copy = {
   de: { eyebrow: "Ein Blick auf die Küche", title: "Kulinarische Begegnung", text: "Entdecken Sie Zutaten, Zubereitungen und Geschichten, die am gemeinsamen Tisch geteilt werden.", detailEyebrow: "Gemeinsam essen", detailTitle: "Ein Abendessen in Gesellschaft.", detailFirst: "Am Ende des Tages setzen sich Begegnung und Gespräch zwischen Aromen und der Ruhe des Waldes fort.", detailSecond: "Hier geht es nicht nur ums Probieren, sondern auch um die Geschichten hinter jedem Gericht.", alt: "Kulinarische und kulturelle Begegnung im Amazonasgebiet" },
   es: { eyebrow: "Una mirada a la mesa", title: "Inmersión gastronómica", text: "Una experiencia para descubrir ingredientes, preparaciones y relatos compartidos alrededor de la mesa.", detailEyebrow: "Compartir la mesa", detailTitle: "Una cena que se vive en compañía.", detailFirst: "Al final del día, el encuentro continúa entre sabores, conversación y el ambiente sereno de la selva.", detailSecond: "Más que probar, es una oportunidad para conocer las historias y los gestos que acompañan cada preparación.", alt: "Encuentro gastronómico amazónico" },

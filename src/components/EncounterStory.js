@@ -1,8 +1,8 @@
 import OptimizedImage from "@/components/OptimizedImage";
 import { encounterExtended } from "@/data/extendedTourLocales";
 
-const flowerImages = ["/img/encounter-orchid-red.png", "/img/encounter-orchid-yellow.png", "/img/encounter-orchid-pink.png", "/img/encounter-insects.png"];
-const storyImages = ["/img/encounter-welcome.png", "/img/encounter-share-learn.png", "/img/encounter-connect.png"];
+const flowerImages = ["/img/encounter-orchid-red.webp", "/img/encounter-orchid-yellow.webp", "/img/encounter-orchid-pink.webp", "/img/encounter-insects.webp"];
+const storyImages = ["/img/encounter-welcome.webp", "/img/encounter-share-learn.webp", "/img/encounter-connect.webp"];
 
 export default function EncounterStory({ language = "es" }) {
   const videoId = "TA8qdMAbDoY";

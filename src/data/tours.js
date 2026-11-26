@@ -1,6 +1,6 @@
 export const tours = {
   "lago-sandoval": {
-    eyebrow: "Naturaleza · Tambopata", title: "Lago Sandoval", image: "/img/lago-sandoval-hero.png",
+    eyebrow: "Naturaleza · Tambopata", title: "Lago Sandoval", image: "/img/lago-sandoval-hero.webp",
     intro: "Una experiencia entre senderos, aguajales y aguas tranquilas para observar el paisaje amazónico con atención y sin prisa.",
     overviewTitle: "Un encuentro sereno con la selva.", overview: ["El recorrido combina el acceso por senderos con la navegación en el lago. Cada tramo permite escuchar, observar y comprender mejor el entorno que rodea esta zona de Tambopata.", "La ruta exacta, el horario y la duración se confirman de acuerdo con la fecha, las condiciones y el ritmo del grupo."],
     facts: [["Modalidad", "Caminata y navegación"], ["Enfoque", "Naturaleza y fauna"], ["Duración", "Se confirma al reservar"], ["Dificultad", "Según ruta y condiciones"]],
@@ -36,7 +36,7 @@ export const tours = {
     notesTitle: "Antes de salir.", notes: ["La fauna se encuentra en libertad y no se garantiza.", "Se recomienda ropa discreta y cómoda.", "Los binoculares pueden mejorar la observación.", "Consulta el horario sugerido para tus fechas."], cta: "¿Quieres observar la vida de la selva?", ctaCopy: "Cuéntanos tus fechas y tus intereses."
   },
   "encuentro-amazonico": {
-    eyebrow: "Cultura local · Tambopata", title: "Vida y cultura amazónica", image: "/img/encounter-amazonico-hero.png",
+    eyebrow: "Cultura local · Tambopata", title: "Vida y cultura amazónica", image: "/img/encounter-amazonico-hero.webp",
     intro: "Una experiencia para acercarse a las historias, los saberes y las formas de vivir que dan identidad al territorio amazónico.",
     overviewTitle: "Compartir para comprender el territorio.", overview: ["Este encuentro propone una conversación cercana con anfitriones locales alrededor de relatos, costumbres y saberes vinculados con la vida en Tambopata.", "El contenido y la dinámica se coordinan según la disponibilidad de los anfitriones y las características del grupo."],
     facts: [["Modalidad", "Encuentro cultural"], ["Enfoque", "Historias y tradición"], ["Duración", "Se confirma al reservar"], ["Disponibilidad", "Coordinación previa"]],
@@ -63,7 +63,7 @@ export const tours = {
     notesTitle: "Antes de visitar la collpa.", notes: ["Los avistamientos y la cantidad de aves no se pueden garantizar.", "La salida depende del clima y de las condiciones de acceso.", "Se recomienda ropa discreta, repelente y binoculares.", "Evita ruidos fuertes y sigue siempre las indicaciones del guía."], cta: "¿Quieres conocer la Collpa de Loros?", ctaCopy: "Cuéntanos tus fechas y el número de viajeros para confirmar la salida."
   },
   "paseo-kayak": {
-    eyebrow: "Agua y bosque · Tambopata", title: "Paseo en kayak", image: "/img/kayak-hero.png",
+    eyebrow: "Agua y bosque · Tambopata", title: "Paseo en kayak", image: "/img/kayak-hero.webp",
     intro: "Una salida para recorrer el agua con calma y mirar el bosque desde una perspectiva cercana.",
     overviewTitle: "El río, a un ritmo tranquilo.", overview: ["El paseo propone una experiencia sencilla de navegación y contemplación, ajustada a las condiciones del lugar y a la coordinación con el equipo local.", "La ruta, disponibilidad y dinámica se confirman previamente según la temporada y las características del grupo."],
     facts: [["Modalidad", "Kayak y navegación"], ["Enfoque", "Paisaje y río"], ["Disponibilidad", "A coordinar"], ["Condiciones", "Según el entorno"]],

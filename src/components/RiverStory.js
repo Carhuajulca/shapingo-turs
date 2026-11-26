@@ -1,9 +1,9 @@
 import OptimizedImage from "@/components/OptimizedImage";
 
 const images = [
-  "/img/rio-tambopata/embarcar.jpg",
-  "/img/rio-tambopata/navegar.png",
-  "/img/hero_atardecer_16-9.jpg",
+  "/img/rio-tambopata/embarcar.webp",
+  "/img/rio-tambopata/navegar.webp",
+  "/img/hero_atardecer_16-9.webp",
   "/img/rio-tambopata/caiman-nocturno.webp",
   "/img/rio-tambopata/fauna-nocturna-orilla.webp",
 ];

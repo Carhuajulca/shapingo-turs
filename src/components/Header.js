@@ -39,7 +39,7 @@ export default function Header({ language = "es", nav, currentPath = "/", contac
   return (
     <nav className="nav" aria-label={a11y.nav}>
       <a className="brand" href={base} aria-label={a11y.home}>
-        <OptimizedImage className="brand-mark" src="/img/shapingo-turs-logo.png" alt="Shapingo Turs" width="217" height="73" />
+        <OptimizedImage className="brand-mark" src="/img/shapingo-turs-logo.webp" alt="Shapingo Turs" width="217" height="73" />
       </a>
       <button
         className="menu-toggle"

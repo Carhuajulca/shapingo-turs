@@ -1,8 +1,8 @@
 import OptimizedImage from "@/components/OptimizedImage";
 import { wildlifeExtended } from "@/data/extendedTourLocales";
 
-const galleryImages = ["/img/animales/aves-amazonicas-01.jpg", "/img/animales/aves-amazonicas-02.jpg", "/img/animales/aves-amazonicas-03.jpg", "/img/animales/aves-amazonicas-04.jpg", "/img/animales/aves-amazonicas-05.jpg", "/img/animales/aves-amazonicas-06.jpg"];
-const storyImages = ["/img/encounter/mono.jpg", "/img/encounter/mariposa.jpg", "/img/encounter/guacamayo.jpg"];
+const galleryImages = ["/img/animales/aves-amazonicas-01.webp", "/img/animales/aves-amazonicas-02.webp", "/img/animales/aves-amazonicas-03.webp", "/img/animales/aves-amazonicas-04.webp", "/img/animales/aves-amazonicas-05.webp", "/img/animales/aves-amazonicas-06.webp"];
+const storyImages = ["/img/encounter/mono.webp", "/img/encounter/mariposa.webp", "/img/encounter/guacamayo.webp"];
 
 export default function WildlifeStory({ language = "es" }) {
   const text = wildlifeExtended[language] || wildlifeExtended.es;

@@ -15,7 +15,7 @@ export default function Footer({ language = "es", content }) {
   return (
     <footer className="footer">
       <a className="footer-brand" href={base} aria-label={a11y.home}>
-        <OptimizedImage src="/img/shapingo-turs-logo.png" alt="Shapingo Turs" width="217" height="73" />
+        <OptimizedImage src="/img/shapingo-turs-logo.webp" alt="Shapingo Turs" width="217" height="73" />
       </a>
       <div className="footer-copy"><strong>{content.title}</strong><span>{content.location}</span></div>
       <div className="footer-links">

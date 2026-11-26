@@ -94,7 +94,7 @@
         },
         {
           "href": "/tours/encuentro-amazonico",
-          "image": "/img/community-flavors-preparation.png",
+          "image": "/img/community-flavors-preparation.webp",
           "alt": "Visitantes compartiendo una preparación tradicional con anfitrionas locales en Tambopata",
           "number": "04 / Cultura local",
           "title": "Encuentro amazónico",
@@ -130,7 +130,7 @@
         },
         {
           "href": "/tours/colpa",
-          "image": "/img/animales/guacamayo.jpg",
+          "image": "/img/animales/guacamayo.webp",
           "alt": "Guacamayos reunidos en una collpa amazónica",
           "number": "06 / Aves amazónicas",
           "title": "Collpa de Guacamayos",
@@ -143,7 +143,7 @@
           "featured": false,
           "wide": false
         },
-        { "href": "/tours/paseo-kayak", "image": "/img/kayak-hero.png", "alt": "Paseo en kayak por un río amazónico", "number": "07 / Agua y bosque", "title": "Paseo en kayak", "summary": "Deslízate por el agua y contempla el bosque desde una perspectiva cercana y tranquila.", "facts": [{ "label": "Modalidad", "value": "Kayak y navegación" }, { "label": "Disponibilidad", "value": "A coordinar" }], "link": "Ver experiencia", "featured": false, "wide": false },
+        { "href": "/tours/paseo-kayak", "image": "/img/kayak-hero.webp", "alt": "Paseo en kayak por un río amazónico", "number": "07 / Agua y bosque", "title": "Paseo en kayak", "summary": "Deslízate por el agua y contempla el bosque desde una perspectiva cercana y tranquila.", "facts": [{ "label": "Modalidad", "value": "Kayak y navegación" }, { "label": "Disponibilidad", "value": "A coordinar" }], "link": "Ver experiencia", "featured": false, "wide": false },
         { "href": "/tours/sabores-comunidad", "image": "/img/experiencia-cultural.webp", "alt": "Visitantes compartiendo una velada con anfitriones locales en Tambopata", "number": "08 / Cultura y sabores", "title": "Inmersión gastronómica", "summary": "Descubre recetas, ingredientes y tradiciones culinarias compartidas por las comunidades locales de la Amazonía.", "facts": [{ "label": "Enfoque", "value": "Ingredientes y recetas" }, { "label": "Disponibilidad", "value": "A coordinar" }], "link": "Ver experiencia", "featured": false, "wide": false },
         { "href": "/tours/lago-yacumama", "image": "/img/lago-yacumama.webp", "alt": "Lago Yacumama rodeado por la selva amazónica", "number": "09 / Lagos y fauna", "title": "Lago Yacumama", "summary": "Navega entre palmeras y plantas acuáticas, observa el paisaje y disfruta una pausa para pescar.", "facts": [{ "label": "Modalidad", "value": "Navegación y pesca" }, { "label": "Disponibilidad", "value": "Según condiciones" }], "link": "Ver experiencia", "featured": false, "wide": false },
         { "href": "/tours/collpa-loros", "image": "/img/collpa-loros.webp", "alt": "Loros amazónicos reunidos en una collpa al amanecer", "number": "10 / Aves amazónicas", "title": "Collpa de Loros", "summary": "Contempla loros y pericos al amanecer mientras el bosque despierta con sus llamados y colores.", "facts": [{ "label": "Enfoque", "value": "Loros y pericos" }, { "label": "Mejor momento", "value": "Primera luz" }], "link": "Ver experiencia", "featured": false, "wide": false }
@@ -194,7 +194,7 @@
           "label": "Amanecer",
           "tone": "loros",
           "title": "Colpa de Loros",
-          "image": "/img/animales/aves-amazonicas-01.jpg",
+          "image": "/img/animales/aves-amazonicas-01.webp",
           "alt": "Loro amazónico entre la vegetación del bosque",
           "summary": "Una salida temprana para observar loros y pericos en movimiento, escuchar sus llamados y entender cómo el bosque se activa con la primera luz.",
           "facts": [
@@ -563,7 +563,7 @@
         },
         {
           "href": "/tours/encuentro-amazonico",
-          "image": "/img/community-flavors-preparation.png",
+          "image": "/img/community-flavors-preparation.webp",
           "alt": "Travelers sharing a traditional preparation with local hosts in Tambopata",
           "number": "04 / Local culture",
           "title": "Amazonian encounter",
@@ -598,9 +598,9 @@
           "wide": false
         },
         {
-          "href": "/tours/colpa", "image": "/img/animales/guacamayo.jpg", "alt": "Macaws gathered at an Amazonian clay lick", "number": "06 / Amazonian birds", "title": "Macaw Clay Lick", "summary": "Watch macaws at first light as the clay lick fills with color, flight and calls.", "facts": [{ "label": "Activity", "value": "Navigation + observation" }, { "label": "Best time", "value": "First light" }], "link": "View experience", "featured": false, "wide": false
+          "href": "/tours/colpa", "image": "/img/animales/guacamayo.webp", "alt": "Macaws gathered at an Amazonian clay lick", "number": "06 / Amazonian birds", "title": "Macaw Clay Lick", "summary": "Watch macaws at first light as the clay lick fills with color, flight and calls.", "facts": [{ "label": "Activity", "value": "Navigation + observation" }, { "label": "Best time", "value": "First light" }], "link": "View experience", "featured": false, "wide": false
         },
-        { "href": "/tours/paseo-kayak", "image": "/img/kayak-hero.png", "alt": "Kayaking along an Amazonian river", "number": "07 / Water and forest", "title": "Kayak outing", "summary": "Glide across the water and take in the forest from a close, unhurried perspective.", "facts": [{ "label": "Activity", "value": "Kayak and navigation" }, { "label": "Availability", "value": "Arranged in advance" }], "link": "View experience", "featured": false, "wide": false },
+        { "href": "/tours/paseo-kayak", "image": "/img/kayak-hero.webp", "alt": "Kayaking along an Amazonian river", "number": "07 / Water and forest", "title": "Kayak outing", "summary": "Glide across the water and take in the forest from a close, unhurried perspective.", "facts": [{ "label": "Activity", "value": "Kayak and navigation" }, { "label": "Availability", "value": "Arranged in advance" }], "link": "View experience", "featured": false, "wide": false },
         { "href": "/tours/sabores-comunidad", "image": "/img/experiencia-cultural.webp", "alt": "Travelers sharing an evening with local hosts in Tambopata", "number": "08 / Culture and flavors", "title": "Community Flavors", "summary": "Discover recipes, ingredients and culinary traditions shared by local communities in the Amazon.", "facts": [{ "label": "Focus", "value": "Ingredients and recipes" }, { "label": "Availability", "value": "Arranged in advance" }], "link": "View experience", "featured": false, "wide": false },
         { "href": "/tours/lago-yacumama", "image": "/img/lago-yacumama.webp", "alt": "Yacumama Lake surrounded by the Amazon rainforest", "number": "09 / Lakes and wildlife", "title": "Yacumama Lake", "summary": "Cruise among palms and water plants, take in the scenery and pause to try recreational fishing.", "facts": [{ "label": "Activity", "value": "Boating and fishing" }, { "label": "Availability", "value": "Subject to conditions" }], "link": "View experience", "featured": false, "wide": false },
         { "href": "/tours/collpa-loros", "image": "/img/collpa-loros.webp", "alt": "Amazonian parrots gathered at a clay lick at dawn", "number": "10 / Amazonian birds", "title": "Parrot Clay Lick", "summary": "Watch parrots and parakeets at dawn as the forest wakes with their calls and colors.", "facts": [{ "label": "Focus", "value": "Parrots and parakeets" }, { "label": "Best time", "value": "First light" }], "link": "View experience", "featured": false, "wide": false }
@@ -651,7 +651,7 @@
           "label": "First light",
           "tone": "loros",
           "title": "Colpa de Loros",
-          "image": "/img/animales/aves-amazonicas-01.jpg",
+          "image": "/img/animales/aves-amazonicas-01.webp",
           "alt": "Amazon parrot among the rainforest vegetation",
           "summary": "An early outing to watch parrots and parakeets in motion, listen to their calls and see the forest come alive with the first light.",
           "facts": [
@@ -1020,7 +1020,7 @@
         },
         {
           "href": "/tours/encuentro-amazonico",
-          "image": "/img/community-flavors-preparation.png",
+          "image": "/img/community-flavors-preparation.webp",
           "alt": "Viaggiatori che condividono una preparazione tradizionale con ospiti locali a Tambopata",
           "number": "04 / Cultura locale",
           "title": "Incontro amazzonico",
@@ -1055,9 +1055,9 @@
           "wide": false
         },
         {
-          "href": "/tours/colpa", "image": "/img/animales/guacamayo.jpg", "alt": "Ara riunite alla collpa amazzonica", "number": "06 / Uccelli amazzonici", "title": "Collpa degli Ara", "summary": "Osserva gli ara alla prima luce, quando la collpa si riempie di colori, voli e richiami.", "facts": [{ "label": "Modalità", "value": "Navigazione e osservazione" }, { "label": "Momento", "value": "Prima luce" }], "link": "Vedi esperienza", "featured": false, "wide": false
+          "href": "/tours/colpa", "image": "/img/animales/guacamayo.webp", "alt": "Ara riunite alla collpa amazzonica", "number": "06 / Uccelli amazzonici", "title": "Collpa degli Ara", "summary": "Osserva gli ara alla prima luce, quando la collpa si riempie di colori, voli e richiami.", "facts": [{ "label": "Modalità", "value": "Navigazione e osservazione" }, { "label": "Momento", "value": "Prima luce" }], "link": "Vedi esperienza", "featured": false, "wide": false
         },
-        { "href": "/tours/paseo-kayak", "image": "/img/kayak-hero.png", "alt": "Escursione in kayak lungo un fiume amazzonico", "number": "07 / Acqua e foresta", "title": "Escursione in kayak", "summary": "Scivola sull’acqua e osserva la foresta da una prospettiva vicina e tranquilla.", "facts": [{ "label": "Modalità", "value": "Kayak e navigazione" }, { "label": "Disponibilità", "value": "Da concordare" }], "link": "Vedi esperienza", "featured": false, "wide": false },
+        { "href": "/tours/paseo-kayak", "image": "/img/kayak-hero.webp", "alt": "Escursione in kayak lungo un fiume amazzonico", "number": "07 / Acqua e foresta", "title": "Escursione in kayak", "summary": "Scivola sull’acqua e osserva la foresta da una prospettiva vicina e tranquilla.", "facts": [{ "label": "Modalità", "value": "Kayak e navigazione" }, { "label": "Disponibilità", "value": "Da concordare" }], "link": "Vedi esperienza", "featured": false, "wide": false },
         { "href": "/tours/sabores-comunidad", "image": "/img/experiencia-cultural.webp", "alt": "Viaggiatori che condividono una serata con ospiti locali a Tambopata", "number": "08 / Cultura e sapori", "title": "Sapori della Comunità", "summary": "Scopri ricette, ingredienti e tradizioni culinarie condivisi dalle comunità locali dell’Amazzonia.", "facts": [{ "label": "Tema", "value": "Ingredienti e ricette" }, { "label": "Disponibilità", "value": "Da concordare" }], "link": "Vedi esperienza", "featured": false, "wide": false },
         { "href": "/tours/lago-yacumama", "image": "/img/lago-yacumama.webp", "alt": "Lago Yacumama circondato dalla foresta amazzonica", "number": "09 / Laghi e fauna", "title": "Lago Yacumama", "summary": "Naviga tra palme e piante acquatiche, ammira il paesaggio e fermati per provare la pesca ricreativa.", "facts": [{ "label": "Modalità", "value": "Navigazione e pesca" }, { "label": "Disponibilità", "value": "Secondo le condizioni" }], "link": "Vedi esperienza", "featured": false, "wide": false },
         { "href": "/tours/collpa-loros", "image": "/img/collpa-loros.webp", "alt": "Pappagalli amazzonici riuniti alla collpa all’alba", "number": "10 / Uccelli amazzonici", "title": "Collpa dei Pappagalli", "summary": "Osserva pappagalli e parrocchetti all’alba mentre la foresta si risveglia tra richiami e colori.", "facts": [{ "label": "Tema", "value": "Pappagalli e parrocchetti" }, { "label": "Momento", "value": "Prima luce" }], "link": "Vedi esperienza", "featured": false, "wide": false }
@@ -1108,7 +1108,7 @@
           "label": "Prima luce",
           "tone": "loros",
           "title": "Colpa de Loros",
-          "image": "/img/animales/aves-amazonicas-01.jpg",
+          "image": "/img/animales/aves-amazonicas-01.webp",
           "alt": "Pappagallo amazzonico tra la vegetazione della foresta",
           "summary": "Un’uscita all’alba per osservare pappagalli e parrocchetti, ascoltare i loro richiami e vedere la foresta attivarsi con la prima luce.",
           "facts": [
@@ -1477,7 +1477,7 @@
         },
         {
           "href": "/tours/encuentro-amazonico",
-          "image": "/img/community-flavors-preparation.png",
+          "image": "/img/community-flavors-preparation.webp",
           "alt": "Voyageurs partageant une préparation traditionnelle avec des hôtes locaux à Tambopata",
           "number": "04 / Culture locale",
           "title": "Rencontre amazonienne",
@@ -1512,9 +1512,9 @@
           "wide": false
         },
         {
-          "href": "/tours/colpa", "image": "/img/animales/guacamayo.jpg", "alt": "Aras réunis à la collpa amazonienne", "number": "06 / Oiseaux amazoniens", "title": "Collpa des Aras", "summary": "Observez les aras à la première lumière, quand la collpa se remplit de couleurs, de vols et de cris.", "facts": [{ "label": "Activité", "value": "Navigation et observation" }, { "label": "Moment", "value": "Première lumière" }], "link": "Voir l’expérience", "featured": false, "wide": false
+          "href": "/tours/colpa", "image": "/img/animales/guacamayo.webp", "alt": "Aras réunis à la collpa amazonienne", "number": "06 / Oiseaux amazoniens", "title": "Collpa des Aras", "summary": "Observez les aras à la première lumière, quand la collpa se remplit de couleurs, de vols et de cris.", "facts": [{ "label": "Activité", "value": "Navigation et observation" }, { "label": "Moment", "value": "Première lumière" }], "link": "Voir l’expérience", "featured": false, "wide": false
         },
-        { "href": "/tours/paseo-kayak", "image": "/img/kayak-hero.png", "alt": "Sortie en kayak sur une rivière amazonienne", "number": "07 / Eau et forêt", "title": "Sortie en kayak", "summary": "Glissez sur l’eau et découvrez la forêt depuis une perspective proche et paisible.", "facts": [{ "label": "Activité", "value": "Kayak et navigation" }, { "label": "Disponibilité", "value": "À coordonner" }], "link": "Voir l’expérience", "featured": false, "wide": false },
+        { "href": "/tours/paseo-kayak", "image": "/img/kayak-hero.webp", "alt": "Sortie en kayak sur une rivière amazonienne", "number": "07 / Eau et forêt", "title": "Sortie en kayak", "summary": "Glissez sur l’eau et découvrez la forêt depuis une perspective proche et paisible.", "facts": [{ "label": "Activité", "value": "Kayak et navigation" }, { "label": "Disponibilité", "value": "À coordonner" }], "link": "Voir l’expérience", "featured": false, "wide": false },
         { "href": "/tours/sabores-comunidad", "image": "/img/experiencia-cultural.webp", "alt": "Voyageurs partageant une soirée avec des hôtes locaux à Tambopata", "number": "08 / Culture et saveurs", "title": "Saveurs de la Communauté", "summary": "Découvrez des recettes, des ingrédients et des traditions culinaires partagés par les communautés locales d’Amazonie.", "facts": [{ "label": "Thème", "value": "Ingrédients et recettes" }, { "label": "Disponibilité", "value": "À coordonner" }], "link": "Voir l’expérience", "featured": false, "wide": false },
         { "href": "/tours/lago-yacumama", "image": "/img/lago-yacumama.webp", "alt": "Lac Yacumama entouré par la forêt amazonienne", "number": "09 / Lacs et faune", "title": "Lac Yacumama", "summary": "Naviguez entre palmiers et plantes aquatiques, admirez le paysage et faites une pause pour pêcher.", "facts": [{ "label": "Activité", "value": "Navigation et pêche" }, { "label": "Disponibilité", "value": "Selon les conditions" }], "link": "Voir l’expérience", "featured": false, "wide": false },
         { "href": "/tours/collpa-loros", "image": "/img/collpa-loros.webp", "alt": "Perroquets amazoniens réunis à la collpa à l’aube", "number": "10 / Oiseaux amazoniens", "title": "Collpa des Perroquets", "summary": "Observez perroquets et perruches à l’aube, tandis que la forêt s’éveille entre cris et couleurs.", "facts": [{ "label": "Thème", "value": "Perroquets et perruches" }, { "label": "Moment", "value": "Première lumière" }], "link": "Voir l’expérience", "featured": false, "wide": false }
@@ -1565,7 +1565,7 @@
           "label": "Première lumière",
           "tone": "loros",
           "title": "Colpa de Loros",
-          "image": "/img/animales/aves-amazonicas-01.jpg",
+          "image": "/img/animales/aves-amazonicas-01.webp",
           "alt": "Perroquet amazonien parmi la végétation de la forêt",
           "summary": "Une sortie matinale pour observer les perroquets en mouvement, écouter leurs appels et voir la forêt s’animer avec la première lumière.",
           "facts": [
@@ -1934,7 +1934,7 @@
         },
         {
           "href": "/tours/encuentro-amazonico",
-          "image": "/img/community-flavors-preparation.png",
+          "image": "/img/community-flavors-preparation.webp",
           "alt": "旅行者与坦博帕塔当地接待者分享传统制作",
           "number": "04 / 当地文化",
           "title": "亚马逊文化体验",
@@ -1969,9 +1969,9 @@
           "wide": false
         },
         {
-          "href": "/tours/colpa", "image": "/img/animales/guacamayo.jpg", "alt": "聚集在亚马逊盐碱地的金刚鹦鹉", "number": "06 / 亚马逊鸟类", "title": "金刚鹦鹉盐碱地", "summary": "在第一缕晨光中观察金刚鹦鹉，看盐碱地充满色彩、飞行与鸣叫。", "facts": [{ "label": "活动", "value": "乘船与观察" }, { "label": "时间", "value": "晨光初现" }], "link": "查看体验", "featured": false, "wide": false
+          "href": "/tours/colpa", "image": "/img/animales/guacamayo.webp", "alt": "聚集在亚马逊盐碱地的金刚鹦鹉", "number": "06 / 亚马逊鸟类", "title": "金刚鹦鹉盐碱地", "summary": "在第一缕晨光中观察金刚鹦鹉，看盐碱地充满色彩、飞行与鸣叫。", "facts": [{ "label": "活动", "value": "乘船与观察" }, { "label": "时间", "value": "晨光初现" }], "link": "查看体验", "featured": false, "wide": false
         },
-        { "href": "/tours/paseo-kayak", "image": "/img/kayak-hero.png", "alt": "亚马逊河上的皮划艇体验", "number": "07 / 水与雨林", "title": "皮划艇之旅", "summary": "沿水面缓缓前行，从安静而贴近的角度欣赏雨林。", "facts": [{ "label": "活动", "value": "皮划艇与航行" }, { "label": "空位", "value": "提前协调" }], "link": "查看体验", "featured": false, "wide": false },
+        { "href": "/tours/paseo-kayak", "image": "/img/kayak-hero.webp", "alt": "亚马逊河上的皮划艇体验", "number": "07 / 水与雨林", "title": "皮划艇之旅", "summary": "沿水面缓缓前行，从安静而贴近的角度欣赏雨林。", "facts": [{ "label": "活动", "value": "皮划艇与航行" }, { "label": "空位", "value": "提前协调" }], "link": "查看体验", "featured": false, "wide": false },
         { "href": "/tours/sabores-comunidad", "image": "/img/experiencia-cultural.webp", "alt": "旅行者与坦博帕塔当地居民共度夜晚", "number": "08 / 文化与味道", "title": "社区风味", "summary": "了解亚马逊当地社区分享的食谱、食材与烹饪传统。", "facts": [{ "label": "重点", "value": "食材与食谱" }, { "label": "空位", "value": "提前协调" }], "link": "查看体验", "featured": false, "wide": false },
         { "href": "/tours/lago-yacumama", "image": "/img/lago-yacumama.webp", "alt": "亚马逊雨林环绕的亚库玛玛湖", "number": "09 / 湖泊与动物", "title": "亚库玛玛湖", "summary": "乘船穿行于棕榈树与水生植物之间，欣赏湖景，并停下来体验休闲垂钓。", "facts": [{ "label": "方式", "value": "乘船与垂钓" }, { "label": "空位", "value": "视条件而定" }], "link": "查看体验", "featured": false, "wide": false },
         { "href": "/tours/collpa-loros", "image": "/img/collpa-loros.webp", "alt": "黎明时聚集在盐碱地的亚马逊鹦鹉", "number": "10 / 亚马逊鸟类", "title": "鹦鹉盐碱地", "summary": "黎明时观察鹦鹉与长尾小鹦鹉，在鸣叫与色彩中感受雨林苏醒。", "facts": [{ "label": "重点", "value": "鹦鹉与长尾小鹦鹉" }, { "label": "最佳时间", "value": "晨光初现" }], "link": "查看体验", "featured": false, "wide": false }
@@ -2022,7 +2022,7 @@
           "label": "晨光",
           "tone": "loros",
           "title": "Colpa de Loros",
-          "image": "/img/animales/aves-amazonicas-01.jpg",
+          "image": "/img/animales/aves-amazonicas-01.webp",
           "alt": "雨林植被中的亚马逊鹦鹉",
           "summary": "清晨出发，观察鹦鹉和小型鹦鹉的飞行，聆听它们的叫声，看雨林在第一缕光线中苏醒。",
           "facts": [

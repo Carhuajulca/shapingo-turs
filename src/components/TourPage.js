@@ -13,12 +13,11 @@ import SandovalGuide from "@/components/SandovalGuide";
 import SandovalRoute from "@/components/SandovalRoute";
 import SandovalGallery from "@/components/SandovalGallery";
 import ExperienceImpression from "@/components/ExperienceImpression";
-import { optimizedImageSrc } from "@/components/OptimizedImage";
 
 export default function TourPage({ tour, slug, language = "es" }) {
   const ui = tourUi[language];
   const path = `/tours/${slug}/`;
-  const heroImage = optimizedImageSrc(tour.image);
+  const heroImage = tour.image;
   const contactHref = `https://wa.me/51917906162?text=${encodeURIComponent(`${ui.consult}: ${tour.title}`)}`;
   return <div className="tour-page">
     <link rel="preload" as="image" href={heroImage} fetchPriority="high" />

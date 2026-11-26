@@ -748,7 +748,7 @@ h1 em { display: block; color: var(--sun); font-weight: 500; letter-spacing: -0.
 .encounter-story-row { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(32px, 6vw, 90px); align-items: center; margin-top: 64px; }
 .encounter-story-image { display: block; width: 100%; aspect-ratio: 4 / 3; border-radius: 16px; object-fit: cover; background: #d4ded7; }
 .encounter-story-image.encounter-story-connect { object-position: center 34%; }
-.encounter-story-image[src="/img/night-walk/prepararse.png"] { object-position: center 22%; }
+.encounter-story-image[src="/img/night-walk/prepararse.webp"] { object-position: center 22%; }
 .encounter-story-row:nth-of-type(even) > .encounter-story-image { order: 2; }
 .encounter-story-copy h3 { margin: 0 0 22px; font-family: 'Fraunces', Georgia, serif; font-size: clamp(2rem, 3.4vw, 3.5rem); font-weight: 500; line-height: 1.1; letter-spacing: -.04em; }
 .encounter-story-copy > p:last-child { margin: 0; color: #50656b; font-size: 14px; line-height: 1.9; }

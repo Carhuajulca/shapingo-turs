@@ -1,8 +1,8 @@
 import OptimizedImage from "@/components/OptimizedImage";
 import { nightWalkExtended } from "@/data/extendedTourLocales";
 
-const galleryImages = ["/img/night-walk/ultima-luz.jpg", "/img/night-walk/recorrido-noche.jpg", "/img/night-walk/pequenos-detalles-03.jpg", "/img/night-walk/vida-nocturna.jpg", "/img/night-walk/entre-hojas-sombras.jpg", "/img/night-walk/pausa-para-escuchar.jpg"];
-const storyImages = ["/img/night-walk/prepararse.png", "/img/night-walk/explorar.jpg", "/img/night-walk/descubrir.png"];
+const galleryImages = ["/img/night-walk/ultima-luz.webp", "/img/night-walk/recorrido-noche.webp", "/img/night-walk/pequenos-detalles-03.webp", "/img/night-walk/vida-nocturna.webp", "/img/night-walk/entre-hojas-sombras.webp", "/img/night-walk/pausa-para-escuchar.webp"];
+const storyImages = ["/img/night-walk/prepararse.webp", "/img/night-walk/explorar.webp", "/img/night-walk/descubrir.webp"];
 
 export default function NightWalkStory({ language = "es" }) {
   const text = nightWalkExtended[language] || nightWalkExtended.es;
