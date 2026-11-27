@@ -44,6 +44,7 @@ export const germanNightWalk = {
   stories: [["Vorbereiten", "Vor dem Start erklärt der Guide die Sicherheit.", "Wählen Sie geeignete Schuhe und nutzen Sie die Taschenlampe mit Rücksicht auf Tiere.", "Vorbereitung auf eine Nachtwanderung"], ["Erkunden", "Die Dunkelheit verändert den Wald.", "Gehen Sie langsam und suchen Sie nach Geräuschen und Bewegungen.", "Erkundung des Waldes bei Nacht"], ["Entdecken", "Kleine Beobachtungen bleiben in Erinnerung.", "Beobachten Sie Tiere aus Abstand und verändern Sie ihr Verhalten nicht.", "Nächtliche Naturbeobachtung"]],
   videoEyebrow: "Der Wald bei Nacht", videoTitle: "Ein Blick in die Dunkelheit.",
   videoIntro: "Erleben Sie die Geräusche und Bewegungen einer Nachtwanderung.", videoAlt: "Video der Nachtwanderung im Amazonasgebiet",
+  videoAlts: ["Nachtwanderung in Tambopata", "Geheimnisse des Amazonas-Regenwaldes bei Nacht"],
   prepEyebrow: "Vor der Wanderung", prepTitle: "Gut vorbereitet in die Nacht.",
   prep: [["Kleidung", "Tragen Sie geschlossene Schuhe und bequeme Kleidung."], ["Licht", "Nehmen Sie eine Taschenlampe mit und folgen Sie den Hinweisen des Guides."], ["Respekt", "Berühren oder füttern Sie keine Tiere und hinterlassen Sie keinen Abfall."]],
 };

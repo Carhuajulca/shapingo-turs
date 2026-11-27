@@ -3,6 +3,8 @@ import { nightWalkExtended } from "@/data/extendedTourLocales";
 
 const galleryImages = ["/img/night-walk/ultima-luz.webp", "/img/night-walk/recorrido-noche.webp", "/img/night-walk/pequenos-detalles-03.webp", "/img/night-walk/vida-nocturna.webp", "/img/night-walk/entre-hojas-sombras.webp", "/img/night-walk/pausa-para-escuchar.webp"];
 const storyImages = ["/img/night-walk/prepararse.webp", "/img/night-walk/explorar.webp", "/img/night-walk/descubrir.webp"];
+const videos = ["KDPltxFn2fg", "7rEIzATsvrA"];
+const youtubeLanguages = { "zh-cn": "zh-CN" };
 
 export default function NightWalkStory({ language = "es" }) {
   const text = nightWalkExtended[language] || nightWalkExtended.es;
@@ -24,13 +26,20 @@ export default function NightWalkStory({ language = "es" }) {
     </section>
     <section className="encounter-video" aria-labelledby="night-video-title">
       <div className="encounter-section-heading"><div><p className="eyebrow">{text.videoEyebrow}</p><h2 id="night-video-title">{text.videoTitle}</h2></div><p>{text.videoIntro}</p></div>
-      <div className="encounter-video-frame">
-        <iframe
-          src="https://www.youtube.com/embed/t36y9SSUqqA"
-          title={text.videoAlt}
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowFullScreen
-        />
+      <div className="encounter-video-list night-walk-video-list">
+        {videos.map((videoId, index) => <figure className="night-walk-video-card" key={videoId}>
+          <div className="encounter-video-frame">
+            <iframe
+              src={`https://www.youtube-nocookie.com/embed/${videoId}?rel=0&modestbranding=1&playsinline=1&hl=${youtubeLanguages[language] || language}`}
+              title={text.videoAlts[index]}
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            />
+          </div>
+          <figcaption>{text.videoAlts[index]}</figcaption>
+        </figure>)}
       </div>
     </section>
     <section className="wildlife-observation" aria-labelledby="night-preparation-title">
