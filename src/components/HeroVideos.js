@@ -6,10 +6,11 @@ const videos = [
   "/img/hero-tambopata-optimized.mp4",
   "/img/hero-tambopata-safari.mp4",
   "/img/hero-navegacion-hero.mp4",
+  "/img/hero-caminata-nocturna.mp4",
 ];
 
 export default function HeroVideos() {
-  const refs = [useRef(null), useRef(null), useRef(null)];
+  const refs = [useRef(null), useRef(null), useRef(null), useRef(null)];
   const [activeVideo, setActiveVideo] = useState(0);
 
   useEffect(() => {
